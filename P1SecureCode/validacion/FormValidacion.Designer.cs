@@ -29,20 +29,20 @@ namespace validacion
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblUser = new System.Windows.Forms.Label();
             this.lblPass = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.bntLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtUser
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 308);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(162, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtUser.Location = new System.Drawing.Point(156, 308);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(162, 20);
+            this.txtUser.TabIndex = 0;
             // 
             // lblTitulo
             // 
@@ -77,12 +77,12 @@ namespace validacion
             this.lblPass.TabIndex = 5;
             this.lblPass.Text = "Contraseña";
             // 
-            // textBox2
+            // txtPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(156, 334);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(162, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtPass.Location = new System.Drawing.Point(156, 334);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(162, 20);
+            this.txtPass.TabIndex = 6;
             // 
             // bntLogin
             // 
@@ -92,6 +92,7 @@ namespace validacion
             this.bntLogin.TabIndex = 7;
             this.bntLogin.Text = "Acceder";
             this.bntLogin.UseVisualStyleBackColor = true;
+            this.bntLogin.Click += new System.EventHandler(this.bntLogin_Click);
             // 
             // frmLogin
             // 
@@ -100,11 +101,11 @@ namespace validacion
             this.BackgroundImage = global::validacion.Properties.Resources.javalogin;
             this.ClientSize = new System.Drawing.Size(383, 461);
             this.Controls.Add(this.bntLogin);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.lblPass);
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.lblTitulo);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUser);
             this.Name = "frmLogin";
             this.Text = "Login";
             this.ResumeLayout(false);
@@ -114,11 +115,11 @@ namespace validacion
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.Label lblPass;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button bntLogin;
     }
 }
