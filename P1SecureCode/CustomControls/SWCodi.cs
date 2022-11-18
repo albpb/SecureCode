@@ -48,5 +48,29 @@ namespace CustomControls
             get { return _NomId; }
             set { _NomId = value; }
         }
+
+        private string _FormCS;
+
+        public string FormCS
+        {
+            get { return _FormCS; }
+            set { _FormCS = value; }
+        }
+
+        private string _ClasseCS;
+
+        public string ClasseCS
+        {
+            get { return _ClasseCS; }
+            set { _ClasseCS = value; }
+        }
+
+        private string _ControlID;
+
+        public string ControlID
+        {
+            get { return _ControlID; }
+            set { _ControlID = value; }
+        }
     }
 }

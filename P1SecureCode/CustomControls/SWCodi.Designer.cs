@@ -42,6 +42,7 @@ namespace CustomControls
             // 
             // TBDesc
             // 
+            this.TBDesc.Enabled = false;
             this.TBDesc.Location = new System.Drawing.Point(109, 3);
             this.TBDesc.Name = "TBDesc";
             this.TBDesc.Size = new System.Drawing.Size(562, 20);
