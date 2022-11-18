@@ -1,0 +1,13 @@
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\bin\Debug\P1SecureCode.exe.config
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\bin\Debug\P1SecureCode.exe
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\bin\Debug\P1SecureCode.pdb
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.AssemblyReference.cache
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.Properties.Resources.resources
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.GenerateResource.cache
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.CoreCompileInputs.cache
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.exe
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.pdb
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\bin\Debug\CustomControls.dll
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\bin\Debug\CustomControls.pdb
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.Form1.resources
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.CopyComplete
