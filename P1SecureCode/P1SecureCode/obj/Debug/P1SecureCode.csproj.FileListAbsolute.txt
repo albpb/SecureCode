@@ -7,6 +7,3 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.c
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.CoreCompileInputs.cache
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.exe
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.pdb
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\P1SecureCode.exe.config
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\P1SecureCode.exe
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\P1SecureCode.pdb
