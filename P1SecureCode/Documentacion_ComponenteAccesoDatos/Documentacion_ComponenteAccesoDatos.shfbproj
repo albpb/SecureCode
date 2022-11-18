@@ -27,8 +27,8 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\ComponenteAccesoDatos\bin\Debug\ComponenteAccesoDatos.dll" xmlns="" />
-      <DocumentationSource sourceFile="..\ComponenteAccesoDatos\bin\Debug\ComponenteAccesoDatos.xml" xmlns="" />
+      <DocumentationSource sourceFile="..\Compilacion\ComponenteAccesoDatos.dll" />
+      <DocumentationSource sourceFile="..\Compilacion\ComponenteAccesoDatos.xml" />
     </DocumentationSources>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
