@@ -9,12 +9,21 @@ using System.Threading.Tasks;
 
 namespace ComponenteAccesoDatos
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public abstract class claseAccesoDatos
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public SqlConnection conn;
         private string query;
         DataSet dts;
 
+        /// <summary>
+        /// 
+        /// </summary>
         public virtual void Connectar()
         {
             string cnx = "";
@@ -28,6 +37,11 @@ namespace ComponenteAccesoDatos
             conn = new SqlConnection(cnx);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="taula"></param>
+        /// <returns></returns>
         public DataSet PortarTaula(string taula)
         {
             dts = new DataSet();
@@ -45,6 +59,11 @@ namespace ComponenteAccesoDatos
             return dts;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Consulta"></param>
+        /// <returns></returns>
         public DataSet PortarPerConsulta(string Consulta)
         {
             dts = new DataSet();
@@ -62,6 +81,12 @@ namespace ComponenteAccesoDatos
             return dts;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Consulta"></param>
+        /// <param name="nomDataTable"></param>
+        /// <returns></returns>
         public DataSet PortarPerConsulta(string Consulta, string nomDataTable)
         {
             dts = new DataSet();
@@ -79,6 +104,10 @@ namespace ComponenteAccesoDatos
             return dts;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public DataSet Actualitzar()
         {
             conn.Open();
@@ -98,6 +127,10 @@ namespace ComponenteAccesoDatos
             return dts;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Consulta"></param>
         public void Executa(string Consulta)
         {
             query = Consulta;
