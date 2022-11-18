@@ -1,0 +1,9 @@
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\bin\Debug\P1SecureCode.exe.config
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\bin\Debug\P1SecureCode.exe
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\bin\Debug\P1SecureCode.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.AssemblyReference.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.Properties.Resources.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.GenerateResource.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.CoreCompileInputs.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.exe
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.pdb
