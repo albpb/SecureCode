@@ -33,6 +33,7 @@ namespace CustomControls
             // 
             // SWTextbox
             // 
+            this.TextChanged += new System.EventHandler(this.SWTextbox_TextChanged);
             this.Enter += new System.EventHandler(this.SWTextbox_Enter);
             this.Leave += new System.EventHandler(this.SWTextbox_Leave);
             this.Validating += new System.ComponentModel.CancelEventHandler(this.SWTextbox_Validating);
