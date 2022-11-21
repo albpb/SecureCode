@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "splash", "splash\splash.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validacion", "validacion\validacion.csproj", "{432FF2F9-B85D-4087-B33D-E85D9DA91C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aplicacionPrincipal", "aplicacionPrincipal\aplicacionPrincipal.csproj", "{8F54BAA8-A22A-4852-9C46-483E5F1BB907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{432FF2F9-B85D-4087-B33D-E85D9DA91C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{432FF2F9-B85D-4087-B33D-E85D9DA91C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{432FF2F9-B85D-4087-B33D-E85D9DA91C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F54BAA8-A22A-4852-9C46-483E5F1BB907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F54BAA8-A22A-4852-9C46-483E5F1BB907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F54BAA8-A22A-4852-9C46-483E5F1BB907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F54BAA8-A22A-4852-9C46-483E5F1BB907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
