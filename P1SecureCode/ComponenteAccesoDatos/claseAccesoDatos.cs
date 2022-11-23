@@ -10,19 +10,19 @@ using System.Threading.Tasks;
 namespace ComponenteAccesoDatos
 {
     /// <summary>
-    /// 
+    /// Esta clase contiene diferentes metodos que sirven para el mantenimiento basico de una tabla (BBDD)
     /// </summary>
     public abstract class claseAccesoDatos
     {
         /// <summary>
-        /// 
+        /// Componentes creados de manera publica para poder acceder a ellos y modificar-los desde cualquier metodo.
         /// </summary>
         public SqlConnection conn;
         private string query;
         DataSet dts;
 
         /// <summary>
-        /// 
+        /// Metodo para conectar-se a la base de datos atraves de la cadena de conexio que se encuentra en el archivo de app.config.
         /// </summary>
         public virtual void Connectar()
         {
@@ -38,10 +38,10 @@ namespace ComponenteAccesoDatos
         }
 
         /// <summary>
-        /// 
+        /// Metodo para traer la tabla que nos interese con todos sus datos de la base de datos y guardar-la en un DataSet
         /// </summary>
-        /// <param name="taula"></param>
-        /// <returns></returns>
+        /// <param name="taula">Nombre de la tabla que despues utilizaremos en la consulta sql</param>
+        /// <returns>DataSet con los datos de la tabla de la base de datos seleccionada</returns>
         public DataSet PortarTaula(string taula)
         {
             dts = new DataSet();
@@ -60,10 +60,10 @@ namespace ComponenteAccesoDatos
         }
 
         /// <summary>
-        /// 
+        /// Metodo para traer la tabla que nos interese atraves de una consulta personalizda y guardar-la en un DataSet
         /// </summary>
-        /// <param name="Consulta"></param>
-        /// <returns></returns>
+        /// <param name="Consulta">Consulta que enviamos a la base de datos</param>
+        /// <returns>DataSet con los datos que se han pedido en la consulta</returns>
         public DataSet PortarPerConsulta(string Consulta)
         {
             dts = new DataSet();
@@ -82,11 +82,11 @@ namespace ComponenteAccesoDatos
         }
 
         /// <summary>
-        /// 
+        /// Metodo sobrescrito de PortarPerConsulta en el que ahora ademas de recibir la consulta recibe el nombre de la Tabla
         /// </summary>
-        /// <param name="Consulta"></param>
-        /// <param name="nomDataTable"></param>
-        /// <returns></returns>
+        /// <param name="Consulta">Consulta que enviamos a la base de datos</param>
+        /// <param name="nomDataTable">Nombre de la tabla para el DataSet</param>
+        /// <returns>DataSet con los datos que se han pedido en la consulta</returns>
         public DataSet PortarPerConsulta(string Consulta, string nomDataTable)
         {
             dts = new DataSet();
@@ -105,9 +105,9 @@ namespace ComponenteAccesoDatos
         }
 
         /// <summary>
-        /// 
+        /// Metodo para actulizar la base de datos, eliminar, añadir o actualizar la tabla de manera desconectada, atraves del DataSet
         /// </summary>
-        /// <returns></returns>
+        /// <returns>DataSet con los valores cambiados de la tabla</returns>
         public DataSet Actualitzar()
         {
             conn.Open();
@@ -128,9 +128,9 @@ namespace ComponenteAccesoDatos
         }
 
         /// <summary>
-        /// 
+        /// Metodo para actulizar la base de datos, eliminar, añadir o actualizar la tabla de manera directa (Conectados)
         /// </summary>
-        /// <param name="Consulta"></param>
+        /// <param name="Consulta">Consulta que utilizamos en la base de datos y ejuctamos en la tabla</param>
         public void Executa(string Consulta)
         {
             query = Consulta;
@@ -144,5 +144,20 @@ namespace ComponenteAccesoDatos
 
             conn.Close();
         }
+
+        //public void GeneraConsultaCerca(string nomTaula, Dictionary<string, string> dicc)
+        //{
+        //    SqlCommand command = conn.CreateCommand();
+
+        //    command.CommandType = CommandType.Text;
+
+        //    command.CommandText = "SELECT COUNT(*) FROM [Users] " +
+
+        //    "WHERE [codeuser] = @User " +
+
+        //    "AND [Password] = @Password";
+
+        //    int count = (int)command.ExecuteScalar();
+        //}
     }
 }

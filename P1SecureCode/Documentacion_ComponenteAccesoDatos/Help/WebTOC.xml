@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Clase para el acceso a datos (Base de datos)" Url="html/bb070b79-e8eb-4b98-9d1f-f061d8fa6fcb.htm" />
+  <HelpTOCNode Id="2f4f4812-785c-4a06-a82b-23b5549c467b" Title="Version History" Url="html/45a635b2-b1e2-4460-9056-829a2d32a296.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/28794b6c-9449-4a0b-babc-2b27c4b3c656.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="a7bdb014-b6f2-4aeb-a06f-39d128d93c6a" Title="ComponenteAccesoDatos" Url="html/b5e20ccb-aefc-0868-c598-a851b5ea7dd0.htm">
+    <HelpTOCNode Id="8d0ca6f0-b2ae-4c04-b794-e0af4506cbff" Title="claseAccesoDatos (Clase)" Url="html/0e927298-e6b6-539c-7ed5-41e93e6404fc.htm">
+      <HelpTOCNode Title="claseAccesoDatos (Constructor )" Url="html/069bc04f-5647-7e70-35c5-7e2d99c2766c.htm" />
+      <HelpTOCNode Id="7d5c5efe-1d25-44be-a5db-1678c3ef694e" Title="claseAccesoDatos (M&#233;todos)" Url="html/3fa9bacf-067f-1a88-4a17-f8f14ec4c356.htm">
+        <HelpTOCNode Title="Actualitzar (M&#233;todo )" Url="html/1343a6fd-141c-0ec4-4ca1-85a7d39ce6c2.htm" />
+        <HelpTOCNode Title="Connectar (M&#233;todo )" Url="html/fed75301-6fed-6fa1-1b03-9d9caaa31e09.htm" />
+        <HelpTOCNode Title="Executa (M&#233;todo )" Url="html/791e3b30-142c-5345-fc62-e28ababf7440.htm" />
+        <HelpTOCNode Id="5413d127-9fbc-45f0-9ae3-3ad2f74970b0" Title="PortarPerConsulta (M&#233;todo )" Url="html/cc8b847a-bd48-8c3e-ff6d-e07282b381aa.htm">
+          <HelpTOCNode Title="PortarPerConsulta (M&#233;todo (String))" Url="html/c77c7627-80a9-ba86-3c5c-4b32d54f6ffe.htm" />
+          <HelpTOCNode Title="PortarPerConsulta (M&#233;todo (String, String))" Url="html/1eef2129-1358-2fbb-ecd0-71995a5df0ad.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PortarTaula (M&#233;todo )" Url="html/a12ed241-f5b5-7575-9814-3a5a5a2c4ab6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dc500fcd-316b-495c-a52d-6980e160d111" Title="claseAccesoDatos (Campos)" Url="html/0359db92-ed8a-16d5-ed4a-f17bec265a6b.htm">
+        <HelpTOCNode Title="conn (Campo)" Url="html/0f361cfb-e866-3378-0dfb-f2b2f8bb1e6a.htm" />
+        <HelpTOCNode Title="dts (Campo)" Url="html/6802dec8-de90-8c77-3bda-94f785c7616e.htm" />
+        <HelpTOCNode Title="query (Campo)" Url="html/958d2dd8-05c3-acd6-0f65-184eb7b03673.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
