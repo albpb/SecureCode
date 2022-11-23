@@ -1,0 +1,10 @@
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\bin\Debug\ComponenteAccesoDatos.xml
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\bin\Debug\ComponenteAccesoDatos.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\bin\Debug\ComponenteAccesoDatos.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.AssemblyReference.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.CoreCompileInputs.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml
