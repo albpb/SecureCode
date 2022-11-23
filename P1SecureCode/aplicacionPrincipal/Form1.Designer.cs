@@ -148,7 +148,6 @@ namespace aplicacionPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::aplicacionPrincipal.Properties.Resources.fondoDeFormPrinc2;
             this.ClientSize = new System.Drawing.Size(682, 422);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblNivelUsuario);
