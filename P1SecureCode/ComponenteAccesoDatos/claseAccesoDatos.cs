@@ -18,7 +18,7 @@ namespace ComponenteAccesoDatos
         public virtual void Connectar()
         {
             string cnx = "";
-            ConnectionStringSettings conf = ConfigurationManager.ConnectionStrings[""];
+            ConnectionStringSettings conf = ConfigurationManager.ConnectionStrings["P1SecureCode.Properties.Settings.ConnectionString"];
 
             if (conf != null)
             {
