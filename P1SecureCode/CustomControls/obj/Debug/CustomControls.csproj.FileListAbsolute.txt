@@ -1,0 +1,8 @@
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.dll
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.pdb
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWTextbox.resources
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.dll
+C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
