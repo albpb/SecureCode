@@ -8,3 +8,4 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\Compo
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.pdb
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll.config

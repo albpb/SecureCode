@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.4.9.0" projectFile="E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Documentacion_ComponenteAccesoDatos.shfbproj" started="21/11/2022 20:22:21">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.4.9.0" projectFile="E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Documentacion_ComponenteAccesoDatos.shfbproj" started="24/11/2022 17:10:50">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -28,17 +28,17 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (es-ES, Espa&#241;ol (Espa&#241;a))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0833
+</plugIn>    Last step completed in 00:00:00,0945
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0090
+    Last step completed in 00:00:00,0060
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-e9f3539c-7b45-49d2-9582-09d1c09d36d2.proj]
-Compilaci&#162;n iniciada a las 21/11/2022 20:22:22.
-Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-e9f3539c-7b45-49d2-9582-09d1c09d36d2.proj&quot; en nodo 1 (destinos predeterminados).
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-6bc369da-2a21-442d-bfa3-0f93d61db959.proj]
+Compilaci&#162;n iniciada a las 24/11/2022 17:10:52.
+Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-6bc369da-2a21-442d-bfa3-0f93d61db959.proj&quot; en nodo 1 (destinos predeterminados).
 PrepareForBuild:
   Creando directorio &quot;obj\Debug\&quot;.
 GenerateBindingRedirects:
@@ -52,13 +52,13 @@ GenerateRefInfo:
   Wrote information on 1 namespaces, 1 types, and 10 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-e9f3539c-7b45-49d2-9582-09d1c09d36d2.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:00,7649
+Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-6bc369da-2a21-442d-bfa3-0f93d61db959.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,0288
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
-Compilaci&#162;n iniciada a las 21/11/2022 20:22:23.
+Compilaci&#162;n iniciada a las 24/11/2022 17:10:53.
 Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\TransformManifest.proj&quot; en nodo 1 (destinos predeterminados).
 TransformManifest:
   XslTransform (v2021.4.9.0)
@@ -75,11 +75,11 @@ TransformManifest:
   Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\TransformManifest.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:00,7131
+    Last step completed in 00:00:00,9621
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,0144
+    Last step completed in 00:00:00,0463
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -94,28 +94,28 @@ Generating conceptual topic files
     E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\VersionHistory.aml -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\45a635b2-b1e2-4460-9056-829a2d32a296.xml
     Parsing topic file &#39;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\v1.0.0.0.aml&#39;
     E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\v1.0.0.0.aml -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\28794b6c-9449-4a0b-babc-2b27c4b3c656.xml
-    Last step completed in 00:00:00,0375
+    Last step completed in 00:00:00,2468
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00,0206
+    Last step completed in 00:00:00,1382
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\icons\Help.png -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00,0336
+    Last step completed in 00:00:00,0678
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00,0020
+    Last step completed in 00:00:00,0030
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Compilaci&#162;n iniciada a las 21/11/2022 20:22:24.
+Compilaci&#162;n iniciada a las 24/11/2022 17:10:55.
 Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateIntermediateTOC.proj&quot; en nodo 1 (destinos predeterminados).
 GenerateIntermediateTOC:
   XslTransform (v2021.4.9.0)
@@ -124,12 +124,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateIntermediateTOC.proj&quot; (destinos predeterminados).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,3455
+    Last step completed in 00:00:00,4107
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00,2589
+    Last step completed in 00:00:01,1188
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -137,12 +137,12 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\H
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0081
+    Last step completed in 00:00:00,0210
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
-Compilaci&#162;n iniciada a las 21/11/2022 20:22:25.
+Compilaci&#162;n iniciada a las 24/11/2022 17:10:56.
 Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj&quot; en nodo 1 (destinos predeterminados).
 BuildTopics:
   BuildAssembler (v2021.4.9.0)
@@ -159,12 +159,13 @@ BuildAssembler : warning : ShowMissingComponent: [F:ComponenteAccesoDatos.claseA
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+  SaveComponent: Waiting for the document writer task to finish (1 Website API file(s) remaining)...
 Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:07,0724
+    Last step completed in 00:00:07,1722
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0030
+    Last step completed in 00:00:00,0152
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -180,7 +181,7 @@ Processed 18 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\WebKI.xml
 Saving website table of contents to E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00,3700
+    Last step completed in 00:00:00,4641
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -262,32 +263,32 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:00,4571
+    Last step completed in 00:00:03,3791
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00,0000
+    Last step completed in 00:00:00,0040
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00,0954
+</plugIn>    Last step completed in 00:00:00,7899
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 128 files for the website content
-    Last step completed in 00:00:00,2608
+    Last step completed in 00:00:05,1353
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,0810
+    Last step completed in 00:00:02,3398
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 21/11/2022 20:22:33.  Total time: 00:00:12,1297
+Build completed successfully at 24/11/2022 17:11:15.  Total time: 00:00:25,0108
 
 </buildStep>
 </shfbBuild>

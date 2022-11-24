@@ -16,7 +16,7 @@
         </member>
         <member name="M:ComponenteAccesoDatos.claseAccesoDatos.Connectar">
             <summary>
-            Metodo para conectar-se a la base de datos atraves de la cadena de conexio que se encuentra en el archivo de app.config.
+            Metodo para conectar-se a la base de datos atraves de la cadena de conexio que se encuentra en el archivo de app.config, que a mes en el mateix metode encripta l'arxiu app.config.
             </summary>
         </member>
         <member name="M:ComponenteAccesoDatos.claseAccesoDatos.PortarTaula(System.String)">

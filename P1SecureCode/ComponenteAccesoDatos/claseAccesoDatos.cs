@@ -12,7 +12,7 @@ namespace ComponenteAccesoDatos
     /// <summary>
     /// Esta clase contiene diferentes metodos que sirven para el mantenimiento basico de una tabla (BBDD)
     /// </summary>
-    public abstract class claseAccesoDatos
+    public class claseAccesoDatos
     {
         /// <summary>
         /// Componentes creados de manera publica para poder acceder a ellos y modificar-los desde cualquier metodo.
@@ -22,16 +22,29 @@ namespace ComponenteAccesoDatos
         DataSet dts;
 
         /// <summary>
-        /// Metodo para conectar-se a la base de datos atraves de la cadena de conexio que se encuentra en el archivo de app.config.
+        /// Metodo para conectar-se a la base de datos atraves de la cadena de conexio que se encuentra en el archivo de app.config, que a mes en el mateix metode encripta l'arxiu app.config.
         /// </summary>
         public virtual void Connectar()
         {
-            string cnx = "";
-            ConnectionStringSettings conf = ConfigurationManager.ConnectionStrings[""];
+            Configuration conf = ConfigurationManager.OpenExeConfiguration("WindowsFormsApp1.exe");
 
-            if (conf != null)
+            ConnectionStringsSection section = conf.GetSection("connectionStrings")
+
+            as ConnectionStringsSection;
+
+            if (!section.SectionInformation.IsProtected)
             {
-                cnx = conf.ConnectionString;
+                section.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
+            }
+
+            conf.Save();
+
+            string cnx = "";
+            ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["P1SecureCode.Properties.Settings.SecureCoreG4ConnectionString"];
+
+            if (conf2 != null)
+            {
+                cnx = conf2.ConnectionString;
             }
 
             conn = new SqlConnection(cnx);
