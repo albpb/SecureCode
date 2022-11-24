@@ -1,7 +1,7 @@
 ﻿
 namespace actualizacionPass
 {
-    partial class Form1
+    partial class attCredenciales
     {
         /// <summary>
         /// Variable del diseñador necesaria.

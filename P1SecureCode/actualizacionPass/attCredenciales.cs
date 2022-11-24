@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace actualizacionPass
 {
-    public partial class Form1 : Form
+    public partial class attCredenciales : Form
     {
-        public Form1()
+        public attCredenciales()
         {
             InitializeComponent();
         }

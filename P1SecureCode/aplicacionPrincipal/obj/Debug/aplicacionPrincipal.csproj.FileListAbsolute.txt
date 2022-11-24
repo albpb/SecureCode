@@ -1,10 +1,9 @@
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\aplicacionPrincipal.exe.config
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\aplicacionPrincipal.exe
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\aplicacionPrincipal.pdb
-E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.AssemblyReference.cache
-E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Form1.resources
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Properties.Resources.resources
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.GenerateResource.cache
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.appPrinc.resources

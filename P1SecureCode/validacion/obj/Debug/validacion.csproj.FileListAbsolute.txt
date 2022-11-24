@@ -8,3 +8,14 @@ E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\Secure
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.csproj.CoreCompileInputs.cache
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.exe
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\actualizacionPass.exe
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\aplicacionPrincipal.exe
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.dll
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\actualizacionPass.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\actualizacionPass.exe.config
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\aplicacionPrincipal.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\aplicacionPrincipal.exe.config
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.xml
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.dll.config
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.csproj.CopyComplete

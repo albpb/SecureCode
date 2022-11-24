@@ -1,0 +1,9 @@
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\bin\Debug\actualizacionPass.exe.config
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\bin\Debug\actualizacionPass.exe
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\bin\Debug\actualizacionPass.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\obj\Debug\actualizacionPass.attCredenciales.resources
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\obj\Debug\actualizacionPass.Properties.Resources.resources
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\obj\Debug\actualizacionPass.csproj.GenerateResource.cache
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\obj\Debug\actualizacionPass.csproj.CoreCompileInputs.cache
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\obj\Debug\actualizacionPass.exe
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\actualizacionPass\obj\Debug\actualizacionPass.pdb
