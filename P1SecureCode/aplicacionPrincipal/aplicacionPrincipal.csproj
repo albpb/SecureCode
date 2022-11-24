@@ -75,10 +75,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\fondoDeFormPrinc2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fondoDeFormPrinc21.png" />
+    <None Include="Resources\bgPrinc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
