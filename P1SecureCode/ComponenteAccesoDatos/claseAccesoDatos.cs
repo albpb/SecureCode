@@ -26,7 +26,7 @@ namespace ComponenteAccesoDatos
         /// </summary>
         public virtual void Connectar()
         {
-            Configuration conf = ConfigurationManager.OpenExeConfiguration("WindowsFormsApp1.exe");
+            Configuration conf = ConfigurationManager.OpenExeConfiguration("P1SecureCode.exe");
 
             ConnectionStringsSection section = conf.GetSection("connectionStrings")
 
