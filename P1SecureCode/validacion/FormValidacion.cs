@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using ComponenteAccesoDatos;
+//using actualizacionPass;
 
 namespace validacion
 {
@@ -16,13 +18,17 @@ namespace validacion
         {
             InitializeComponent();
         }
+
+        //claseAccesoDatos funcionesDDBB = new claseAccesoDatos();
         
         private void bntLogin_Click(object sender, EventArgs e)
         {
             //Contraseña Inicial
             if (txtPass.Text == "12345aA")
             {
-                //Abrir form de actualizacion de password
+                this.Hide();
+                Form Form1 = new Form();
+                Form1.ShowDialog();
             }
             else
             {

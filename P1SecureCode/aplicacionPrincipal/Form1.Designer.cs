@@ -34,11 +34,11 @@ namespace aplicacionPrincipal
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblNivelUsuario = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bntApp5 = new System.Windows.Forms.Button();
             this.bntApp4 = new System.Windows.Forms.Button();
             this.bntApp3 = new System.Windows.Forms.Button();
             this.bntApp2 = new System.Windows.Forms.Button();
             this.bntApp1 = new System.Windows.Forms.Button();
-            this.bntApp5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,6 +97,16 @@ namespace aplicacionPrincipal
             this.panel1.Size = new System.Drawing.Size(613, 220);
             this.panel1.TabIndex = 4;
             // 
+            // bntApp5
+            // 
+            this.bntApp5.Enabled = false;
+            this.bntApp5.Location = new System.Drawing.Point(246, 30);
+            this.bntApp5.Name = "bntApp5";
+            this.bntApp5.Size = new System.Drawing.Size(81, 71);
+            this.bntApp5.TabIndex = 4;
+            this.bntApp5.Text = "button5";
+            this.bntApp5.UseVisualStyleBackColor = true;
+            // 
             // bntApp4
             // 
             this.bntApp4.Enabled = false;
@@ -134,20 +144,11 @@ namespace aplicacionPrincipal
             this.bntApp1.Text = "button1";
             this.bntApp1.UseVisualStyleBackColor = true;
             // 
-            // bntApp5
-            // 
-            this.bntApp5.Enabled = false;
-            this.bntApp5.Location = new System.Drawing.Point(246, 30);
-            this.bntApp5.Name = "bntApp5";
-            this.bntApp5.Size = new System.Drawing.Size(81, 71);
-            this.bntApp5.TabIndex = 4;
-            this.bntApp5.Text = "button5";
-            this.bntApp5.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::aplicacionPrincipal.Properties.Resources.bgPrinc;
             this.ClientSize = new System.Drawing.Size(682, 422);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblNivelUsuario);

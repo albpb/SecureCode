@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ComponenteAccesoDatos
 {
-    public abstract class claseAccesoDatos
+    public class claseAccesoDatos
     {
         public SqlConnection conn;
         private string query;
@@ -17,7 +17,7 @@ namespace ComponenteAccesoDatos
 
         public virtual void Connectar()
         {
-            string cnx = "";
+            string cnx = "ComponenteAccesoDatos.Properties.Settings.SecureCoreConnectionString";
             ConnectionStringSettings conf = ConfigurationManager.ConnectionStrings[""];
 
             if (conf != null)
