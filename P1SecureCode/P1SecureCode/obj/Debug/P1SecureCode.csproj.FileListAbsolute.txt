@@ -10,3 +10,12 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.p
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\P1SecureCode.exe.config
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\P1SecureCode.exe
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\P1SecureCode.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\P1SecureCode.exe.config
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\P1SecureCode.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\P1SecureCode.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.Form1.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.Properties.Resources.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\P1SecureCode\obj\Debug\P1SecureCode.pdb

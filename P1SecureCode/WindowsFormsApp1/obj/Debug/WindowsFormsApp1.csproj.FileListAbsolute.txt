@@ -1,0 +1,13 @@
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\bin\Debug\SWLaunchForm.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\bin\Debug\SWLaunchForm.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

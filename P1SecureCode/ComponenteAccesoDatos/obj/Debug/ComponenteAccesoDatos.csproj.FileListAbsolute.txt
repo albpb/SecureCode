@@ -8,3 +8,9 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\Compo
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.pdb
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.pdb
