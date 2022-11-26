@@ -32,8 +32,8 @@ namespace actualizacionPass
             this.lblTitulo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.txtPassConfirm = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -65,19 +65,19 @@ namespace actualizacionPass
             this.label2.TabIndex = 2;
             this.label2.Text = "Repita Contraseña";
             // 
-            // textBox1
+            // txtPass
             // 
-            this.textBox1.Location = new System.Drawing.Point(166, 83);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtPass.Location = new System.Drawing.Point(166, 83);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(157, 20);
+            this.txtPass.TabIndex = 3;
             // 
-            // textBox2
+            // txtPassConfirm
             // 
-            this.textBox2.Location = new System.Drawing.Point(166, 109);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtPassConfirm.Location = new System.Drawing.Point(166, 109);
+            this.txtPassConfirm.Name = "txtPassConfirm";
+            this.txtPassConfirm.Size = new System.Drawing.Size(157, 20);
+            this.txtPassConfirm.TabIndex = 4;
             // 
             // button1
             // 
@@ -87,20 +87,21 @@ namespace actualizacionPass
             this.button1.TabIndex = 5;
             this.button1.Text = "Finalizar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // attCredenciales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(383, 194);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPassConfirm);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTitulo);
-            this.Name = "Form1";
+            this.Name = "attCredenciales";
             this.Text = "Actualizacion de Contraseña";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -112,8 +113,8 @@ namespace actualizacionPass
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.TextBox txtPassConfirm;
         private System.Windows.Forms.Button button1;
     }
 }

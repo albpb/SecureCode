@@ -19,6 +19,7 @@ namespace validacion
         {
             InitializeComponent();
         }
+
         claseAccesoDatos ddbb = new claseAccesoDatos();
         attCredenciales frmCredenciales = new attCredenciales();
         appPrinc frmPrincipal = new appPrinc();

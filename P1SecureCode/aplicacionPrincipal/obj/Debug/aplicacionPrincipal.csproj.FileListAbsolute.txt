@@ -7,3 +7,4 @@ E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\Secure
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.appPrinc.resources
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.AssemblyReference.cache
