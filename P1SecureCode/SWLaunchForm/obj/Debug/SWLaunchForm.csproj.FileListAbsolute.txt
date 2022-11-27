@@ -5,4 +5,6 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\SWLaunchForm\obj\Debug\
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\SWLaunchForm\obj\Debug\SWLaunchForm.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\SWLaunchForm\obj\Debug\SWLaunchForm.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\SWLaunchForm\obj\Debug\SWLaunchForm.pdb
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\SWLaunchForm\obj\Debug\SWLaunchForm.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\SWLaunchForm\obj\Debug\SWLaunchForm.Properties.Resources.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\SWLaunchForm.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\SWLaunchForm.pdb

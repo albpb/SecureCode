@@ -21,14 +21,18 @@ namespace SWLaunchForm
             get {
                 return _colorfons;
             }
-            set { _colorfons = value; }
+            set { _colorfons = value;
+                panel1.BackColor = System.Drawing.ColorTranslator.FromHtml(value);
+            }
         }
         private string _img;
 
         public string Imagen
         {
             get { return _img; }
-            set { _img = value; }
+            set { _img = value;
+                img.Image = Image.FromFile(value);
+            }
         }
         private string _clase;
 
@@ -37,6 +41,19 @@ namespace SWLaunchForm
             get { return _clase; }
             set { _clase = value; }
         }
+
+
+        private string _text;
+
+        public string Label
+        {
+            get { return _text; }
+            set { _text = value;
+                label1.Text = value;
+            }
+        }
+
+
         private string _form;
 
         public string Form
@@ -65,7 +82,8 @@ namespace SWLaunchForm
 
             //recuperem el tipus de la classe que volem instanciar
 
-            tipus = ensamblat.GetType(_clase+"."+_form);
+            // form tiene que tener el formato Clase.Form
+            tipus = ensamblat.GetType(_form);
 
             //instanciem l’objecte
 
