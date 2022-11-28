@@ -46,6 +46,7 @@ namespace validacion
                 {
                     this.Hide();
                     frmCredenciales.ShowDialog();
+                    frmCredenciales.lblValorUser.Text = valorUserBBDD;
                 }
                 else
                 {
@@ -57,6 +58,7 @@ namespace validacion
             {
                 MessageBox.Show("Credenciales incorrectas");
             }
+
         }
     }
 }

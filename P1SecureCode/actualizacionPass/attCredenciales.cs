@@ -24,6 +24,7 @@ namespace actualizacionPass
         Random rdm = new Random();
 
         string valorUserBBDD, valorPassBBDD, valorSalBBDD, salAH;
+
         string querry = "select Login, Password, Salt from Users where 1=1 and Login = '";
         int salBH;
 
@@ -61,7 +62,6 @@ namespace actualizacionPass
                 valorPassBBDD = strHash;
             }
             //guardar Senha na BBDD
-
 
             ddbb.Actualitzar();
         }

@@ -30,11 +30,13 @@ namespace actualizacionPass
         private void InitializeComponent()
         {
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblNewPass = new System.Windows.Forms.Label();
+            this.lblNewPassConfirm = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.txtPassConfirm = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bntFinish = new System.Windows.Forms.Button();
+            this.lblValorUser = new System.Windows.Forms.Label();
+            this.lblUserTitulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -47,23 +49,23 @@ namespace actualizacionPass
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Actualize su contraseña";
             // 
-            // label1
+            // lblNewPass
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(64, 86);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Nueva Contraseña";
+            this.lblNewPass.AutoSize = true;
+            this.lblNewPass.Location = new System.Drawing.Point(64, 86);
+            this.lblNewPass.Name = "lblNewPass";
+            this.lblNewPass.Size = new System.Drawing.Size(96, 13);
+            this.lblNewPass.TabIndex = 1;
+            this.lblNewPass.Text = "Nueva Contraseña";
             // 
-            // label2
+            // lblNewPassConfirm
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(64, 112);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Repita Contraseña";
+            this.lblNewPassConfirm.AutoSize = true;
+            this.lblNewPassConfirm.Location = new System.Drawing.Point(64, 112);
+            this.lblNewPassConfirm.Name = "lblNewPassConfirm";
+            this.lblNewPassConfirm.Size = new System.Drawing.Size(95, 13);
+            this.lblNewPassConfirm.TabIndex = 2;
+            this.lblNewPassConfirm.Text = "Repita Contraseña";
             // 
             // txtPass
             // 
@@ -79,15 +81,34 @@ namespace actualizacionPass
             this.txtPassConfirm.Size = new System.Drawing.Size(157, 20);
             this.txtPassConfirm.TabIndex = 4;
             // 
-            // button1
+            // bntFinish
             // 
-            this.button1.Location = new System.Drawing.Point(248, 137);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Finalizar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.bntFinish.Location = new System.Drawing.Point(248, 137);
+            this.bntFinish.Name = "bntFinish";
+            this.bntFinish.Size = new System.Drawing.Size(75, 23);
+            this.bntFinish.TabIndex = 5;
+            this.bntFinish.Text = "Finalizar";
+            this.bntFinish.UseVisualStyleBackColor = true;
+            this.bntFinish.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lblValorUser
+            // 
+            this.lblValorUser.AutoSize = true;
+            this.lblValorUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorUser.Location = new System.Drawing.Point(108, 172);
+            this.lblValorUser.Name = "lblValorUser";
+            this.lblValorUser.Size = new System.Drawing.Size(50, 13);
+            this.lblValorUser.TabIndex = 6;
+            this.lblValorUser.Text = "Usuario";
+            // 
+            // lblUserTitulo
+            // 
+            this.lblUserTitulo.AutoSize = true;
+            this.lblUserTitulo.Location = new System.Drawing.Point(12, 172);
+            this.lblUserTitulo.Name = "lblUserTitulo";
+            this.lblUserTitulo.Size = new System.Drawing.Size(90, 13);
+            this.lblUserTitulo.TabIndex = 7;
+            this.lblUserTitulo.Text = "Acceso con user:";
             // 
             // attCredenciales
             // 
@@ -95,11 +116,13 @@ namespace actualizacionPass
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(383, 194);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblUserTitulo);
+            this.Controls.Add(this.lblValorUser);
+            this.Controls.Add(this.bntFinish);
             this.Controls.Add(this.txtPassConfirm);
             this.Controls.Add(this.txtPass);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblNewPassConfirm);
+            this.Controls.Add(this.lblNewPass);
             this.Controls.Add(this.lblTitulo);
             this.Name = "attCredenciales";
             this.Text = "Actualizacion de Contraseña";
@@ -111,11 +134,13 @@ namespace actualizacionPass
         #endregion
 
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.Label lblNewPass;
+        private System.Windows.Forms.Label lblNewPassConfirm;
         private System.Windows.Forms.TextBox txtPassConfirm;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bntFinish;
+        public System.Windows.Forms.Label lblValorUser;
+        private System.Windows.Forms.Label lblUserTitulo;
+        private System.Windows.Forms.TextBox txtPass;
     }
 }
 
