@@ -81,6 +81,10 @@
       <Project>{8084383A-A5A4-4ACD-99D5-556013B5E278}</Project>
       <Name>CustomControls</Name>
     </ProjectReference>
+    <ProjectReference Include="..\splash\splash.csproj">
+      <Project>{989D062E-280E-40B0-BF16-B5B034BA47AB}</Project>
+      <Name>splash</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
