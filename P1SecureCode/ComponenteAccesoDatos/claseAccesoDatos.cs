@@ -26,7 +26,7 @@ namespace ComponenteAccesoDatos
         /// </summary>
         public virtual void Connectar()
         {
-            Configuration conf = ConfigurationManager.OpenExeConfiguration("P1SecureCode.exe");
+            Configuration conf = ConfigurationManager.OpenExeConfiguration("splash.exe");
 
             ConnectionStringsSection section = conf.GetSection("connectionStrings")
 
@@ -40,7 +40,7 @@ namespace ComponenteAccesoDatos
             conf.Save();
 
             string cnx = "";
-            ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["P1SecureCode.Properties.Settings.SecureCoreG4ConnectionString"];
+            ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["splash.Properties.Settings.SecureCoreG4ConnectionString"];
 
             if (conf2 != null)
             {
