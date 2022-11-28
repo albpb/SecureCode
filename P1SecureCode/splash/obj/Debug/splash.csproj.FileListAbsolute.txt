@@ -12,3 +12,13 @@ E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\Secure
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\validacion.pdb
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\validacion.exe.config
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\obj\Debug\splash.csproj.CopyComplete
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\ComponenteAccesoDatos.dll
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\actualizacionPass.exe
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\aplicacionPrincipal.exe
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\ComponenteAccesoDatos.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\ComponenteAccesoDatos.xml
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\ComponenteAccesoDatos.dll.config
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\actualizacionPass.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\actualizacionPass.exe.config
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\aplicacionPrincipal.pdb
+E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\splash\bin\Debug\aplicacionPrincipal.exe.config

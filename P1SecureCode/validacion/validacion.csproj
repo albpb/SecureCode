@@ -83,5 +83,19 @@
   <ItemGroup>
     <None Include="Resources\javalogin.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\actualizacionPass\actualizacionPass.csproj">
+      <Project>{93c442b3-727d-4766-a437-1f07004415ae}</Project>
+      <Name>actualizacionPass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\aplicacionPrincipal\aplicacionPrincipal.csproj">
+      <Project>{8f54baa8-a22a-4852-9c46-483e5f1bb907}</Project>
+      <Name>aplicacionPrincipal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ComponenteAccesoDatos\ComponenteAccesoDatos.csproj">
+      <Project>{59eca588-f069-4a41-bb67-a1ccc76914bc}</Project>
+      <Name>ComponenteAccesoDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -114,13 +114,12 @@ namespace validacion
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.Label lblPass;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button bntLogin;
+        private System.Windows.Forms.TextBox txtUser;
     }
 }
 
