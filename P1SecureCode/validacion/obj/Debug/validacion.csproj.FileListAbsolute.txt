@@ -19,3 +19,23 @@ E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\Secure
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.xml
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.dll.config
 E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.csproj.CopyComplete
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.csproj.AssemblyReference.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.frmLogin.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.Properties.Resources.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.csproj.GenerateResource.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.csproj.CoreCompileInputs.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.exe
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\validacion.exe.config
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\validacion.exe
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\validacion.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\actualizacionPass.exe
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\aplicacionPrincipal.exe
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\actualizacionPass.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\actualizacionPass.exe.config
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\aplicacionPrincipal.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\aplicacionPrincipal.exe.config
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\bin\Debug\ComponenteAccesoDatos.xml
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\validacion\obj\Debug\validacion.csproj.CopyComplete
