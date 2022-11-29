@@ -25,3 +25,20 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\Compone
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.pdb
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.xml
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CopyComplete
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\aplicacionPrincipal.exe.config
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\aplicacionPrincipal.exe
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\aplicacionPrincipal.pdb
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.dll
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.pdb
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.xml
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.AssemblyReference.cache
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.appPrinc.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.attCredenciales.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.frmLogin.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Properties.Resources.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.splashscreen.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.GenerateResource.cache
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CopyComplete
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
