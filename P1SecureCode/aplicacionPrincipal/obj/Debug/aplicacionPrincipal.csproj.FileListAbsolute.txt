@@ -17,3 +17,11 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicac
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.AssemblyReference.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.attCredenciales.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.frmLogin.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.splashscreen.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.xml
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CopyComplete

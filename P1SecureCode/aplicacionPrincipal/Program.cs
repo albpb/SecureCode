@@ -16,7 +16,7 @@ namespace aplicacionPrincipal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new appPrinc());
+            Application.Run(new splashscreen());
         }
     }
 }

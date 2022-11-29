@@ -24,23 +24,23 @@ namespace ComponenteAccesoDatos
         /// <summary>
         /// Metodo para conectar-se a la base de datos atraves de la cadena de conexio que se encuentra en el archivo de app.config, que a mes en el mateix metode encripta l'arxiu app.config.
         /// </summary>
-        public virtual void Connectar()
+        private void Connectar()
         {
-            Configuration conf = ConfigurationManager.OpenExeConfiguration("splash.exe");
+            //Configuration conf = ConfigurationManager.OpenExeConfiguration("aplicacionPrincipal.exe");
 
-            ConnectionStringsSection section = conf.GetSection("connectionStrings")
+            //ConnectionStringsSection section = conf.GetSection("connectionStrings")
 
-            as ConnectionStringsSection;
+            //as ConnectionStringsSection;
 
-            if (!section.SectionInformation.IsProtected)
-            {
-                section.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
-            }
+            //if (!section.SectionInformation.IsProtected)
+            //{
+            //    section.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
+            //}
 
-            conf.Save();
+            //conf.Save();
 
             string cnx = "";
-            ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["splash.Properties.Settings.SecureCoreG4ConnectionString"];
+            ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["aplicacionPrincipal.Properties.Settings.SecureCoreG4ConnectionString"];
 
             if (conf2 != null)
             {
@@ -58,6 +58,8 @@ namespace ComponenteAccesoDatos
         public DataSet PortarTaula(string taula)
         {
             dts = new DataSet();
+
+            Connectar();
 
             SqlDataAdapter adapter;
             query = "SELECT * From " + taula;
@@ -78,8 +80,10 @@ namespace ComponenteAccesoDatos
         /// <param name="Consulta">Consulta que enviamos a la base de datos</param>
         /// <returns>DataSet con los datos que se han pedido en la consulta</returns>
         public DataSet PortarPerConsulta(string Consulta)
-        {
+        {      
             dts = new DataSet();
+
+            Connectar();
 
             SqlDataAdapter adapter;
             query = Consulta;
@@ -103,6 +107,8 @@ namespace ComponenteAccesoDatos
         public DataSet PortarPerConsulta(string Consulta, string nomDataTable)
         {
             dts = new DataSet();
+
+            Connectar();
 
             SqlDataAdapter adapter;
             query = Consulta;
