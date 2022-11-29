@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponenteAccesoDatos;
+using aplicacionPrincipal;
 
 namespace aplicacionPrincipal
 {
@@ -20,7 +21,7 @@ namespace aplicacionPrincipal
 
         claseAccesoDatos ddbb = new claseAccesoDatos();
         attCredenciales frmCredenciales;
-        appPrinc frmPrincipal = new appPrinc();
+        appPrinc frmPrincipal;
         DataSet dts = new DataSet();
 
 
@@ -66,7 +67,9 @@ namespace aplicacionPrincipal
                         else
                         {
                             this.Hide();
+                            frmPrincipal = new appPrinc(valorUserBBDD);
                             frmPrincipal.ShowDialog();
+                            frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
                         }
                     }
                 }

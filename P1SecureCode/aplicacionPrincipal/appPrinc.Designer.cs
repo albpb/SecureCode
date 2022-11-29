@@ -156,7 +156,9 @@ namespace aplicacionPrincipal
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblNombreUsuario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "appPrinc";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplicacion Java The Hutt";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
@@ -166,8 +168,6 @@ namespace aplicacionPrincipal
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblNombreUsuario;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Label lblNivelUsuario;
@@ -177,6 +177,7 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.Button bntApp2;
         private System.Windows.Forms.Button bntApp1;
         private System.Windows.Forms.Button bntApp5;
+        public System.Windows.Forms.Label lblNombreUsuario;
     }
 }
 

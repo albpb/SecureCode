@@ -16,12 +16,19 @@ namespace aplicacionPrincipal
         {
             InitializeComponent();
         }
+        public appPrinc(string user)
+        {
+            InitializeComponent();
+            valorUserBBDD = user;
+        }
+        string valorUserBBDD;
 
         private void Form1_Load(object sender, EventArgs e)
         {
             //Fecha actual
             string fechaActual = DateTime.Now.ToString("D");
             lblFecha.Text = fechaActual;
+            lblNombreUsuario.Text = valorUserBBDD;
         }
     }
 }
