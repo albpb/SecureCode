@@ -32,5 +32,16 @@ namespace aplicacionPrincipal
             }
 
         }
+
+        private void splashscreen_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Alt && e.KeyCode == Keys.O) //Funciona
+            {
+                timer1.Stop();
+                this.Hide();
+                formularioLogin = new frmLogin();
+                formularioLogin.ShowDialog();
+            }
+        }
     }
 }

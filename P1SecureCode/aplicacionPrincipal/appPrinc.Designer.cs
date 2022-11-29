@@ -145,7 +145,7 @@ namespace aplicacionPrincipal
             this.bntApp1.Text = "button1";
             this.bntApp1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // appPrinc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,8 +156,8 @@ namespace aplicacionPrincipal
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblNombreUsuario);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "appPrinc";
+            this.Text = "Aplicacion Java The Hutt";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

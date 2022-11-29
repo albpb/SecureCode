@@ -116,5 +116,11 @@
       <Name>ComponenteAccesoDatos</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSplashScreen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\javalogin.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

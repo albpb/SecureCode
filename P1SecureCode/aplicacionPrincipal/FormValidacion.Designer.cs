@@ -98,6 +98,7 @@ namespace aplicacionPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::aplicacionPrincipal.Properties.Resources.javalogin;
             this.ClientSize = new System.Drawing.Size(383, 461);
             this.Controls.Add(this.bntLogin);
             this.Controls.Add(this.txtPass);

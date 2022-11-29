@@ -19,20 +19,19 @@ namespace aplicacionPrincipal
             InitializeComponent();
         }
 
-
         claseAccesoDatos ddbb = new claseAccesoDatos();
         attCredenciales frmCredenciales = new attCredenciales();
         appPrinc frmPrincipal = new appPrinc();
         DataSet dts = new DataSet();
 
-        string querry = "select Login, Password from Users where 1=1 and Login = '";
+        string querry = "select * from Users where 1=1 and Login = '";
         string valorUserBBDD, valorPassBBDD;
 
         private void bntLogin_Click(object sender, EventArgs e)
         {
             querry = querry + txtUser.Text.ToString() + "'";
 
-            ddbb.PortarPerConsulta(querry);
+            dts = ddbb.PortarPerConsulta(querry);
 
             valorUserBBDD = dts.Tables[0].Rows[0]["Login"].ToString();
             valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();

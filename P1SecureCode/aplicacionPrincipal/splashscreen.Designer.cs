@@ -74,7 +74,7 @@ namespace aplicacionPrincipal
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
-
+            this.BackgroundImage = global::aplicacionPrincipal.Properties.Resources.imgSplashScreen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblPorcentaje);
@@ -85,6 +85,7 @@ namespace aplicacionPrincipal
             this.Name = "splashscreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.splashscreen_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
