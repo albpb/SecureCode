@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponenteAccesoDatos;
 using System.Security.Cryptography;
+using aplicacionPrincipal;
 
 namespace aplicacionPrincipal
 {
@@ -18,12 +19,23 @@ namespace aplicacionPrincipal
         {
             InitializeComponent();
         }
+        public attCredenciales(string user)
+        {
+            InitializeComponent();
+            valorUserBBDD = user;
+        }
 
         claseAccesoDatos ddbb = new claseAccesoDatos();
         DataSet dts = new DataSet();
         Random rdm = new Random();
+        string valorUserBBDD;
 
-        string valorUserBBDD, valorPassBBDD, valorSalBBDD, salAH;
+        string valorPassBBDD, valorSalBBDD, salAH;
+
+        private void attCredenciales_Load(object sender, EventArgs e)
+        {
+            lblValorUser.Text =  valorUserBBDD;
+        }
 
         string querry = "select Login, Password, Salt from Users where 1=1 and Login = '";
         int salBH;
@@ -33,10 +45,10 @@ namespace aplicacionPrincipal
             //coger el user y pass del form pasado
             querry = querry + txtPass.Text.ToString() + "'";
 
-            ddbb.PortarTaula(querry);
+            dts = ddbb.PortarTaula(querry);
 
             //para identificar el usuario que va cambiar la contraseña
-            valorUserBBDD = dts.Tables[0].Rows[0]["Login"].ToString();
+            //valorUserBBDD = dts.Tables[0].Rows[0]["Login"].ToString();
             //contraseña para cambiar
             valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
             //sal para añadir a la base de datos

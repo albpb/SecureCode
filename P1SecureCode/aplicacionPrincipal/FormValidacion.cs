@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponenteAccesoDatos;
-using aplicacionPrincipal;
 
 namespace aplicacionPrincipal
 {
@@ -20,42 +19,66 @@ namespace aplicacionPrincipal
         }
 
         claseAccesoDatos ddbb = new claseAccesoDatos();
-        attCredenciales frmCredenciales = new attCredenciales();
+        attCredenciales frmCredenciales;
         appPrinc frmPrincipal = new appPrinc();
         DataSet dts = new DataSet();
 
-        string querry = "select * from Users where 1=1 and Login = '";
-        string valorUserBBDD, valorPassBBDD;
+
+        string valorUserBBDD;
+        string valorPassBBDD;
 
         private void bntLogin_Click(object sender, EventArgs e)
         {
-            querry = querry + txtUser.Text.ToString() + "'";
+            string querry = "SELECT UserCategories.*,Users.* FROM UserCategories INNER JOIN Users ON UserCategories.idUserCategory = Users.idUserCategory " +
+            "WHERE(Users.Login = '" + txtUser.Text + "')";
+            bool tablaConDatos = false;
 
             dts = ddbb.PortarPerConsulta(querry);
 
-            valorUserBBDD = dts.Tables[0].Rows[0]["Login"].ToString();
-            valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
-
-            if (valorUserBBDD == txtUser.Text.ToString() && valorPassBBDD == txtPass.Text.ToString())
+            try
             {
-                //entrar
-                if (valorPassBBDD == "12345aA")
+                if (dts.Tables[0].Rows.Count == 0)
                 {
-                    this.Hide();
-                    frmCredenciales.ShowDialog();
-                    frmCredenciales.lblValorUser.Text = valorUserBBDD;
+                    throw new Exception();
                 }
                 else
                 {
-                    this.Hide();
-                    frmPrincipal.ShowDialog();
+                    valorUserBBDD = dts.Tables[0].Rows[0]["Login"].ToString();
+                    valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
+                }
+
+                if (!tablaConDatos)
+                {
+                    if (valorUserBBDD == txtUser.Text.ToString() && valorPassBBDD != txtPass.Text.ToString())
+                    {
+                        MessageBox.Show("Contraseña incorrecta.");
+                    }
+                    else if (valorUserBBDD == txtUser.Text.ToString() && valorPassBBDD == txtPass.Text.ToString())
+                    {
+                        //entrar
+                        if (valorPassBBDD == "12345aA") //funciona
+                        {
+                            this.Hide();
+                            frmCredenciales = new attCredenciales(valorUserBBDD);
+                            frmCredenciales.ShowDialog();
+                            frmCredenciales.lblValorUser.Text = valorUserBBDD;
+                        }
+                        else
+                        {
+                            this.Hide();
+                            frmPrincipal.ShowDialog();
+                        }
+                    }
                 }
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Credenciales incorrectas");
+                tablaConDatos = true;
+                MessageBox.Show("Credenciales Incorrectas");
+                txtUser.Clear();
+                txtUser.Focus();
+                txtPass.Clear();
             }
-
         }
     }
 }

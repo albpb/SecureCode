@@ -81,6 +81,7 @@ namespace aplicacionPrincipal
             // 
             this.txtPass.Location = new System.Drawing.Point(156, 334);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(162, 20);
             this.txtPass.TabIndex = 6;
             // 
@@ -106,7 +107,9 @@ namespace aplicacionPrincipal
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.txtUser);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();

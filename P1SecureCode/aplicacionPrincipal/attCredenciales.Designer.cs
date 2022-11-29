@@ -95,7 +95,7 @@ namespace aplicacionPrincipal
             // 
             this.lblValorUser.AutoSize = true;
             this.lblValorUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValorUser.Location = new System.Drawing.Point(108, 172);
+            this.lblValorUser.Location = new System.Drawing.Point(122, 172);
             this.lblValorUser.Name = "lblValorUser";
             this.lblValorUser.Size = new System.Drawing.Size(50, 13);
             this.lblValorUser.TabIndex = 6;
@@ -106,9 +106,9 @@ namespace aplicacionPrincipal
             this.lblUserTitulo.AutoSize = true;
             this.lblUserTitulo.Location = new System.Drawing.Point(12, 172);
             this.lblUserTitulo.Name = "lblUserTitulo";
-            this.lblUserTitulo.Size = new System.Drawing.Size(90, 13);
+            this.lblUserTitulo.Size = new System.Drawing.Size(104, 13);
             this.lblUserTitulo.TabIndex = 7;
-            this.lblUserTitulo.Text = "Acceso con user:";
+            this.lblUserTitulo.Text = "Acceso con usuario:";
             // 
             // attCredenciales
             // 
@@ -126,6 +126,7 @@ namespace aplicacionPrincipal
             this.Controls.Add(this.lblTitulo);
             this.Name = "attCredenciales";
             this.Text = "Actualizacion de Contraseña";
+            this.Load += new System.EventHandler(this.attCredenciales_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
