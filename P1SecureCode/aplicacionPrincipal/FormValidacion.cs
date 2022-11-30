@@ -60,7 +60,7 @@ namespace aplicacionPrincipal
                         if (valorPassBBDD == "12345aA") //funciona
                         {
                             this.Hide();
-                            frmCredenciales = new attCredenciales(valorUserBBDD);
+                            frmCredenciales = new attCredenciales(valorUserBBDD, valorPassBBDD);
                             frmCredenciales.ShowDialog();
                             frmCredenciales.lblValorUser.Text = valorUserBBDD;
                         }

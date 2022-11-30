@@ -19,40 +19,44 @@ namespace aplicacionPrincipal
         {
             InitializeComponent();
         }
-        public attCredenciales(string user)
+        public attCredenciales(string user, string pass)
         {
             InitializeComponent();
             valorUserBBDD = user;
+            valorPassBBDD = pass;
         }
 
         claseAccesoDatos ddbb = new claseAccesoDatos();
         DataSet dts = new DataSet();
         Random rdm = new Random();
-        string valorUserBBDD;
+        appPrinc frmPrincipal;
 
-        string valorPassBBDD, valorSalBBDD, salAH;
+        string valorUserBBDD, valorPassBBDD;
+        string querry = "select * from Users where 1=1 and Login = '";
+        int salBH;
+        string salbbdd;
 
         private void attCredenciales_Load(object sender, EventArgs e)
         {
             lblValorUser.Text =  valorUserBBDD;
         }
 
-        string querry = "select Login, Password, Salt from Users where 1=1 and Login = '";
-        int salBH;
-
         private void button1_Click(object sender, EventArgs e)
         {
             //coger el user y pass del form pasado
-            querry = querry + txtPass.Text.ToString() + "'";
+            querry = querry + valorUserBBDD + "'";
 
-            dts = ddbb.PortarTaula(querry);
+            dts = ddbb.PortarPerConsulta(querry);
 
-            //para identificar el usuario que va cambiar la contraseña
-            //valorUserBBDD = dts.Tables[0].Rows[0]["Login"].ToString();
-            //contraseña para cambiar
-            valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
-            //sal para añadir a la base de datos
-            valorSalBBDD = dts.Tables[0].Rows[0]["Salt"].ToString();
+            //nueva contraseña
+            if (txtPass.Text== txtPassConfirm.Text)
+            {
+                valorPassBBDD = txtPassConfirm.Text.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Contraseñas no coinciden");
+            }
 
             //HASHEAR Sal
             salBH = rdm.Next(0, 100);
@@ -60,20 +64,29 @@ namespace aplicacionPrincipal
             {
                 byte[] hashedBytes = hash.ComputeHash(Encoding.UTF8.GetBytes(salBH.ToString()));
                 string strHash = BitConverter.ToString(hashedBytes);
-                salAH = strHash;
+                salbbdd = strHash;
             }
             //guardar salAH na BBDD
-
             //HASHEAR Pass
             using (SHA256 hash = SHA256.Create())
             {
-                byte[] hashedBytes = hash.ComputeHash(Encoding.UTF8.GetBytes(valorPassBBDD + salBH.ToString()));
+                byte[] hashedBytes = hash.ComputeHash(Encoding.UTF8.GetBytes(valorPassBBDD + salbbdd));
                 string strHash = BitConverter.ToString(hashedBytes);
                 valorPassBBDD = strHash;
             }
             //guardar Senha na BBDD
 
-            ddbb.Actualitzar();
+            //salbbdd = dts.Tables[0].Rows[0]["Salt"].ToString();
+            //valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
+
+            dts = ddbb.Actualitzar();
+
+            MessageBox.Show("Credenciales Actualizadas.");
+            this.Hide();
+            frmPrincipal = new appPrinc(valorUserBBDD);
+            frmPrincipal.ShowDialog();
+            frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
+
         }
     }
 }

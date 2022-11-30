@@ -124,7 +124,9 @@ namespace aplicacionPrincipal
             this.Controls.Add(this.lblNewPassConfirm);
             this.Controls.Add(this.lblNewPass);
             this.Controls.Add(this.lblTitulo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "attCredenciales";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Actualizacion de Contraseña";
             this.Load += new System.EventHandler(this.attCredenciales_Load);
             this.ResumeLayout(false);
