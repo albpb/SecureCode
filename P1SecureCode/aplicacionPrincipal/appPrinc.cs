@@ -16,12 +16,13 @@ namespace aplicacionPrincipal
         {
             InitializeComponent();
         }
-        public appPrinc(string user)
+        public appPrinc(string user, string nivel)
         {
             InitializeComponent();
             valorUserBBDD = user;
+            valorNivelUser = nivel;
         }
-        string valorUserBBDD;
+        string valorUserBBDD, valorNivelUser;
 
         private void Form1_Load(object sender, EventArgs e)
         {

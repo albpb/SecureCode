@@ -29,17 +29,13 @@ namespace aplicacionPrincipal
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(appPrinc));
             this.lblNombreUsuario = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblFecha = new System.Windows.Forms.Label();
-            this.lblNivelUsuario = new System.Windows.Forms.Label();
+            this.lblNivel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bntApp5 = new System.Windows.Forms.Button();
-            this.bntApp4 = new System.Windows.Forms.Button();
-            this.bntApp3 = new System.Windows.Forms.Button();
-            this.bntApp2 = new System.Windows.Forms.Button();
-            this.bntApp1 = new System.Windows.Forms.Button();
+            this.bntExit = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblApps = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,136 +44,115 @@ namespace aplicacionPrincipal
             this.lblNombreUsuario.AutoSize = true;
             this.lblNombreUsuario.BackColor = System.Drawing.Color.Transparent;
             this.lblNombreUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreUsuario.Location = new System.Drawing.Point(37, 18);
+            this.lblNombreUsuario.Location = new System.Drawing.Point(12, 9);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
             this.lblNombreUsuario.Size = new System.Drawing.Size(163, 20);
             this.lblNombreUsuario.TabIndex = 0;
             this.lblNombreUsuario.Text = "Nombre de Usuario";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Location = new System.Drawing.Point(-10, 67);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(693, 10);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.BackColor = System.Drawing.Color.Transparent;
             this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(38, 38);
+            this.lblFecha.Location = new System.Drawing.Point(13, 29);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblFecha.Size = new System.Drawing.Size(90, 16);
             this.lblFecha.TabIndex = 2;
             this.lblFecha.Text = "Fecha de hoy";
             // 
-            // lblNivelUsuario
+            // lblNivel
             // 
-            this.lblNivelUsuario.AutoSize = true;
-            this.lblNivelUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNivelUsuario.Location = new System.Drawing.Point(37, 95);
-            this.lblNivelUsuario.Name = "lblNivelUsuario";
-            this.lblNivelUsuario.Size = new System.Drawing.Size(319, 20);
-            this.lblNivelUsuario.TabIndex = 3;
-            this.lblNivelUsuario.Text = "Aplicaciones disponibles para el nivel actual:";
+            this.lblNivel.AutoSize = true;
+            this.lblNivel.BackColor = System.Drawing.Color.Transparent;
+            this.lblNivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNivel.Location = new System.Drawing.Point(13, 58);
+            this.lblNivel.Name = "lblNivel";
+            this.lblNivel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblNivel.Size = new System.Drawing.Size(131, 15);
+            this.lblNivel.TabIndex = 3;
+            this.lblNivel.Text = "Nivel de poder Jedi";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.bntApp5);
-            this.panel1.Controls.Add(this.bntApp4);
-            this.panel1.Controls.Add(this.bntApp3);
-            this.panel1.Controls.Add(this.bntApp2);
-            this.panel1.Controls.Add(this.bntApp1);
-            this.panel1.Location = new System.Drawing.Point(41, 142);
+            this.panel1.BackColor = System.Drawing.Color.OliveDrab;
+            this.panel1.Controls.Add(this.bntExit);
+            this.panel1.Controls.Add(this.lblNombreUsuario);
+            this.panel1.Controls.Add(this.lblNivel);
+            this.panel1.Controls.Add(this.lblFecha);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(613, 220);
-            this.panel1.TabIndex = 4;
+            this.panel1.Size = new System.Drawing.Size(924, 82);
+            this.panel1.TabIndex = 5;
             // 
-            // bntApp5
+            // bntExit
             // 
-            this.bntApp5.Enabled = false;
-            this.bntApp5.Location = new System.Drawing.Point(246, 30);
-            this.bntApp5.Name = "bntApp5";
-            this.bntApp5.Size = new System.Drawing.Size(81, 71);
-            this.bntApp5.TabIndex = 4;
-            this.bntApp5.Text = "button5";
-            this.bntApp5.UseVisualStyleBackColor = true;
+            this.bntExit.AutoSize = true;
+            this.bntExit.BackColor = System.Drawing.Color.Transparent;
+            this.bntExit.Dock = System.Windows.Forms.DockStyle.Right;
+            this.bntExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntExit.Location = new System.Drawing.Point(893, 0);
+            this.bntExit.Name = "bntExit";
+            this.bntExit.Padding = new System.Windows.Forms.Padding(6);
+            this.bntExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bntExit.Size = new System.Drawing.Size(31, 30);
+            this.bntExit.TabIndex = 4;
+            this.bntExit.Text = "X";
             // 
-            // bntApp4
+            // flowLayoutPanel1
             // 
-            this.bntApp4.Enabled = false;
-            this.bntApp4.Location = new System.Drawing.Point(137, 126);
-            this.bntApp4.Name = "bntApp4";
-            this.bntApp4.Size = new System.Drawing.Size(81, 71);
-            this.bntApp4.TabIndex = 3;
-            this.bntApp4.Text = "button4";
-            this.bntApp4.UseVisualStyleBackColor = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Beige;
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 122);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(924, 406);
+            this.flowLayoutPanel1.TabIndex = 6;
             // 
-            // bntApp3
+            // lblApps
             // 
-            this.bntApp3.Location = new System.Drawing.Point(137, 30);
-            this.bntApp3.Name = "bntApp3";
-            this.bntApp3.Size = new System.Drawing.Size(81, 71);
-            this.bntApp3.TabIndex = 2;
-            this.bntApp3.Text = "button3";
-            this.bntApp3.UseVisualStyleBackColor = true;
-            // 
-            // bntApp2
-            // 
-            this.bntApp2.Location = new System.Drawing.Point(30, 126);
-            this.bntApp2.Name = "bntApp2";
-            this.bntApp2.Size = new System.Drawing.Size(81, 71);
-            this.bntApp2.TabIndex = 1;
-            this.bntApp2.Text = "button2";
-            this.bntApp2.UseVisualStyleBackColor = true;
-            // 
-            // bntApp1
-            // 
-            this.bntApp1.Location = new System.Drawing.Point(30, 30);
-            this.bntApp1.Name = "bntApp1";
-            this.bntApp1.Size = new System.Drawing.Size(81, 71);
-            this.bntApp1.TabIndex = 0;
-            this.bntApp1.Text = "button1";
-            this.bntApp1.UseVisualStyleBackColor = true;
+            this.lblApps.AutoSize = true;
+            this.lblApps.BackColor = System.Drawing.Color.Transparent;
+            this.lblApps.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApps.Location = new System.Drawing.Point(12, 95);
+            this.lblApps.Name = "lblApps";
+            this.lblApps.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblApps.Size = new System.Drawing.Size(400, 24);
+            this.lblApps.TabIndex = 4;
+            this.lblApps.Text = "Aplicaciones permitidas al nivel de Poder Jedi:";
             // 
             // appPrinc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(682, 422);
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.ClientSize = new System.Drawing.Size(924, 528);
+            this.Controls.Add(this.lblApps);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lblNivelUsuario);
-            this.Controls.Add(this.lblFecha);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.lblNombreUsuario);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "appPrinc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplicacion Java The Hutt";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lblFecha;
-        private System.Windows.Forms.Label lblNivelUsuario;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button bntApp4;
-        private System.Windows.Forms.Button bntApp3;
-        private System.Windows.Forms.Button bntApp2;
-        private System.Windows.Forms.Button bntApp1;
-        private System.Windows.Forms.Button bntApp5;
         public System.Windows.Forms.Label lblNombreUsuario;
+        private System.Windows.Forms.Label lblNivel;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label bntExit;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label lblApps;
     }
 }
 

@@ -32,7 +32,7 @@ namespace aplicacionPrincipal
         Random rdm = new Random();
         appPrinc frmPrincipal;
 
-        string valorUserBBDD, valorPassBBDD;
+        string valorUserBBDD, valorPassBBDD, valorNivelUser;
         string querry = "select * from Users where 1=1 and Login = '";
         int salBH;
         bool esIgual = false;
@@ -77,7 +77,7 @@ namespace aplicacionPrincipal
 
             MessageBox.Show("Credenciales Actualizadas.");
             this.Hide();
-            frmPrincipal = new appPrinc(valorUserBBDD);
+            frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
             frmPrincipal.ShowDialog();
             frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
 

@@ -26,7 +26,7 @@ namespace aplicacionPrincipal
         DataSet dts = new DataSet();
 
 
-        string valorUserBBDD, valorPassBBDD, valorSaltBBDD, passActual;
+        string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser,passActual;
         bool palabraPassIgual = false;
 
         private void bntLogin_Click(object sender, EventArgs e)
@@ -48,6 +48,7 @@ namespace aplicacionPrincipal
                     valorUserBBDD = dts.Tables[0].Rows[0]["Login"].ToString();
                     valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
                     valorSaltBBDD = dts.Tables[0].Rows[0]["Salt"].ToString();
+                    valorNivelUser = dts.Tables[0].Rows[0]["AccessLevel"].ToString();
 
                     passActual = hs.hashingPass(valorSaltBBDD, txtPass.Text.ToString());
                     if (passActual == valorPassBBDD)
@@ -62,7 +63,7 @@ namespace aplicacionPrincipal
                     if (txtUser.Text.ToString() == valorUserBBDD && palabraPassIgual)
                     {
                         this.Hide();
-                        frmPrincipal = new appPrinc(valorUserBBDD);
+                        frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
                         frmPrincipal.ShowDialog();
                         frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
                     }
