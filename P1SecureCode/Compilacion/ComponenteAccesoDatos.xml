@@ -47,6 +47,14 @@
             </summary>
             <returns>DataSet con los valores cambiados de la tabla</returns>
         </member>
+        <member name="M:ComponenteAccesoDatos.claseAccesoDatos.Actualitzar(System.Data.DataSet,System.String)">
+            <summary>
+            Metodo para actulizar la base de datos, eliminar, añadir o actualizar la tabla de manera desconectada, atraves del DataSet
+            </summary>
+            <param name="dts"></param>
+            <param name="consulta"></param>
+            <returns></returns>
+        </member>
         <member name="M:ComponenteAccesoDatos.claseAccesoDatos.Executa(System.String)">
             <summary>
             Metodo para actulizar la base de datos, eliminar, añadir o actualizar la tabla de manera directa (Conectados)

@@ -26,6 +26,7 @@ namespace aplicacionPrincipal
             valorPassBBDD = pass;
         }
 
+        hashing hs = new hashing();
         claseAccesoDatos ddbb = new claseAccesoDatos();
         DataSet dts = new DataSet();
         Random rdm = new Random();
@@ -34,6 +35,7 @@ namespace aplicacionPrincipal
         string valorUserBBDD, valorPassBBDD;
         string querry = "select * from Users where 1=1 and Login = '";
         int salBH;
+        bool esIgual = false;
         string salbbdd;
 
         private void attCredenciales_Load(object sender, EventArgs e)
@@ -51,6 +53,7 @@ namespace aplicacionPrincipal
             //nueva contraseña
             if (txtPass.Text== txtPassConfirm.Text)
             {
+                esIgual = true;
                 valorPassBBDD = txtPassConfirm.Text.ToString();
             }
             else
@@ -60,26 +63,17 @@ namespace aplicacionPrincipal
 
             //HASHEAR Sal
             salBH = rdm.Next(0, 100);
-            using (SHA256 hash = SHA256.Create())
-            {
-                byte[] hashedBytes = hash.ComputeHash(Encoding.UTF8.GetBytes(salBH.ToString()));
-                string strHash = BitConverter.ToString(hashedBytes);
-                salbbdd = strHash;
-            }
-            //guardar salAH na BBDD
-            //HASHEAR Pass
-            using (SHA256 hash = SHA256.Create())
-            {
-                byte[] hashedBytes = hash.ComputeHash(Encoding.UTF8.GetBytes(valorPassBBDD + salbbdd));
-                string strHash = BitConverter.ToString(hashedBytes);
-                valorPassBBDD = strHash;
-            }
-            //guardar Senha na BBDD
+            salbbdd = hs.hashingConAleatorio(salBH);
 
-            //salbbdd = dts.Tables[0].Rows[0]["Salt"].ToString();
-            //valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
+            valorPassBBDD = hs.hashingPass(salbbdd, txtPassConfirm.Text.ToString());
+            
+             dts.Tables[0].Rows[0]["Salt"] = salbbdd;
+             dts.Tables[0].Rows[0]["Password"] = valorPassBBDD;
 
-            dts = ddbb.Actualitzar();
+            if (esIgual)
+            {
+                dts = ddbb.Actualitzar(dts, querry);
+            }
 
             MessageBox.Show("Credenciales Actualizadas.");
             this.Hide();

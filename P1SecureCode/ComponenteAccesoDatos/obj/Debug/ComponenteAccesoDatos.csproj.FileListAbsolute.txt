@@ -18,7 +18,6 @@ E:\Salesians de Sarria\S2AM\Modulo INF Projectos\Sprint Grupales\Proyecto\Secure
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.pdb
-E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.AssemblyReference.cache
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.CoreCompileInputs.cache
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.pdb

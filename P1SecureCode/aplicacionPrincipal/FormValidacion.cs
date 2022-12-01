@@ -19,14 +19,15 @@ namespace aplicacionPrincipal
             InitializeComponent();
         }
 
+        hashing hs = new hashing();
         claseAccesoDatos ddbb = new claseAccesoDatos();
         attCredenciales frmCredenciales;
         appPrinc frmPrincipal;
         DataSet dts = new DataSet();
 
 
-        string valorUserBBDD;
-        string valorPassBBDD;
+        string valorUserBBDD, valorPassBBDD, valorSaltBBDD, passActual;
+        bool palabraPassIgual = false;
 
         private void bntLogin_Click(object sender, EventArgs e)
         {
@@ -46,37 +47,42 @@ namespace aplicacionPrincipal
                 {
                     valorUserBBDD = dts.Tables[0].Rows[0]["Login"].ToString();
                     valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
+                    valorSaltBBDD = dts.Tables[0].Rows[0]["Salt"].ToString();
+
+                    passActual = hs.hashingPass(valorSaltBBDD, txtPass.Text.ToString());
+                    if (passActual == valorPassBBDD)
+                    {
+                        palabraPassIgual = true;
+                    }
                 }
 
                 if (!tablaConDatos)
                 {
-                    if (valorUserBBDD == txtUser.Text.ToString() && valorPassBBDD != txtPass.Text.ToString())
+
+                    if (txtUser.Text.ToString() == valorUserBBDD && palabraPassIgual)
+                    {
+                        this.Hide();
+                        frmPrincipal = new appPrinc(valorUserBBDD);
+                        frmPrincipal.ShowDialog();
+                        frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
+                    }
+                    else if (txtUser.Text.ToString() == valorUserBBDD && txtPass.Text.ToString() == "12345aA" &&valorPassBBDD == "12345aA")
+                    {
+                        this.Hide();
+                        frmCredenciales = new attCredenciales(valorUserBBDD, valorPassBBDD);
+                        frmCredenciales.ShowDialog();
+                        frmCredenciales.lblValorUser.Text = valorUserBBDD;
+                    }
+                    else
                     {
                         MessageBox.Show("Contraseña incorrecta.");
                     }
-                    else if (valorUserBBDD == txtUser.Text.ToString() && valorPassBBDD == txtPass.Text.ToString())
-                    {
-                        //entrar
-                        if (valorPassBBDD == "12345aA") //funciona
-                        {
-                            this.Hide();
-                            frmCredenciales = new attCredenciales(valorUserBBDD, valorPassBBDD);
-                            frmCredenciales.ShowDialog();
-                            frmCredenciales.lblValorUser.Text = valorUserBBDD;
-                        }
-                        else
-                        {
-                            this.Hide();
-                            frmPrincipal = new appPrinc(valorUserBBDD);
-                            frmPrincipal.ShowDialog();
-                            frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
-                        }
-                    }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 tablaConDatos = true;
+                MessageBox.Show(ex.Message);
                 MessageBox.Show("Credenciales Incorrectas");
                 txtUser.Clear();
                 txtUser.Focus();

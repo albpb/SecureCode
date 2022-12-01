@@ -73,6 +73,7 @@ namespace aplicacionPrincipal
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(157, 20);
             this.txtPass.TabIndex = 3;
+            this.txtPass.Tag = "Password";
             // 
             // txtPassConfirm
             // 
@@ -80,6 +81,7 @@ namespace aplicacionPrincipal
             this.txtPassConfirm.Name = "txtPassConfirm";
             this.txtPassConfirm.Size = new System.Drawing.Size(157, 20);
             this.txtPassConfirm.TabIndex = 4;
+            this.txtPassConfirm.Tag = "Password";
             // 
             // bntFinish
             // 

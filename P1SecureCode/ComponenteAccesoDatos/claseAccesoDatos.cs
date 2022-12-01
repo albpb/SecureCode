@@ -147,6 +147,33 @@ namespace ComponenteAccesoDatos
         }
 
         /// <summary>
+        /// Metodo para actulizar la base de datos, eliminar, añadir o actualizar la tabla de manera desconectada, atraves del DataSet
+        /// </summary>
+        /// <param name="dts"></param>
+        /// <param name="consulta"></param>
+        /// <returns></returns>
+        public DataSet Actualitzar(DataSet dts, string consulta)
+        {
+            int result = 0;
+
+            conn.Open();
+
+            SqlDataAdapter adapter;
+            adapter = new SqlDataAdapter(consulta, conn);
+            SqlCommandBuilder cmdBuilder;
+            cmdBuilder = new SqlCommandBuilder(adapter);
+
+            if (dts.HasChanges())
+            {
+                result = adapter.Update(dts.Tables[0]);
+            }
+
+            conn.Close();
+
+            return dts;
+        }
+
+        /// <summary>
         /// Metodo para actulizar la base de datos, eliminar, añadir o actualizar la tabla de manera directa (Conectados)
         /// </summary>
         /// <param name="Consulta">Consulta que utilizamos en la base de datos y ejuctamos en la tabla</param>
