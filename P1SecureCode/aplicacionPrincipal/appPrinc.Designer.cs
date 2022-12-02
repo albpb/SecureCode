@@ -34,8 +34,9 @@ namespace aplicacionPrincipal
             this.lblNivel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bntExit = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.lblApps = new System.Windows.Forms.Label();
+            this.flpnlMain = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblNv = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,13 +71,14 @@ namespace aplicacionPrincipal
             this.lblNivel.Location = new System.Drawing.Point(13, 58);
             this.lblNivel.Name = "lblNivel";
             this.lblNivel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNivel.Size = new System.Drawing.Size(131, 15);
+            this.lblNivel.Size = new System.Drawing.Size(135, 15);
             this.lblNivel.TabIndex = 3;
-            this.lblNivel.Text = "Nivel de poder Jedi";
+            this.lblNivel.Text = "Nivel de poder Jedi:";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.OliveDrab;
+            this.panel1.Controls.Add(this.lblNv);
             this.panel1.Controls.Add(this.bntExit);
             this.panel1.Controls.Add(this.lblNombreUsuario);
             this.panel1.Controls.Add(this.lblNivel);
@@ -100,15 +102,7 @@ namespace aplicacionPrincipal
             this.bntExit.Size = new System.Drawing.Size(31, 30);
             this.bntExit.TabIndex = 4;
             this.bntExit.Text = "X";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Beige;
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 122);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(924, 406);
-            this.flowLayoutPanel1.TabIndex = 6;
+            this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
             // 
             // lblApps
             // 
@@ -122,6 +116,29 @@ namespace aplicacionPrincipal
             this.lblApps.TabIndex = 4;
             this.lblApps.Text = "Aplicaciones permitidas al nivel de Poder Jedi:";
             // 
+            // flpnlMain
+            // 
+            this.flpnlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flpnlMain.BackColor = System.Drawing.Color.Beige;
+            this.flpnlMain.Location = new System.Drawing.Point(0, 122);
+            this.flpnlMain.Name = "flpnlMain";
+            this.flpnlMain.Size = new System.Drawing.Size(924, 406);
+            this.flpnlMain.TabIndex = 6;
+            // 
+            // lblNv
+            // 
+            this.lblNv.AutoSize = true;
+            this.lblNv.BackColor = System.Drawing.Color.Transparent;
+            this.lblNv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNv.Location = new System.Drawing.Point(145, 58);
+            this.lblNv.Name = "lblNv";
+            this.lblNv.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblNv.Size = new System.Drawing.Size(15, 15);
+            this.lblNv.TabIndex = 5;
+            this.lblNv.Text = "0";
+            // 
             // appPrinc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,7 +147,7 @@ namespace aplicacionPrincipal
             this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.ClientSize = new System.Drawing.Size(924, 528);
             this.Controls.Add(this.lblApps);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.flpnlMain);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "appPrinc";
@@ -151,8 +168,9 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.Label lblNivel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label bntExit;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Label lblApps;
+        private System.Windows.Forms.FlowLayoutPanel flpnlMain;
+        private System.Windows.Forms.Label lblNv;
     }
 }
 

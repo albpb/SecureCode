@@ -27,6 +27,16 @@ namespace aplicacionPrincipal
 
 
         string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser,passActual;
+
+        private void txtPass_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) //Funciona
+            {
+                this.Hide();
+                bntLogin_Click(sender,e);
+            }
+        }
+
         bool palabraPassIgual = false;
 
         private void bntLogin_Click(object sender, EventArgs e)

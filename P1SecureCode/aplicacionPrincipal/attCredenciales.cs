@@ -50,6 +50,8 @@ namespace aplicacionPrincipal
 
             dts = ddbb.PortarPerConsulta(querry);
 
+            valorNivelUser = dts.Tables[0].Rows[0]["IdUserCategory"].ToString();
+
             //nueva contraseña
             if (txtPass.Text== txtPassConfirm.Text)
             {
