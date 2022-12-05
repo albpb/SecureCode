@@ -41,18 +41,12 @@ namespace CustomControls
             set { _IsEmpty = value; }
         }
 
-        public enum IsForeign
-        {
-            Foreign,
-            Normal
-        }
+        private bool _ForeignKey;
 
-        private IsForeign _Key;
-
-        public IsForeign Key
+        public bool ForeignKey
         {
-            get { return _Key; }
-            set { _Key = value; }
+            get { return _ForeignKey; }
+            set { _ForeignKey = value; }
         }
 
         private string _DBName;
@@ -100,6 +94,14 @@ namespace CustomControls
             else
             {
                 this.ForeColor = Color.DarkRed;
+            }
+        }
+
+        private void SWTextbox_TextChanged(object sender, EventArgs e)
+        {
+            if (ForeignKey)
+            {
+                //do later
             }
         }
     }
