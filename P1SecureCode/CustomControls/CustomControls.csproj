@@ -50,6 +50,12 @@
     <Compile Include="SWCodi.Designer.cs">
       <DependentUpon>SWCodi.cs</DependentUpon>
     </Compile>
+    <Compile Include="SWLauchForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SWLauchForm.Designer.cs">
+      <DependentUpon>SWLauchForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SWTextbox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -60,6 +66,9 @@
   <ItemGroup>
     <EmbeddedResource Include="SWCodi.resx">
       <DependentUpon>SWCodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWLauchForm.resx">
+      <DependentUpon>SWLauchForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SWTextbox.resx">
       <DependentUpon>SWTextbox.cs</DependentUpon>
