@@ -6,3 +6,13 @@ C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\Cus
 C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
 C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.dll
 C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWCodi.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\SWLaunchForm.SWLauchForm.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWTextbox.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
