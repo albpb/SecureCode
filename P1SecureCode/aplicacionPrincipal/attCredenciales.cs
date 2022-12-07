@@ -38,6 +38,15 @@ namespace aplicacionPrincipal
         bool esIgual = false;
         string salbbdd;
 
+        private void txtPassConfirm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) //Funciona
+            {
+                this.Hide();
+                button1_Click(sender, e);
+            }
+        }
+
         private void attCredenciales_Load(object sender, EventArgs e)
         {
             lblValorUser.Text =  valorUserBBDD;
@@ -82,7 +91,6 @@ namespace aplicacionPrincipal
             frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
             frmPrincipal.ShowDialog();
             frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
-
         }
     }
 }

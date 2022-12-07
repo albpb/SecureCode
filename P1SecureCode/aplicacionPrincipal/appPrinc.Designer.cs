@@ -47,7 +47,7 @@ namespace aplicacionPrincipal
             this.lblNombreUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreUsuario.Location = new System.Drawing.Point(12, 9);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(197, 25);
+            this.lblNombreUsuario.Size = new System.Drawing.Size(163, 20);
             this.lblNombreUsuario.TabIndex = 0;
             this.lblNombreUsuario.Text = "Nombre de Usuario";
             // 
@@ -59,7 +59,7 @@ namespace aplicacionPrincipal
             this.lblFecha.Location = new System.Drawing.Point(13, 29);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblFecha.Size = new System.Drawing.Size(109, 20);
+            this.lblFecha.Size = new System.Drawing.Size(90, 16);
             this.lblFecha.TabIndex = 2;
             this.lblFecha.Text = "Fecha de hoy";
             // 
@@ -71,7 +71,7 @@ namespace aplicacionPrincipal
             this.lblNivel.Location = new System.Drawing.Point(13, 58);
             this.lblNivel.Name = "lblNivel";
             this.lblNivel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNivel.Size = new System.Drawing.Size(157, 18);
+            this.lblNivel.Size = new System.Drawing.Size(135, 15);
             this.lblNivel.TabIndex = 3;
             this.lblNivel.Text = "Nivel de poder Jedi:";
             // 
@@ -97,7 +97,7 @@ namespace aplicacionPrincipal
             this.lblNv.Location = new System.Drawing.Point(145, 58);
             this.lblNv.Name = "lblNv";
             this.lblNv.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNv.Size = new System.Drawing.Size(17, 18);
+            this.lblNv.Size = new System.Drawing.Size(15, 15);
             this.lblNv.TabIndex = 5;
             this.lblNv.Text = "0";
             // 
@@ -107,11 +107,11 @@ namespace aplicacionPrincipal
             this.bntExit.BackColor = System.Drawing.Color.Transparent;
             this.bntExit.Dock = System.Windows.Forms.DockStyle.Right;
             this.bntExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntExit.Location = new System.Drawing.Point(887, 0);
+            this.bntExit.Location = new System.Drawing.Point(893, 0);
             this.bntExit.Name = "bntExit";
             this.bntExit.Padding = new System.Windows.Forms.Padding(6);
             this.bntExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bntExit.Size = new System.Drawing.Size(37, 36);
+            this.bntExit.Size = new System.Drawing.Size(31, 30);
             this.bntExit.TabIndex = 4;
             this.bntExit.Text = "X";
             this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
@@ -124,7 +124,7 @@ namespace aplicacionPrincipal
             this.lblApps.Location = new System.Drawing.Point(12, 95);
             this.lblApps.Name = "lblApps";
             this.lblApps.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblApps.Size = new System.Drawing.Size(514, 29);
+            this.lblApps.Size = new System.Drawing.Size(400, 24);
             this.lblApps.TabIndex = 4;
             this.lblApps.Text = "Aplicaciones permitidas al nivel de Poder Jedi:";
             // 
