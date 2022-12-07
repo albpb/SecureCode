@@ -149,8 +149,8 @@ namespace ComponenteAccesoDatos
         /// <summary>
         /// Metodo para actulizar la base de datos, eliminar, añadir o actualizar la tabla de manera desconectada, atraves del DataSet
         /// </summary>
-        /// <param name="dts"></param>
-        /// <param name="consulta"></param>
+        /// <param name="dts">DataSet que utilizara para hacer los cambios</param>
+        /// <param name="consulta">Consulta para ejecutar en la base de datos</param>
         /// <returns></returns>
         public DataSet Actualitzar(DataSet dts, string consulta)
         {
