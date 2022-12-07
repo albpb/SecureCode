@@ -82,6 +82,7 @@ namespace aplicacionPrincipal
             this.txtPassConfirm.Size = new System.Drawing.Size(157, 20);
             this.txtPassConfirm.TabIndex = 4;
             this.txtPassConfirm.Tag = "Password";
+            this.txtPassConfirm.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassConfirm_KeyDown);
             // 
             // bntFinish
             // 

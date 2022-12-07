@@ -26,7 +26,7 @@ namespace aplicacionPrincipal
         DataSet dts = new DataSet();
 
 
-        string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser,passActual;
+        string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser, passActual;
 
         private void txtPass_KeyDown(object sender, KeyEventArgs e)
         {

@@ -33,10 +33,10 @@ namespace aplicacionPrincipal
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblNivel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblNv = new System.Windows.Forms.Label();
             this.bntExit = new System.Windows.Forms.Label();
             this.lblApps = new System.Windows.Forms.Label();
             this.flpnlMain = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblNv = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,6 +89,18 @@ namespace aplicacionPrincipal
             this.panel1.Size = new System.Drawing.Size(924, 82);
             this.panel1.TabIndex = 5;
             // 
+            // lblNv
+            // 
+            this.lblNv.AutoSize = true;
+            this.lblNv.BackColor = System.Drawing.Color.Transparent;
+            this.lblNv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNv.Location = new System.Drawing.Point(145, 58);
+            this.lblNv.Name = "lblNv";
+            this.lblNv.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblNv.Size = new System.Drawing.Size(15, 15);
+            this.lblNv.TabIndex = 5;
+            this.lblNv.Text = "0";
+            // 
             // bntExit
             // 
             this.bntExit.AutoSize = true;
@@ -126,18 +138,6 @@ namespace aplicacionPrincipal
             this.flpnlMain.Name = "flpnlMain";
             this.flpnlMain.Size = new System.Drawing.Size(924, 406);
             this.flpnlMain.TabIndex = 6;
-            // 
-            // lblNv
-            // 
-            this.lblNv.AutoSize = true;
-            this.lblNv.BackColor = System.Drawing.Color.Transparent;
-            this.lblNv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNv.Location = new System.Drawing.Point(145, 58);
-            this.lblNv.Name = "lblNv";
-            this.lblNv.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNv.Size = new System.Drawing.Size(15, 15);
-            this.lblNv.TabIndex = 5;
-            this.lblNv.Text = "0";
             // 
             // appPrinc
             // 
