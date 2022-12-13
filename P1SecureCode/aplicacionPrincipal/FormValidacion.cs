@@ -26,11 +26,28 @@ namespace aplicacionPrincipal
         appPrinc frmPrincipal;
         DataSet dts = new DataSet();
 
-        int contador = 0, segundos = 0;
+        int contador = 0, segundos = 0, segundosMalos = 0;
         string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser, passActual;
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void tmalo_Tick(object sender, EventArgs e)
         {
+            segundosMalos++;
+            if (segundosMalos == 3)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            segundos++;
+            if (segundos == 3)
+            {
+                this.Hide();
+                frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
+                frmPrincipal.ShowDialog();
+                frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
+            }
 
         }
 
@@ -46,10 +63,9 @@ namespace aplicacionPrincipal
 
         private void bntLogin_Click(object sender, EventArgs e)
         {
-            Timer timer = new Timer();
-            timer.Interval = 1000;
             string querry = "SELECT UserCategories.*,Users.* FROM UserCategories INNER JOIN Users ON UserCategories.idUserCategory = Users.idUserCategory " +
             "WHERE(Users.Login = '" + txtUser.Text + "')";
+
 
             dts = ddbb.PortarPerConsulta(querry);
 
@@ -57,7 +73,7 @@ namespace aplicacionPrincipal
             {
                 if (dts.Tables[0].Rows.Count == 0)
                 {
-                    throw new Exception("No hay tablas");
+                    throw new Exception("Credenciales incorrectas.");
                 }
                 else
                 {
@@ -76,10 +92,12 @@ namespace aplicacionPrincipal
 
                 if (txtUser.Text.ToString() == valorUserBBDD && palabraPassIgual)
                 {
-                    this.Hide();
-                    frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
-                    frmPrincipal.ShowDialog();
-                    frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
+                    timer.Enabled = true;
+                    pctbLogin.Image = Image.FromFile(@"buena.png");
+                    lblInfo.Text = "Bien venido!";
+
+                    timer.Start();
+                    
                 }
                 else if (txtUser.Text.ToString() == valorUserBBDD && txtPass.Text.ToString() == "12345aA" && valorPassBBDD == "12345aA")
                 {
@@ -93,11 +111,10 @@ namespace aplicacionPrincipal
                     contador++;
                     if (contador == 3)
                     {
-                        timer.Start();
-                        pctbLogin.ImageLocation = @"Resources\buena.png";
-                        if (timer.Interval == 3000)
+                        pctbLogin.Image = Image.FromFile(@"mala.png");
+                        if (contador == 3)
                         {
-                            Application.Exit();
+                            tmalo.Start();
                         }
 
                     }

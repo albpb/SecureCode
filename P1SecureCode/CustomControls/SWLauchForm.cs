@@ -40,11 +40,10 @@ namespace CustomControls
             get { return _img; }
             set
             {
-                value = @"..\..\..\Img\icons\" + value;
+                value = @"..\Img\icons\" + value;
                 _img = value;
 
                 img.Image = Image.FromFile(value);
-             
 
             }
         }

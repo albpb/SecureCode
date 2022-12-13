@@ -60,3 +60,8 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.pdb
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.dll
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.pdb
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe.config
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.pdb

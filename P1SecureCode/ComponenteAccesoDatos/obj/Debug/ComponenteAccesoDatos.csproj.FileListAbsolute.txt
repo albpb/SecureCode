@@ -21,4 +21,3 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Comp
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.CoreCompileInputs.cache
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.pdb
-E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.AssemblyReference.cache

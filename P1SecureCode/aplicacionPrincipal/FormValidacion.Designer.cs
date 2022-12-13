@@ -29,6 +29,7 @@ namespace aplicacionPrincipal
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblUser = new System.Windows.Forms.Label();
@@ -37,6 +38,8 @@ namespace aplicacionPrincipal
             this.bntLogin = new System.Windows.Forms.Button();
             this.lblInfo = new System.Windows.Forms.Label();
             this.pctbLogin = new System.Windows.Forms.PictureBox();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.tmalo = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctbLogin)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,6 +122,16 @@ namespace aplicacionPrincipal
             this.pctbLogin.TabIndex = 9;
             this.pctbLogin.TabStop = false;
             // 
+            // timer
+            // 
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // tmalo
+            // 
+            this.tmalo.Interval = 1000;
+            this.tmalo.Tick += new System.EventHandler(this.tmalo_Tick);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -152,6 +165,8 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label lblInfo;
         private System.Windows.Forms.PictureBox pctbLogin;
+        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Timer tmalo;
     }
 }
 
