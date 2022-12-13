@@ -39,11 +39,11 @@ namespace FormBase
         {
             foreach (Control c in this.Controls)
             {
-                if (c is CustomControls.SWTextbox)
+                if (c is CustomControls.SWCodi)
                 {
-                    CustomControls.SWTextbox ctr = (CustomControls.SWTextbox)c;
+                    CustomControls.SWCodi ctr = (CustomControls.SWCodi)c;
                     ctr.DataBindings.Clear();
-                    ctr.DataBindings.Add("Text", dts.Tables[0], ctr.DBName);
+                    ctr.DataBindings.Add("Text", dts.Tables[0], ctr.NomTaula);
                 }
             }
         }
@@ -52,9 +52,9 @@ namespace FormBase
         {
             foreach (Control c in this.Controls)
             {
-                if (c is CustomControls.SWTextbox)
+                if (c is CustomControls.SWCodi)
                 {
-                    CustomControls.SWTextbox ctr = (CustomControls.SWTextbox)c;
+                    CustomControls.SWCodi ctr = (CustomControls.SWCodi)c;
                     ctr.DataBindings.Clear();
                     ctr.Text = "";
                 }
@@ -92,9 +92,9 @@ namespace FormBase
 
                 foreach (Control c in this.Controls)
                 {
-                    if (c is CustomControls.SWTextbox)
+                    if (c is CustomControls.SWCodi)
                     {
-                        CustomControls.SWTextbox ctr = (CustomControls.SWTextbox)c;
+                        CustomControls.SWCodi ctr = (CustomControls.SWCodi)c;
                         dr[ctr.Tag.ToString()] = ctr.Text;
                     }
                 }
