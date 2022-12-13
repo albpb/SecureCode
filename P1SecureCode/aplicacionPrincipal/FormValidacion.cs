@@ -28,6 +28,7 @@ namespace aplicacionPrincipal
 
         int contador = 0, segundos = 0, segundosMalos = 0;
         string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser, passActual;
+        bool intruso = false;
 
         private void tmalo_Tick(object sender, EventArgs e)
         {
@@ -112,11 +113,12 @@ namespace aplicacionPrincipal
                     if (contador == 3)
                     {
                         pctbLogin.Image = Image.FromFile(@"mala.png");
-                        if (contador == 3)
-                        {
-                            tmalo.Start();
-                        }
-
+                        intruso = true;
+                        tmalo.Start();
+                    }
+                    if (intruso)
+                    {
+                        throw new Exception("Eres un intruso, vete de aqui!");
                     }
                     throw new Exception("(" + contador + ")" + " Contraseña incorrecta");
                 }
