@@ -1,0 +1,16 @@
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\bin\Debug\test.exe.config
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\bin\Debug\test.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\bin\Debug\test.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\bin\Debug\CustomControls.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\bin\Debug\ComponenteAccesoDatos.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\bin\Debug\CustomControls.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\bin\Debug\ComponenteAccesoDatos.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\bin\Debug\ComponenteAccesoDatos.xml
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\obj\Debug\test.Form1.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\obj\Debug\test.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\obj\Debug\test.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\test\obj\Debug\test.csproj.CopyComplete

@@ -74,5 +74,11 @@
       <DependentUpon>SWTextbox.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ComponenteAccesoDatos\ComponenteAccesoDatos.csproj">
+      <Project>{59eca588-f069-4a41-bb67-a1ccc76914bc}</Project>
+      <Name>ComponenteAccesoDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

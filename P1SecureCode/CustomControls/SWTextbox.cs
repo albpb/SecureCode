@@ -101,7 +101,16 @@ namespace CustomControls
         {
             if (ForeignKey)
             {
-                //do later
+                Form form = FindForm();
+
+                foreach (SWCodi control in form.Controls.OfType<SWCodi>())
+                {
+                    if (control.Name == _DBName)
+                    {
+                        control.ControlID = this.Text;
+                        control.ValidaCodi();
+                    }
+                }
             }
         }
     }

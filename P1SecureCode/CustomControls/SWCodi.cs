@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using ComponenteAccesoDatos;
+
 namespace CustomControls
 {
     public partial class SWCodi : UserControl
@@ -71,6 +73,20 @@ namespace CustomControls
         {
             get { return _ControlID; }
             set { _ControlID = value; }
+        }
+
+        public void ValidaCodi()
+        {
+            claseAccesoDatos bbdd = new claseAccesoDatos();
+            DataSet dts = new DataSet();
+
+            string query = $"Select {_NomDesc}, {_NomDesc} From {_NomTaula} Where {_NomId} = {_ControlID}";
+            
+            dts = bbdd.PortarPerConsulta(query);
+
+            TBCode.Text = dts.Tables[0].Rows[0][_Nomcodi].ToString();
+            TBDesc.Text = dts.Tables[0].Rows[0][_NomDesc].ToString();
+
         }
     }
 }
