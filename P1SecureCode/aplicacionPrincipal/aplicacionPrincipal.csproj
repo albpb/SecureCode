@@ -127,5 +127,11 @@
   <ItemGroup>
     <None Include="Resources\javalogin.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buena.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

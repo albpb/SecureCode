@@ -35,6 +35,9 @@ namespace aplicacionPrincipal
             this.lblPass = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.bntLogin = new System.Windows.Forms.Button();
+            this.lblInfo = new System.Windows.Forms.Label();
+            this.pctbLogin = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbLogin)).BeginInit();
             this.SuspendLayout();
             // 
             // txtUser
@@ -96,12 +99,34 @@ namespace aplicacionPrincipal
             this.bntLogin.UseVisualStyleBackColor = true;
             this.bntLogin.Click += new System.EventHandler(this.bntLogin_Click);
             // 
+            // lblInfo
+            // 
+            this.lblInfo.AutoSize = true;
+            this.lblInfo.BackColor = System.Drawing.Color.Transparent;
+            this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.Location = new System.Drawing.Point(153, 386);
+            this.lblInfo.Name = "lblInfo";
+            this.lblInfo.Size = new System.Drawing.Size(0, 13);
+            this.lblInfo.TabIndex = 8;
+            // 
+            // pctbLogin
+            // 
+            this.pctbLogin.BackColor = System.Drawing.Color.Transparent;
+            this.pctbLogin.Location = new System.Drawing.Point(3, 3);
+            this.pctbLogin.Name = "pctbLogin";
+            this.pctbLogin.Size = new System.Drawing.Size(379, 260);
+            this.pctbLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctbLogin.TabIndex = 9;
+            this.pctbLogin.TabStop = false;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::aplicacionPrincipal.Properties.Resources.javalogin;
             this.ClientSize = new System.Drawing.Size(383, 461);
+            this.Controls.Add(this.pctbLogin);
+            this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.bntLogin);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.lblPass);
@@ -112,6 +137,7 @@ namespace aplicacionPrincipal
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            ((System.ComponentModel.ISupportInitialize)(this.pctbLogin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,6 +150,8 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button bntLogin;
         private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.Label lblInfo;
+        private System.Windows.Forms.PictureBox pctbLogin;
     }
 }
 

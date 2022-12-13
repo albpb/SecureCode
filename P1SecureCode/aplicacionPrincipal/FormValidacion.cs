@@ -26,15 +26,19 @@ namespace aplicacionPrincipal
         appPrinc frmPrincipal;
         DataSet dts = new DataSet();
 
-
+        int contador = 0, segundos = 0;
         string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser, passActual;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
 
         private void txtPass_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter) //Funciona
             {
-                this.Hide();
-                bntLogin_Click(sender,e);
+                bntLogin_Click(sender, e);
             }
         }
 
@@ -42,9 +46,10 @@ namespace aplicacionPrincipal
 
         private void bntLogin_Click(object sender, EventArgs e)
         {
+            Timer timer = new Timer();
+            timer.Interval = 1000;
             string querry = "SELECT UserCategories.*,Users.* FROM UserCategories INNER JOIN Users ON UserCategories.idUserCategory = Users.idUserCategory " +
             "WHERE(Users.Login = '" + txtUser.Text + "')";
-            bool tablaConDatos = false;
 
             dts = ddbb.PortarPerConsulta(querry);
 
@@ -52,7 +57,7 @@ namespace aplicacionPrincipal
             {
                 if (dts.Tables[0].Rows.Count == 0)
                 {
-                    throw new Exception();
+                    throw new Exception("No hay tablas");
                 }
                 else
                 {
@@ -68,28 +73,37 @@ namespace aplicacionPrincipal
                     }
                 }
 
-                if (!tablaConDatos)
-                {
 
-                    if (txtUser.Text.ToString() == valorUserBBDD && palabraPassIgual)
-                    {
-                        this.Hide();
-                        frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
-                        frmPrincipal.ShowDialog();
-                        frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
-                    }
-                    else if (txtUser.Text.ToString() == valorUserBBDD && txtPass.Text.ToString() == "12345aA" &&valorPassBBDD == "12345aA")
-                    {
-                        this.Hide();
-                        frmCredenciales = new attCredenciales(valorUserBBDD, valorPassBBDD);
-                        frmCredenciales.ShowDialog();
-                        frmCredenciales.lblValorUser.Text = valorUserBBDD;
-                    }
-                    else
-                    {
-                        MessageBox.Show("Contraseña incorrecta.");
-                    }
+                if (txtUser.Text.ToString() == valorUserBBDD && palabraPassIgual)
+                {
+                    this.Hide();
+                    frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
+                    frmPrincipal.ShowDialog();
+                    frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
                 }
+                else if (txtUser.Text.ToString() == valorUserBBDD && txtPass.Text.ToString() == "12345aA" && valorPassBBDD == "12345aA")
+                {
+                    this.Hide();
+                    frmCredenciales = new attCredenciales(valorUserBBDD, valorPassBBDD);
+                    frmCredenciales.ShowDialog();
+                    frmCredenciales.lblValorUser.Text = valorUserBBDD;
+                }
+                else if (txtUser.Text.ToString() == valorUserBBDD && !palabraPassIgual)
+                {
+                    contador++;
+                    if (contador == 3)
+                    {
+                        timer.Start();
+                        pctbLogin.ImageLocation = @"Resources\buena.png";
+                        if (timer.Interval == 3000)
+                        {
+                            Application.Exit();
+                        }
+
+                    }
+                    throw new Exception("(" + contador + ")" + " Contraseña incorrecta");
+                }
+
             }
             catch (FileNotFoundException ex)
             {
@@ -97,9 +111,8 @@ namespace aplicacionPrincipal
             }
             catch (Exception ex)
             {
-                tablaConDatos = true;
-                MessageBox.Show(ex.Message);
-                MessageBox.Show("Credenciales Incorrectas");
+                lblInfo.Text = ex.Message;
+
                 txtUser.Clear();
                 txtUser.Focus();
                 txtPass.Clear();
