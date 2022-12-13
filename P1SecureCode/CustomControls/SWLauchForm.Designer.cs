@@ -1,5 +1,5 @@
 ﻿
-namespace SWLaunchForm
+namespace CustomControls
 {
     partial class SWLauchForm
     {

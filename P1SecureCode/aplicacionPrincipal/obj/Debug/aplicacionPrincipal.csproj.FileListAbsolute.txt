@@ -56,6 +56,7 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.splashscreen.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.GenerateResource.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CopyComplete
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.pdb

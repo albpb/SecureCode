@@ -9,20 +9,28 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.Windows.Forms;
 
+using System.IO;
+using System.Collections;
 
-namespace SWLaunchForm
+
+namespace CustomControls
 {
     public partial class SWLauchForm : UserControl
     {
         private string _colorfons;
-        
+
         public string ColorFons
         {
-            get {
+            get
+            {
                 return _colorfons;
             }
-            set { _colorfons = value;
+            set
+            {
+                _colorfons = value;
+
                 panel1.BackColor = System.Drawing.ColorTranslator.FromHtml(value);
+
             }
         }
         private string _img;
@@ -30,8 +38,14 @@ namespace SWLaunchForm
         public string Imagen
         {
             get { return _img; }
-            set { _img = value;
+            set
+            {
+                value = @"..\..\..\Img\icons\" + value;
+                _img = value;
+
                 img.Image = Image.FromFile(value);
+             
+
             }
         }
         private string _clase;
@@ -48,7 +62,9 @@ namespace SWLaunchForm
         public string Label
         {
             get { return _text; }
-            set { _text = value;
+            set
+            {
+                _text = value;
                 label1.Text = value;
             }
         }
@@ -66,6 +82,18 @@ namespace SWLaunchForm
         public SWLauchForm()
         {
             InitializeComponent();
+
+        }
+
+        public SWLauchForm(string colorFons, string imagen, string clase, string label, string form)
+        {
+            InitializeComponent();
+
+            ColorFons = colorFons;
+            Imagen = imagen;
+            Clase = clase;
+            Label = label;
+            Form = form;
 
         }
 

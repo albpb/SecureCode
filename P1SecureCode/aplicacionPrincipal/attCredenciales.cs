@@ -33,7 +33,11 @@ namespace aplicacionPrincipal
         appPrinc frmPrincipal;
 
         string valorUserBBDD, valorPassBBDD, valorNivelUser;
-        string querry = "select * from Users where 1=1 and Login = '";
+        // Es incorrecto ya que no realiza el join a la categoria para coger el nivel
+        //string querry = "select * from Users where 1=1 and Login = '";
+
+        string querry = "SELECT UserCategories.*,Users.* FROM UserCategories INNER JOIN Users ON UserCategories.idUserCategory = Users.idUserCategory " +
+        "WHERE(Users.Login = '";
         int salBH;
         bool esIgual = false;
         string salbbdd;
@@ -54,12 +58,12 @@ namespace aplicacionPrincipal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //coger el user y pass del form pasado
-            querry = querry + valorUserBBDD + "'";
+            //coger el user y pass del form pasado 
+            querry = querry + valorUserBBDD + "')";
 
             dts = ddbb.PortarPerConsulta(querry);
 
-            valorNivelUser = dts.Tables[0].Rows[0]["IdUserCategory"].ToString();
+            valorNivelUser = dts.Tables[0].Rows[0]["AccessLevel"].ToString();
 
             //nueva contraseña
             if (txtPass.Text== txtPassConfirm.Text)

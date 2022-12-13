@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponenteAccesoDatos;
 using aplicacionPrincipal;
+using System.IO;
 
 namespace aplicacionPrincipal
 {
@@ -89,6 +90,10 @@ namespace aplicacionPrincipal
                         MessageBox.Show("Contraseña incorrecta.");
                     }
                 }
+            }
+            catch (FileNotFoundException ex)
+            {
+                MessageBox.Show("No se ha encontrado el archivo. \n"+ex.Message);
             }
             catch (Exception ex)
             {

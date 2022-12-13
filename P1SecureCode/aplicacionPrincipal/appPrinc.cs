@@ -8,10 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CustomControls;
+using ComponenteAccesoDatos;
+
 namespace aplicacionPrincipal
 {
     public partial class appPrinc : Form
     {
+
         public appPrinc()
         {
             InitializeComponent();
@@ -23,7 +27,13 @@ namespace aplicacionPrincipal
             valorNivelUser = nivel;
         }
         string valorUserBBDD, valorNivelUser;
-        int valorNivelJedi, quantBnt;
+        int valorNivelJedi;
+
+        claseAccesoDatos ddbb = new claseAccesoDatos();
+        DataSet dts = new DataSet();
+
+        string querry = "SELECT * FROM UserOptions WHERE AccessLevel <= ";
+
 
         private void bntExit_Click(object sender, EventArgs e)
         {
@@ -39,48 +49,27 @@ namespace aplicacionPrincipal
             lblFecha.Text = fechaActual;
             lblNombreUsuario.Text = valorUserBBDD;
 
-            if (valorNivelJedi == 1)
-            {
-                valorNivelJedi = 50;
-                quantBnt = 5;
-            } else if (valorNivelJedi == 2)
-            {
-                valorNivelJedi = 70;
-                quantBnt = 7;
-            }
-            else if (valorNivelJedi == 3)
-            {
-                valorNivelJedi = 100;
-                quantBnt = 10;
-            }
-            else if (valorNivelJedi == 4)
-            {
-                valorNivelJedi = 30;
-                quantBnt = 3;
-            }
-            else
-            {
-                valorNivelJedi = 20;
-                quantBnt = 2;
-            }
-
             lblNv.Text = valorNivelJedi.ToString();
 
-            //Tabla de botones
-            for (int i = 0; i < quantBnt; i++)
+            querry += valorNivelJedi;
+            
+            dts = ddbb.PortarPerConsulta(querry);
+
+            foreach (DataRow row in dts.Tables[0].Rows)
             {
-                Button bnt = new Button();
+                string text = row["Texto"].ToString();
+                string clase = row["Clase"].ToString();
+                string form = row["Form"].ToString();
+                string color = row["Color"].ToString();
 
-                flpnlMain.Controls.Add(bnt);
-                bnt.BackColor = Color.White;
-                bnt.Width = 80;
-                bnt.Height = 50;
-                //bnt.Click += (sender, e) =>
-                //{
-                //    txt_password.Text = txt_password.Text + bnt.Text;
-                //};
+                string imagen = row["Icono"].ToString();
 
+                SWLauchForm launchform = new SWLauchForm(color, imagen, clase, text, form);
+
+                flpnlMain.Controls.Add(launchform);
             }
+
+
         }
     }
 }

@@ -116,6 +116,10 @@
       <Project>{59eca588-f069-4a41-bb67-a1ccc76914bc}</Project>
       <Name>ComponenteAccesoDatos</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CustomControls\CustomControls.csproj">
+      <Project>{8084383A-A5A4-4ACD-99D5-556013B5E278}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\imgSplashScreen.jpg" />
