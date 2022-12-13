@@ -1,7 +1,7 @@
 ﻿
 namespace FormBase
 {
-    partial class formBaseTratamientoDatos
+    partial class formBaseTratamientoDatosFK
     {
         /// <summary>
         /// Required designer variable.

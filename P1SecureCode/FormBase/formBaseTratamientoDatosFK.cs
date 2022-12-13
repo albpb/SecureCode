@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace FormBase
 {
-    public partial class formBaseTratamientoDatos : Form
+    public partial class formBaseTratamientoDatosFK : Form
     {
-        public formBaseTratamientoDatos()
+        public formBaseTratamientoDatosFK()
         {
             InitializeComponent();
         }
