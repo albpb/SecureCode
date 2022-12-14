@@ -57,7 +57,6 @@ namespace test
             this.swTextbox1.Name = "swTextbox1";
             this.swTextbox1.Size = new System.Drawing.Size(100, 20);
             this.swTextbox1.TabIndex = 1;
-            this.swTextbox1.Text = "2";
             // 
             // Form1
             // 
