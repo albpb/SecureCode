@@ -101,7 +101,7 @@ namespace CustomControls
         {
             if (ForeignKey)
             {
-                Form form = FindForm();
+                Form form = this.FindForm();
 
                 foreach (SWCodi control in form.Controls.OfType<SWCodi>())
                 {

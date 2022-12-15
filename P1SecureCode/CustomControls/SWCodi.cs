@@ -80,7 +80,7 @@ namespace CustomControls
             claseAccesoDatos bbdd = new claseAccesoDatos();
             DataSet dts = new DataSet();
 
-            string query = $"Select {_NomDesc}, {_NomDesc} From {_NomTaula} Where {_NomId} = {_ControlID}";
+            string query = $"Select {_Nomcodi}, {_NomDesc} From {_NomTaula} Where {_NomId} = {_ControlID}";
             
             dts = bbdd.PortarPerConsulta(query);
 
