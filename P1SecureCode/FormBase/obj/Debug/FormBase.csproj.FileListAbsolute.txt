@@ -10,3 +10,18 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Form
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CopyComplete
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\FormBase.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\FormBase.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\ComponenteAccesoDatos.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\CustomControls.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\ComponenteAccesoDatos.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\ComponenteAccesoDatos.xml
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\CustomControls.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.formBaseTratamientoDatosFK.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.formBaseTratamientoDatos.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CopyComplete
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.pdb

@@ -65,3 +65,6 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\apli
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe.config
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe.config
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.pdb
