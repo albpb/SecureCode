@@ -15,6 +15,7 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicac
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Properties.Resources.resources
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.GenerateResource.cache
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.AssemblyReference.cache
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.attCredenciales.resources
@@ -64,7 +65,6 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\apli
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe.config
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.pdb
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.pdb
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe.config
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe.config
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.pdb

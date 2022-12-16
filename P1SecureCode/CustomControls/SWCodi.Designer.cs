@@ -45,7 +45,7 @@ namespace CustomControls
             this.TBDesc.Enabled = false;
             this.TBDesc.Location = new System.Drawing.Point(109, 3);
             this.TBDesc.Name = "TBDesc";
-            this.TBDesc.Size = new System.Drawing.Size(562, 20);
+            this.TBDesc.Size = new System.Drawing.Size(346, 20);
             this.TBDesc.TabIndex = 1;
             // 
             // SWCodi
@@ -55,7 +55,7 @@ namespace CustomControls
             this.Controls.Add(this.TBDesc);
             this.Controls.Add(this.TBCode);
             this.Name = "SWCodi";
-            this.Size = new System.Drawing.Size(674, 27);
+            this.Size = new System.Drawing.Size(477, 27);
             this.ResumeLayout(false);
             this.PerformLayout();
 

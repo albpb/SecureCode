@@ -8,7 +8,9 @@ C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\Cus
 C:\Users\max\GitHub Desktop\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.dll
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWCodi.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\SWLaunchForm.SWLauchForm.resources
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWTextbox.resources
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
@@ -36,6 +38,5 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Cust
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\CustomControls.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\CustomControls.dll
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWLauchForm.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\CustomControls.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb

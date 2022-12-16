@@ -43,6 +43,7 @@ namespace aplicacionPrincipal
         private void Form1_Load(object sender, EventArgs e)
         {
             valorNivelJedi = int.Parse(valorNivelUser.ToString());
+           
 
             //Fecha actual
             string fechaActual = DateTime.Now.ToString("D");
