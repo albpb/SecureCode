@@ -13,11 +13,13 @@ namespace FormsTratamientoDatos
 {
     public partial class formTaulaSimple_Species : formBaseTratamientoDatos
     {
-        public formTaulaSimple_Species()
+        
+        public formTaulaSimple_Species(string taula)
         {
+            NomTaula = taula;
             InitializeComponent();
         }
-
+        
         public override void ConfigurarDataGrid()
         {
             dgvSpecies.Columns[1].HeaderText = "Codi Especie";

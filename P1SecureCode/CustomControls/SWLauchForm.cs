@@ -77,6 +77,14 @@ namespace CustomControls
             set { _form = value; }
         }
 
+        private string _taula;
+
+        public string Taula
+        {
+            get { return _taula; }
+            set { _taula = value; }
+        }
+
 
         public SWLauchForm()
         {
@@ -84,7 +92,7 @@ namespace CustomControls
 
         }
 
-        public SWLauchForm(string colorFons, string imagen, string clase, string label, string form)
+        public SWLauchForm(string colorFons, string imagen, string clase, string label, string form, string taula)
         {
             InitializeComponent();
 
@@ -93,6 +101,7 @@ namespace CustomControls
             Clase = clase;
             Label = label;
             Form = form;
+            Taula = taula;
 
         }
 
@@ -114,7 +123,8 @@ namespace CustomControls
 
             //instanciem l’objecte
 
-            dllBD = Activator.CreateInstance(tipus);
+            Object[] args = { _taula };
+            dllBD = Activator.CreateInstance(tipus, args);
 
             //el mostrem assumint que es tracta d’un form
 

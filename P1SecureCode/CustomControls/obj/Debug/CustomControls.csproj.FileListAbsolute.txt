@@ -18,14 +18,6 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomContro
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.pdb
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWCodi.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWLauchForm.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWTextbox.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.dll
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\CustomControls\bin\Debug\CustomControls.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
@@ -40,3 +32,11 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Comp
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\CustomControls.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWCodi.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWLauchForm.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWTextbox.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb

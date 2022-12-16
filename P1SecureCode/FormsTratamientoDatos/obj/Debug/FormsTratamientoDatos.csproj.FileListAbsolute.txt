@@ -7,3 +7,12 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\Forms
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CopyComplete
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.dll
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\FormsTratamientoDatos.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\FormsTratamientoDatos.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaSimple_Species.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CopyComplete
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.pdb

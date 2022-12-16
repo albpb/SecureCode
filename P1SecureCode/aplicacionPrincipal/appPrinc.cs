@@ -62,10 +62,11 @@ namespace aplicacionPrincipal
                 string clase = row["Clase"].ToString();
                 string form = row["Form"].ToString();
                 string color = row["Color"].ToString();
+                string taula = row["Taula"].ToString();
 
                 string imagen = row["Icono"].ToString();
 
-                SWLauchForm launchform = new SWLauchForm(color, imagen, clase, text, form);
+                SWLauchForm launchform = new SWLauchForm(color, imagen, clase, text, form, taula);
 
                 flpnlMain.Controls.Add(launchform);
             }

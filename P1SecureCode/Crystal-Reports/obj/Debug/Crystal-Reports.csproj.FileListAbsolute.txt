@@ -16,10 +16,6 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\bin\Deb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\bin\Debug\stdole.dll
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.csproj.AssemblyReference.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.csproj.CoreCompileInputs.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.dll
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Crystal-Reports\bin\Debug\Crystal-Reports.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Crystal-Reports\bin\Debug\Crystal-Reports.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Crystal-Reports\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
@@ -47,3 +43,6 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Comp
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\Crystal-Reports.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Crystal-Reports.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Crystal-Reports.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.pdb

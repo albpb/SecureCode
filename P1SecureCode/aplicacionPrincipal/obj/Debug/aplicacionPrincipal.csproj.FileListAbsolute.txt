@@ -48,16 +48,6 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\ComponenteAccesoDatos.xml
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.AssemblyReference.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.appPrinc.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.attCredenciales.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.frmLogin.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Properties.Resources.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.splashscreen.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.GenerateResource.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\bin\Debug\CustomControls.dll
@@ -68,3 +58,13 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Comp
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe.config
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.exe
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\aplicacionPrincipal.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.appPrinc.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.attCredenciales.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.frmLogin.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Properties.Resources.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.splashscreen.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
