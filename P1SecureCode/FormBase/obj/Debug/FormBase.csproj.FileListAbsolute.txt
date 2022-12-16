@@ -10,3 +10,18 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Form
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CopyComplete
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\bin\Debug\FormBase.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\bin\Debug\FormBase.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\bin\Debug\ComponenteAccesoDatos.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\bin\Debug\CustomControls.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\bin\Debug\ComponenteAccesoDatos.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\bin\Debug\ComponenteAccesoDatos.xml
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\bin\Debug\CustomControls.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.AssemblyReference.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.formBaseTratamientoDatosFK.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.formBaseTratamientoDatos.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.GenerateResource.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CoreCompileInputs.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CopyComplete
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.pdb
