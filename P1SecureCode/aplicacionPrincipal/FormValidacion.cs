@@ -95,7 +95,7 @@ namespace aplicacionPrincipal
                 {
                     timer.Enabled = true;
                     pctbLogin.Image = Image.FromFile(@"buena.png");
-                    lblInfo.Text = "Bien venido!";
+                    lblInfo.Text = "Bienvenido!";
 
                     timer.Start();
                     

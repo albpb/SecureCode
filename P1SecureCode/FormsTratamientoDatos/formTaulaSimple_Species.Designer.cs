@@ -62,7 +62,7 @@ namespace FormsTratamientoDatos
             this.swTextbox_CodeSpecie.ForeignKey = false;
             this.swTextbox_CodeSpecie.IsEmpty = false;
             this.swTextbox_CodeSpecie.Location = new System.Drawing.Point(35, 357);
-            this.swTextbox_CodeSpecie.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.swTextbox_CodeSpecie.Margin = new System.Windows.Forms.Padding(2);
             this.swTextbox_CodeSpecie.Name = "swTextbox_CodeSpecie";
             this.swTextbox_CodeSpecie.Size = new System.Drawing.Size(118, 20);
             this.swTextbox_CodeSpecie.TabIndex = 11;
@@ -74,7 +74,7 @@ namespace FormsTratamientoDatos
             this.swTextbox_DescSpecie.ForeignKey = false;
             this.swTextbox_DescSpecie.IsEmpty = false;
             this.swTextbox_DescSpecie.Location = new System.Drawing.Point(173, 357);
-            this.swTextbox_DescSpecie.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.swTextbox_DescSpecie.Margin = new System.Windows.Forms.Padding(2);
             this.swTextbox_DescSpecie.Name = "swTextbox_DescSpecie";
             this.swTextbox_DescSpecie.Size = new System.Drawing.Size(118, 20);
             this.swTextbox_DescSpecie.TabIndex = 12;
@@ -89,10 +89,11 @@ namespace FormsTratamientoDatos
             this.Controls.Add(this.lb_DescSpecie);
             this.Controls.Add(this.lb_CodeSpecie);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "formTaulaSimple_Species";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formHeredat_MantenimentTaulaSimple_Species";
+            this.Load += new System.EventHandler(this.formTaulaSimple_Species_Load);
             this.Controls.SetChildIndex(this.lb_CodeSpecie, 0);
             this.Controls.SetChildIndex(this.lb_DescSpecie, 0);
             this.Controls.SetChildIndex(this.swTextbox_CodeSpecie, 0);

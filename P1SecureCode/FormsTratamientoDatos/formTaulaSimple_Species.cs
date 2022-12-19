@@ -26,5 +26,10 @@ namespace FormsTratamientoDatos
             dgvSpecies.Columns[2].HeaderText = "Descripció Especie";
             dgvSpecies.Columns[0].Visible = false;
         }
+
+        private void formTaulaSimple_Species_Load(object sender, EventArgs e)
+        {
+            ConfigurarDataGrid();
+        }
     }
 }

@@ -95,7 +95,7 @@ namespace FormBase
                     if (c is CustomControls.SWTextbox)
                     {
                         CustomControls.SWTextbox ctr = (CustomControls.SWTextbox)c;
-                        dr[ctr.Tag.ToString()] = ctr.Text;
+                        dr[ctr.DBName] = ctr.Text;
                     }
                 }
 

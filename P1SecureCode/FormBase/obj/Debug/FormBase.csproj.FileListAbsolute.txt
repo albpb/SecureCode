@@ -22,6 +22,5 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\Form
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.formBaseTratamientoDatos.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.GenerateResource.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CoreCompileInputs.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CopyComplete
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.pdb

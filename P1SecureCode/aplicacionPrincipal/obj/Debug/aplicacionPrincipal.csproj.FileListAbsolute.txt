@@ -68,3 +68,4 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CopyComplete
