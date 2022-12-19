@@ -71,6 +71,8 @@ namespace FormBase
             DataBindingsTextBoxs();
 
             dgvSpecies.DataSource = dts.Tables[0];
+
+            ConfigurarDataGrid();
         }
 
         public virtual void ConfigurarDataGrid()
