@@ -1,0 +1,8 @@
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\UsersCat.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\UsersCat.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\UsersCat\obj\Debug\UsersCat.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\UsersCat\obj\Debug\UsersCat.UserCat_form.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\UsersCat\obj\Debug\UsersCat.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\UsersCat\obj\Debug\UsersCat.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\UsersCat\obj\Debug\UsersCat.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\UsersCat\obj\Debug\UsersCat.pdb

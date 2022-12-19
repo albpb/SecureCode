@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystal-Reports", "Crystal-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsTratamientoDatos", "FormsTratamientoDatos\FormsTratamientoDatos.csproj", "{B45C8E5E-2EF5-4661-AFB6-37C8629422D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersCat", "UsersCat\UsersCat.csproj", "{05630951-BD61-45CA-8FB0-1D431539C023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormFTP", "FormFTP\FormFTP.csproj", "{6277F2F2-AFDA-498A-A2E6-87B6A692F30F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{B45C8E5E-2EF5-4661-AFB6-37C8629422D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B45C8E5E-2EF5-4661-AFB6-37C8629422D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B45C8E5E-2EF5-4661-AFB6-37C8629422D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05630951-BD61-45CA-8FB0-1D431539C023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05630951-BD61-45CA-8FB0-1D431539C023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05630951-BD61-45CA-8FB0-1D431539C023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05630951-BD61-45CA-8FB0-1D431539C023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6277F2F2-AFDA-498A-A2E6-87B6A692F30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6277F2F2-AFDA-498A-A2E6-87B6A692F30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6277F2F2-AFDA-498A-A2E6-87B6A692F30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6277F2F2-AFDA-498A-A2E6-87B6A692F30F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
