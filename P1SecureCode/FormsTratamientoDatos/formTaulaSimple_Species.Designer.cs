@@ -93,7 +93,6 @@ namespace FormsTratamientoDatos
             this.Name = "formTaulaSimple_Species";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formHeredat_MantenimentTaulaSimple_Species";
-            this.Load += new System.EventHandler(this.formTaulaSimple_Species_Load);
             this.Controls.SetChildIndex(this.lb_CodeSpecie, 0);
             this.Controls.SetChildIndex(this.lb_DescSpecie, 0);
             this.Controls.SetChildIndex(this.swTextbox_CodeSpecie, 0);

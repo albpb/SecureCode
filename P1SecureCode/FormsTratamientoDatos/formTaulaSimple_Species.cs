@@ -17,6 +17,7 @@ namespace FormsTratamientoDatos
         public formTaulaSimple_Species(string taula)
         {
             NomTaula = taula;
+           
             InitializeComponent();
         }
         
@@ -27,9 +28,5 @@ namespace FormsTratamientoDatos
             dgvSpecies.Columns[0].Visible = false;
         }
 
-        private void formTaulaSimple_Species_Load(object sender, EventArgs e)
-        {
-            ConfigurarDataGrid();
-        }
     }
 }

@@ -65,11 +65,8 @@ namespace FormBase
         {
             if (DesignMode) return;
 
-            dts = classe.PortarTaula(NomTaula);
-
-            DataBindingsTextBoxs();
-
-            dgvSpecies.DataSource = dts.Tables[0];
+            inicialitzar();
+            ConfigurarDataGrid();
         }
 
         public virtual void ConfigurarDataGrid()
@@ -101,12 +98,20 @@ namespace FormBase
 
                 dts.Tables[0].Rows.Add(dr);
 
-                dts = classe.Actualitzar();
-
-                dgvSpecies.DataSource = dts.Tables[0];
             }
+            dts = classe.Actualitzar();
 
+            inicialitzar();
             EsNou = false;
+
+        }
+        private void inicialitzar()
+        {
+            dts = classe.PortarTaula(NomTaula);
+
+            DataBindingsTextBoxs();
+
+            dgvSpecies.DataSource = dts.Tables[0];
         }
     }
 }
