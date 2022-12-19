@@ -37,30 +37,34 @@ namespace aplicacionPrincipal
             this.bntFinish = new System.Windows.Forms.Button();
             this.lblValorUser = new System.Windows.Forms.Label();
             this.lblUserTitulo = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(87, 30);
+            this.lblTitulo.Font = new System.Drawing.Font("Lato", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(73, 28);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(202, 20);
+            this.lblTitulo.Size = new System.Drawing.Size(212, 23);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Actualize su contraseña";
             // 
             // lblNewPass
             // 
             this.lblNewPass.AutoSize = true;
+            this.lblNewPass.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNewPass.Location = new System.Drawing.Point(64, 86);
             this.lblNewPass.Name = "lblNewPass";
-            this.lblNewPass.Size = new System.Drawing.Size(96, 13);
+            this.lblNewPass.Size = new System.Drawing.Size(95, 13);
             this.lblNewPass.TabIndex = 1;
             this.lblNewPass.Text = "Nueva Contraseña";
             // 
             // lblNewPassConfirm
             // 
             this.lblNewPassConfirm.AutoSize = true;
+            this.lblNewPassConfirm.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNewPassConfirm.Location = new System.Drawing.Point(64, 112);
             this.lblNewPassConfirm.Name = "lblNewPassConfirm";
             this.lblNewPassConfirm.Size = new System.Drawing.Size(95, 13);
@@ -86,6 +90,7 @@ namespace aplicacionPrincipal
             // 
             // bntFinish
             // 
+            this.bntFinish.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntFinish.Location = new System.Drawing.Point(248, 137);
             this.bntFinish.Name = "bntFinish";
             this.bntFinish.Size = new System.Drawing.Size(75, 23);
@@ -97,21 +102,32 @@ namespace aplicacionPrincipal
             // lblValorUser
             // 
             this.lblValorUser.AutoSize = true;
-            this.lblValorUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValorUser.Location = new System.Drawing.Point(122, 172);
+            this.lblValorUser.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorUser.Location = new System.Drawing.Point(120, 169);
             this.lblValorUser.Name = "lblValorUser";
-            this.lblValorUser.Size = new System.Drawing.Size(50, 13);
+            this.lblValorUser.Size = new System.Drawing.Size(53, 16);
             this.lblValorUser.TabIndex = 6;
             this.lblValorUser.Text = "Usuario";
             // 
             // lblUserTitulo
             // 
             this.lblUserTitulo.AutoSize = true;
+            this.lblUserTitulo.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserTitulo.Location = new System.Drawing.Point(12, 172);
             this.lblUserTitulo.Name = "lblUserTitulo";
-            this.lblUserTitulo.Size = new System.Drawing.Size(104, 13);
+            this.lblUserTitulo.Size = new System.Drawing.Size(102, 13);
             this.lblUserTitulo.TabIndex = 7;
             this.lblUserTitulo.Text = "Acceso con usuario:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::aplicacionPrincipal.Properties.Resources.candado;
+            this.pictureBox1.Location = new System.Drawing.Point(291, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(29, 41);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // attCredenciales
             // 
@@ -119,6 +135,7 @@ namespace aplicacionPrincipal
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(383, 194);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblUserTitulo);
             this.Controls.Add(this.lblValorUser);
             this.Controls.Add(this.bntFinish);
@@ -132,6 +149,7 @@ namespace aplicacionPrincipal
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Actualizacion de Contraseña";
             this.Load += new System.EventHandler(this.attCredenciales_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,6 +165,7 @@ namespace aplicacionPrincipal
         public System.Windows.Forms.Label lblValorUser;
         private System.Windows.Forms.Label lblUserTitulo;
         private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

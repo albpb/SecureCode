@@ -121,16 +121,19 @@
   <data name="bgPrinc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgPrinc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="buena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buena.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="javalogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\javalogin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imgSplashScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgSplashScreen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mala" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="buena" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buena.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="candado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -54,10 +54,10 @@ namespace aplicacionPrincipal
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitulo.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Font = new System.Drawing.Font("Lato", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(134, 266);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(126, 23);
+            this.lblTitulo.Size = new System.Drawing.Size(125, 29);
             this.lblTitulo.TabIndex = 2;
             this.lblTitulo.Text = "Jaba Login";
             // 
@@ -65,10 +65,10 @@ namespace aplicacionPrincipal
             // 
             this.lblUser.AutoSize = true;
             this.lblUser.BackColor = System.Drawing.Color.Transparent;
-            this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.Location = new System.Drawing.Point(90, 308);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(60, 18);
+            this.lblUser.Size = new System.Drawing.Size(59, 18);
             this.lblUser.TabIndex = 4;
             this.lblUser.Text = "Usuario";
             // 
@@ -76,10 +76,10 @@ namespace aplicacionPrincipal
             // 
             this.lblPass.AutoSize = true;
             this.lblPass.BackColor = System.Drawing.Color.Transparent;
-            this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPass.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPass.Location = new System.Drawing.Point(65, 333);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(85, 18);
+            this.lblPass.Size = new System.Drawing.Size(82, 18);
             this.lblPass.TabIndex = 5;
             this.lblPass.Text = "Contraseña";
             // 
@@ -94,6 +94,7 @@ namespace aplicacionPrincipal
             // 
             // bntLogin
             // 
+            this.bntLogin.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntLogin.Location = new System.Drawing.Point(243, 360);
             this.bntLogin.Name = "bntLogin";
             this.bntLogin.Size = new System.Drawing.Size(75, 23);

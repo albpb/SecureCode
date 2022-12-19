@@ -53,11 +53,11 @@ namespace aplicacionPrincipal
             // 
             this.lblgrupo.AutoSize = true;
             this.lblgrupo.BackColor = System.Drawing.Color.Transparent;
-            this.lblgrupo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblgrupo.Font = new System.Drawing.Font("Lato Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblgrupo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblgrupo.Location = new System.Drawing.Point(612, 391);
+            this.lblgrupo.Location = new System.Drawing.Point(631, 391);
             this.lblgrupo.Name = "lblgrupo";
-            this.lblgrupo.Size = new System.Drawing.Size(176, 20);
+            this.lblgrupo.Size = new System.Drawing.Size(157, 19);
             this.lblgrupo.TabIndex = 1;
             this.lblgrupo.Text = "Java The Hutt Group";
             // 
