@@ -83,6 +83,16 @@ namespace aplicacionPrincipal.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap candado {
+            get {
+                object obj = ResourceManager.GetObject("candado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imgSplashScreen {
             get {
                 object obj = ResourceManager.GetObject("imgSplashScreen", resourceCulture);
