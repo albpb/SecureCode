@@ -13,9 +13,8 @@ namespace FormBase
 {
     public partial class formBaseTratamientoDatosFK : Form
     {
-        public formBaseTratamientoDatosFK(string taula)
+        public formBaseTratamientoDatosFK()
         {
-            NomTaula = taula;
             InitializeComponent();
         }
 
