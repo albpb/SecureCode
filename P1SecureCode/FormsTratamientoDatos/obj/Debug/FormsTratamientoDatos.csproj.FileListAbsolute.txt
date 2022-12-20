@@ -7,14 +7,18 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\Forms
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CopyComplete
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.dll
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaForanea_Users.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\FormsTratamientoDatos.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\FormsTratamientoDatos.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.AssemblyReference.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaSimple_Species.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaForanea_Users.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.GenerateResource.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CopyComplete
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.pdb
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CopyComplete
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaForanea_Users.resources
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaForanea_Users.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Orders_form.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Species_form.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.UserCat_form.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.FormFTP_form.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Sectors_form.resources

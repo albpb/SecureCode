@@ -39,6 +39,7 @@ namespace CustomControls
             this.TBCode.Name = "TBCode";
             this.TBCode.Size = new System.Drawing.Size(100, 20);
             this.TBCode.TabIndex = 0;
+            this.TBCode.Validated += new System.EventHandler(this.TBCode_Validated);
             // 
             // TBDesc
             // 

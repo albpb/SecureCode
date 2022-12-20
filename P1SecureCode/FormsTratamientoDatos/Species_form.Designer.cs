@@ -1,7 +1,7 @@
 ﻿
 namespace FormsTratamientoDatos
 {
-    partial class formTaulaSimple_Species
+    partial class Species_form
     {
         /// <summary>
         /// Required designer variable.
@@ -65,6 +65,7 @@ namespace FormsTratamientoDatos
             this.swTextbox_CodeSpecie.Margin = new System.Windows.Forms.Padding(2);
             this.swTextbox_CodeSpecie.Name = "swTextbox_CodeSpecie";
             this.swTextbox_CodeSpecie.Size = new System.Drawing.Size(118, 20);
+            this.swTextbox_CodeSpecie.SWCodi = null;
             this.swTextbox_CodeSpecie.TabIndex = 11;
             // 
             // swTextbox_DescSpecie
@@ -77,9 +78,10 @@ namespace FormsTratamientoDatos
             this.swTextbox_DescSpecie.Margin = new System.Windows.Forms.Padding(2);
             this.swTextbox_DescSpecie.Name = "swTextbox_DescSpecie";
             this.swTextbox_DescSpecie.Size = new System.Drawing.Size(118, 20);
+            this.swTextbox_DescSpecie.SWCodi = null;
             this.swTextbox_DescSpecie.TabIndex = 12;
             // 
-            // formTaulaSimple_Species
+            // Species_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,9 +92,9 @@ namespace FormsTratamientoDatos
             this.Controls.Add(this.lb_CodeSpecie);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(1);
-            this.Name = "formTaulaSimple_Species";
+            this.Name = "Species_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "formHeredat_MantenimentTaulaSimple_Species";
+            this.Text = "Species";
             this.Controls.SetChildIndex(this.lb_CodeSpecie, 0);
             this.Controls.SetChildIndex(this.lb_DescSpecie, 0);
             this.Controls.SetChildIndex(this.swTextbox_CodeSpecie, 0);

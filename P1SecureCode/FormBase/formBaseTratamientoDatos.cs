@@ -23,6 +23,7 @@ namespace FormBase
         claseAccesoDatos classe = new claseAccesoDatos();
 
         public string _NomTaula;
+        
 
         public string NomTaula
         {
@@ -50,6 +51,7 @@ namespace FormBase
                 }
             }
         }
+       
 
         private void UnBindingTextBoxs()
         {

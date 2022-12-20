@@ -118,7 +118,7 @@ namespace CustomControls
                     if (control.Name == _SWCodi)
                     {
                         control.ControlID = this.Text;
-                        control.ValidaCodi();
+                        control.ValidaCodi(this);
                     }
                 }
             }

@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FormBase;
 
-namespace FormsTratamientoDatos
+namespace Species
 {
-    public partial class formTaulaSimple_Species : formBaseTratamientoDatos
+    public partial class Species_form : formBaseTratamientoDatos
     {
         
-        public formTaulaSimple_Species(string taula)
+        public Species_form(string taula)
         {
             NomTaula = taula;
            

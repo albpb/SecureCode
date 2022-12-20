@@ -7,10 +7,10 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\bin\Debug\Custom
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\bin\Debug\FormBase.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\bin\Debug\ComponenteAccesoDatos.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\bin\Debug\ComponenteAccesoDatos.xml
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Orders.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Orders.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\obj\Debug\Orders.Orders_form.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\obj\Debug\Orders.csproj.GenerateResource.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\obj\Debug\Orders.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\obj\Debug\Orders.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Orders\obj\Debug\Orders.pdb
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Orders.dll
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Orders.pdb

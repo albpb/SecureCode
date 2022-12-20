@@ -1,0 +1,8 @@
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Species.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Species.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Species\obj\Debug\Species.csproj.AssemblyReference.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Species\obj\Debug\Species.Species_form.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Species\obj\Debug\Species.csproj.GenerateResource.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Species\obj\Debug\Species.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Species\obj\Debug\Species.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Species\obj\Debug\Species.pdb

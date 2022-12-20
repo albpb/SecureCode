@@ -21,6 +21,12 @@ namespace Orders
         public override void ConfigurarDataGrid()
         {
             dgvSpecies.Columns[0].Visible = false;
+            dgvSpecies.Columns[swTextbox1.DBName].Visible = false;
+            dgvSpecies.Columns[swTextbox2.DBName].Visible = false;
+
+            dgvSpecies.Columns[swTextbox3.DBName].HeaderText = "Codi";
+            dgvSpecies.Columns[swTextbox4.DBName].HeaderText = "Data";
+
 
         }
     }

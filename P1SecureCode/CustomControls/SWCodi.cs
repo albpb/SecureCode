@@ -74,8 +74,8 @@ namespace CustomControls
             get { return _ControlID; }
             set { _ControlID = value; }
         }
-
-        public void ValidaCodi()
+        private SWTextbox _SWTextbox;
+        public void ValidaCodi(SWTextbox sw)
         {
             claseAccesoDatos bbdd = new claseAccesoDatos();
             DataSet dts = new DataSet();
@@ -87,6 +87,27 @@ namespace CustomControls
             TBCode.Text = dts.Tables[0].Rows[0][_Nomcodi].ToString();
             TBDesc.Text = dts.Tables[0].Rows[0][_NomDesc].ToString();
 
+            _SWTextbox = sw;
+
+        }
+
+        private void TBCode_Validated(object sender, EventArgs e)
+        {
+            claseAccesoDatos bbdd = new claseAccesoDatos();
+            DataSet dts = new DataSet();
+
+            string query = $"Select {_NomId} From {_NomTaula} Where {_Nomcodi} = '{TBCode.Text}'";
+
+            try
+            {
+                dts = bbdd.PortarPerConsulta(query);
+                _SWTextbox.Text = dts.Tables[0].Rows[0][_NomId].ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("El codi que has escrit no existeix a la base de dades");
+                TBCode.Text = "";
+            }
         }
     }
 }

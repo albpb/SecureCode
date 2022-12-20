@@ -29,6 +29,10 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Cust
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\CustomControls.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\CustomControls.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWLauchForm.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CopyComplete
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\CustomControls.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
@@ -39,7 +43,3 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debu
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\CustomControls.dll
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\CustomControls.pdb
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.SWLauchForm.resources
-E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CopyComplete
