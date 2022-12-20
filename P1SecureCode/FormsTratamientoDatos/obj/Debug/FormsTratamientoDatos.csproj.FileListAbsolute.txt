@@ -17,3 +17,4 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\o
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CopyComplete
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaForanea_Users.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaForanea_Users.resources

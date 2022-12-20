@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CustomControls;
+
 namespace FormBase
 {
     public partial class formBaseTratamientoDatos : Form
@@ -35,7 +37,7 @@ namespace FormBase
 
         DataSet dts = new DataSet();
 
-        public void DataBindingsTextBoxs()
+        private void DataBindingsTextBoxs()
         {
             foreach (Control c in this.Controls)
             {
@@ -44,11 +46,12 @@ namespace FormBase
                     CustomControls.SWTextbox ctr = (CustomControls.SWTextbox)c;
                     ctr.DataBindings.Clear();
                     ctr.DataBindings.Add("Text", dts.Tables[0], ctr.DBName);
+
                 }
             }
         }
 
-        public void UnBindingTextBoxs()
+        private void UnBindingTextBoxs()
         {
             foreach (Control c in this.Controls)
             {

@@ -16,6 +16,7 @@ namespace CustomControls
         public SWTextbox()
         {
             InitializeComponent();
+            if (_ForeignKey) this.Enabled = false;
         }
 
         public enum DataType
@@ -46,7 +47,8 @@ namespace CustomControls
         public bool ForeignKey
         {
             get { return _ForeignKey; }
-            set { _ForeignKey = value; }
+            set {
+                _ForeignKey = value; }
         }
 
         private string _DBName;
@@ -56,6 +58,14 @@ namespace CustomControls
             get { return _DBName; }
             set { _DBName = value; }
         }
+        private string _SWCodi;
+
+        public string SWCodi
+        {
+            get { return _SWCodi; }
+            set { _SWCodi = value; }
+        }
+
 
         private void SWTextbox_Enter(object sender, EventArgs e)
         {
@@ -105,7 +115,7 @@ namespace CustomControls
 
                 foreach (SWCodi control in form.Controls.OfType<SWCodi>())
                 {
-                    if (control.Name == _DBName)
+                    if (control.Name == _SWCodi)
                     {
                         control.ControlID = this.Text;
                         control.ValidaCodi();

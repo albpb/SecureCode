@@ -18,7 +18,6 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\Comp
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\ComponenteAccesoDatos.xml
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\bin\Debug\CustomControls.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.AssemblyReference.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.formBaseTratamientoDatosFK.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.formBaseTratamientoDatos.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.GenerateResource.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CoreCompileInputs.cache

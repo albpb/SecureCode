@@ -46,7 +46,6 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\Crystal-Rep
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.pdb
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.csproj.AssemblyReference.cache
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\Crystal-Reports.dll
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\Crystal-Reports.pdb
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.csproj.CoreCompileInputs.cache
