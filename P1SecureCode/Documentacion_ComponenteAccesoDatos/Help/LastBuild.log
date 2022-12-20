@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.4.9.0" projectFile="C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Documentacion_ComponenteAccesoDatos.shfbproj" started="19/12/2022 17:23:38">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.4.9.0" projectFile="E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Documentacion_ComponenteAccesoDatos.shfbproj" started="20/12/2022 16:50:13">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Searching for HTML Help 1 compiler...
 Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
 Locating components in the following folder(s):
-    C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos
+    E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
     C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
 Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
@@ -18,27 +18,27 @@ Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll
-    Found assembly &#39;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll&#39;
-Source: C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml
+Source: E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll
+    Found assembly &#39;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.dll&#39;
+Source: E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml
 
 Copying XML comments files
-    C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ComponenteAccesoDatos.xml
+    E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\ComponenteAccesoDatos.xml -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ComponenteAccesoDatos.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, Ingl&#233;s (Estados Unidos))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0055
+</plugIn>    Last step completed in 00:00:00,0080
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0010
+    Last step completed in 00:00:00,0070
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-fe212159-edc2-427a-b658-cab2f2c1cca0.proj]
-Compilaci&#162;n iniciada a las 19/12/2022 17:23:41.
-Proyecto &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-fe212159-edc2-427a-b658-cab2f2c1cca0.proj&quot; en nodo 1 (destinos predeterminados).
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-f49ce029-cef2-40a8-ba9f-a863a87bf230.proj]
+Compilaci&#162;n iniciada a las 20/12/2022 16:50:14.
+Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-f49ce029-cef2-40a8-ba9f-a863a87bf230.proj&quot; en nodo 1 (destinos predeterminados).
 PrepareForBuild:
   Creando directorio &quot;obj\Debug\&quot;.
 GenerateBindingRedirects:
@@ -52,20 +52,20 @@ GenerateRefInfo:
   Wrote information on 1 namespaces, 1 types, and 8 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Compilaci&#162;n del proyecto terminada &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-fe212159-edc2-427a-b658-cab2f2c1cca0.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:01,3078
+Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-f49ce029-cef2-40a8-ba9f-a863a87bf230.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:00,7260
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
-Compilaci&#162;n iniciada a las 19/12/2022 17:23:42.
-Proyecto &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\TransformManifest.proj&quot; en nodo 1 (destinos predeterminados).
+Compilaci&#162;n iniciada a las 20/12/2022 16:50:15.
+Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\TransformManifest.proj&quot; en nodo 1 (destinos predeterminados).
 TransformManifest:
   XslTransform (v2021.4.9.0)
   Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  Copiando el archivo de &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\reflection.xml&quot; en &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\reflection.nofilenames&quot;.
+  Copiando el archivo de &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\reflection.xml&quot; en &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\reflection.nofilenames&quot;.
   XslTransform (v2021.4.9.0)
   Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
@@ -74,12 +74,12 @@ TransformManifest:
   Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Compilaci&#162;n del proyecto terminada &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\TransformManifest.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:00,9016
+Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\TransformManifest.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:00,6055
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,0044
+    Last step completed in 00:00:00,0039
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -88,82 +88,82 @@ Checking for other token files...
 Checking for code snippets files...
 Copying images and creating the media map file...
 Generating conceptual topic files
-    Parsing topic file &#39;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\Welcome.aml&#39;
-    C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\Welcome.aml -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\bb070b79-e8eb-4b98-9d1f-f061d8fa6fcb.xml
-    Parsing topic file &#39;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\VersionHistory.aml&#39;
-    C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\45a635b2-b1e2-4460-9056-829a2d32a296.xml
-    Parsing topic file &#39;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\v1.0.0.0.aml&#39;
-    C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\28794b6c-9449-4a0b-babc-2b27c4b3c656.xml
-    Last step completed in 00:00:00,0548
+    Parsing topic file &#39;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\Welcome.aml&#39;
+    E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\Welcome.aml -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\bb070b79-e8eb-4b98-9d1f-f061d8fa6fcb.xml
+    Parsing topic file &#39;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\VersionHistory.aml&#39;
+    E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\VersionHistory.aml -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\45a635b2-b1e2-4460-9056-829a2d32a296.xml
+    Parsing topic file &#39;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\v1.0.0.0.aml&#39;
+    E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\v1.0.0.0.aml -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\28794b6c-9449-4a0b-babc-2b27c4b3c656.xml
+    Last step completed in 00:00:00,0298
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00,0092
+    Last step completed in 00:00:00,0112
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\icons\Help.png -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\Help.png
-    Last step completed in 00:00:00,0094
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\icons\Help.png -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\Help.png
+    Last step completed in 00:00:00,0057
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00,0010
+    Last step completed in 00:00:00,0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Compilaci&#162;n iniciada a las 19/12/2022 17:23:43.
-Proyecto &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateIntermediateTOC.proj&quot; en nodo 1 (destinos predeterminados).
+Compilaci&#162;n iniciada a las 20/12/2022 16:50:16.
+Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateIntermediateTOC.proj&quot; en nodo 1 (destinos predeterminados).
 GenerateIntermediateTOC:
   XslTransform (v2021.4.9.0)
   Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Compilaci&#162;n del proyecto terminada &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateIntermediateTOC.proj&quot; (destinos predeterminados).
+Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateIntermediateTOC.proj&quot; (destinos predeterminados).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,5300
+    Last step completed in 00:00:00,3437
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00,1512
+    Last step completed in 00:00:00,1930
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\sandcastle.config
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\sandcastle.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0075
+    Last step completed in 00:00:00,0060
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
-Compilaci&#162;n iniciada a las 19/12/2022 17:23:44.
-Proyecto &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj&quot; en nodo 1 (destinos predeterminados).
+Compilaci&#162;n iniciada a las 20/12/2022 16:50:16.
+Proyecto &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj&quot; en nodo 1 (destinos predeterminados).
 BuildTopics:
   BuildAssembler (v2021.4.9.0)
   Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [N:ComponenteAccesoDatos] Missing &lt;summary&gt; documentation [C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ComponenteAccesoDatos.claseAccesoDatos.Actualitzar(System.Data.DataSet,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:ComponenteAccesoDatos] Missing &lt;summary&gt; documentation [E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ComponenteAccesoDatos.claseAccesoDatos.Actualitzar(System.Data.DataSet,System.String)] Missing &lt;returns&gt; documentation [E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj]
   Processed 17 topic(s)
   2 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
-Compilaci&#162;n del proyecto terminada &quot;C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:04,4897
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+Compilaci&#162;n del proyecto terminada &quot;E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\BuildTopics.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:07,0756
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0020
+    Last step completed in 00:00:00,0022
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -174,78 +174,78 @@ E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing Help 1 files in C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1
+Processing Help 1 files in E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1
 Processed 17 HTML files
 Sorting keywords and generating See Also indices
-Saving HTML Help 1 keyword index to C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Documentacion_ComponenteAccesoDatos.hhk
-Saving HTML Help 1 table of contents to C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Documentacion_ComponenteAccesoDatos.hhc
-    Last step completed in 00:00:00,4410
+Saving HTML Help 1 keyword index to E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Documentacion_ComponenteAccesoDatos.hhk
+Saving HTML Help 1 table of contents to E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Documentacion_ComponenteAccesoDatos.hhc
+    Last step completed in 00:00:00,3055
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding.css
-    Last step completed in 00:00:00,5275
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,4940
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -257,7 +257,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00,0055
+    Last step completed in 00:00:00,0030
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -266,7 +266,7 @@ Compiling HTML Help 1 file...
   
   
   
-  Compiling c:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\Documentacion_ComponenteAccesoDatos.chm
+  Compiling e:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\Documentacion_ComponenteAccesoDatos.chm
   
   
   
@@ -286,19 +286,19 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\Documentacion_ComponenteAccesoDatos.chm, 69,323 bytes
+  Created e:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\HtmlHelp1\Documentacion_ComponenteAccesoDatos.chm, 69,781 bytes
   
-  Compression decreased file by 133,995 bytes.
+  Compression decreased file by 135,027 bytes.
   
-    Last step completed in 00:00:01,5634
+    Last step completed in 00:00:01,0698
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,0410
+    Last step completed in 00:00:00,0635
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 19/12/2022 17:23:51.  Total time: 00:00:12,4185
+Build completed successfully at 20/12/2022 16:50:25.  Total time: 00:00:12,2266
 
 </buildStep>
 </shfbBuild>

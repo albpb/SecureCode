@@ -1,5 +1,4 @@
-﻿
-namespace FormsTratamientoDatos
+﻿namespace FormsTratamientoDatos
 {
     partial class formTaulaForanea_Users
     {
@@ -29,10 +28,18 @@ namespace FormsTratamientoDatos
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // formTaulaForanea_Users
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 627);
+            this.Name = "formTaulaForanea_Users";
             this.Text = "formTaulaForanea_Users";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

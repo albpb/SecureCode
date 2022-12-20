@@ -66,6 +66,7 @@ namespace FormBase
             if (DesignMode) return;
 
             inicialitzar();
+
             ConfigurarDataGrid();
         }
 

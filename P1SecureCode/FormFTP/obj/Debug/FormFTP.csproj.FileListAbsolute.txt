@@ -6,3 +6,12 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormF
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\FormFTP.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\FormFTP.pdb
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.csproj.AssemblyReference.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.FormulariFTP.resources
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.csproj.GenerateResource.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.csproj.CoreCompileInputs.cache
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.csproj.CopyComplete
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.dll
+E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormFTP\obj\Debug\FormFTP.pdb

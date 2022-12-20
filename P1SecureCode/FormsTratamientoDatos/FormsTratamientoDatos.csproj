@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formTaulaForanea_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTaulaForanea_Users.Designer.cs">
+      <DependentUpon>formTaulaForanea_Users.cs</DependentUpon>
+    </Compile>
     <Compile Include="formTaulaSimple_Species.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="formTaulaForanea_Users.resx">
+      <DependentUpon>formTaulaForanea_Users.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formTaulaSimple_Species.resx">
       <DependentUpon>formTaulaSimple_Species.cs</DependentUpon>
     </EmbeddedResource>
