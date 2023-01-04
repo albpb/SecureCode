@@ -38,3 +38,5 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\Form
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.csproj.CopyComplete
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormBase\obj\Debug\FormBase.pdb
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormBase\bin\Debug\CustomControls.dll
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormBase\bin\Debug\CustomControls.pdb

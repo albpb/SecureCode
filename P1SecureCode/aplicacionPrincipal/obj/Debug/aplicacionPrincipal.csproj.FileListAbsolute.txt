@@ -71,3 +71,6 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.exe
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.pdb
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.FormExit.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.FormAplicaciones.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.inicioApp.resources
