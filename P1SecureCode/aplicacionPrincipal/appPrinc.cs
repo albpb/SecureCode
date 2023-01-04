@@ -18,8 +18,6 @@ namespace aplicacionPrincipal
     {
         //campos
         private Button bntActual;
-        private Random rdn;
-        private int tempIndex;
         private Form activeForm;
 
         //constructor
@@ -42,6 +40,7 @@ namespace aplicacionPrincipal
         claseAccesoDatos ddbb = new claseAccesoDatos();
         DataSet dts = new DataSet();
         string querry = "SELECT * FROM UserOptions WHERE AccessLevel <= ";
+        
 
         //bnt X
         private void bntExit_Click(object sender, EventArgs e)
@@ -90,6 +89,7 @@ namespace aplicacionPrincipal
             this.panelDesktop.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
+            lblTitulo.Text = bntActual.Text.ToString();
         }
 
         private void bntHome_Click(object sender, EventArgs e)
@@ -101,18 +101,13 @@ namespace aplicacionPrincipal
         {
             OpenChildForm(new Forms.FormAplicaciones(), sender);
         }
-
-        //private void bntTablaF_Click(object sender, EventArgs e)
-        //{
-        //    ActivateButton(sender);
-        //}
-
         private void Settings_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormExit(),sender);
+            string userName = lblNombreUsuario.Text;
+            string valorPoder = lblNv.Text;
+            OpenChildForm(new Forms.FormExit(userName, valorPoder), sender);
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        public void appPrinc_Load(object sender, EventArgs e)
         {
             valorNivelJedi = int.Parse(valorNivelUser.ToString());
 
@@ -124,23 +119,14 @@ namespace aplicacionPrincipal
             lblNv.Text = valorNivelJedi.ToString();
 
             querry += valorNivelJedi;
-            
+
             dts = ddbb.PortarPerConsulta(querry);
-
-            foreach (DataRow row in dts.Tables[0].Rows)
-            {
-                string text = row["Texto"].ToString();
-                string clase = row["Clase"].ToString();
-                string form = row["Form"].ToString();
-                string color = row["Color"].ToString();
-                string taula = row["Taula"].ToString();
-
-                string imagen = row["Icono"].ToString();
-
-                SWLauchForm launchform = new SWLauchForm(color, imagen, clase, text, form, taula);
-
-                flpnlMain.Controls.Add(launchform);
-            }
         }
+ 
+        //private void bntTablaF_Click(object sender, EventArgs e)
+        //{
+        //    ActivateButton(sender);
+        //}
+
     }
 }

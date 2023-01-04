@@ -12,18 +12,21 @@ namespace aplicacionPrincipal.Forms
 {
     public partial class FormExit : Form
     {
-        public FormExit()
+        private string userName, valorPoder;
+
+        public FormExit(string _user, string _poder)
         {
+            userName = _user;
+            valorPoder = _poder;
             InitializeComponent();
         }
-
-        int valorNivelJedi;
-        string valorUserBBDD, valorNivelUser;
         private void FormExit_Load(object sender, EventArgs e)
         {
-            lblNombreUsuario.Text = valorUserBBDD;
+            //lblUser.Text = Forms.lblNombreUsuario.Text;
+            lblUser.Text = userName;
+            lblNv.Text = valorPoder;
 
-            lblNv.Text = valorNivelJedi.ToString();
+            //lblNv.Text = valorNivelJedi.ToString();
         }
     }
 

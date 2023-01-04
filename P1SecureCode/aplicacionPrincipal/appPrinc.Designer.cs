@@ -29,50 +29,39 @@ namespace aplicacionPrincipal
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblNombreUsuario = new System.Windows.Forms.Label();
-            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.lblNivel = new System.Windows.Forms.Label();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.lblNv = new System.Windows.Forms.Label();
-            this.bntExit = new System.Windows.Forms.Label();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.panelHeader = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panelDesktop = new System.Windows.Forms.Panel();
+            this.lblNv = new System.Windows.Forms.Label();
             this.Settings = new System.Windows.Forms.Button();
             this.bntTablaS = new System.Windows.Forms.Button();
             this.bntHome = new System.Windows.Forms.Button();
-            this.flpnlMain = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bntExit = new System.Windows.Forms.Label();
+            this.panelHeader = new System.Windows.Forms.Panel();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblNombreUsuario = new System.Windows.Forms.Label();
+            this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelHeader.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panelDesktop.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblNombreUsuario
+            // lblTitulo
             // 
-            this.lblNombreUsuario.AutoSize = true;
-            this.lblNombreUsuario.BackColor = System.Drawing.Color.Transparent;
-            this.lblNombreUsuario.Font = new System.Drawing.Font("Lato", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreUsuario.Location = new System.Drawing.Point(3, 0);
-            this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(392, 51);
-            this.lblNombreUsuario.TabIndex = 0;
-            this.lblNombreUsuario.Text = "Nombre de Usuario";
-            // 
-            // lblFecha
-            // 
-            this.lblFecha.AutoSize = true;
-            this.lblFecha.BackColor = System.Drawing.Color.Transparent;
-            this.lblFecha.Font = new System.Drawing.Font("Lato Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(6, 51);
-            this.lblFecha.Name = "lblFecha";
-            this.lblFecha.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblFecha.Size = new System.Drawing.Size(172, 33);
-            this.lblFecha.TabIndex = 2;
-            this.lblFecha.Text = "Fecha de hoy";
+            this.lblTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Lato", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(90, 25);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(138, 51);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "Home";
+            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNivel
             // 
@@ -80,6 +69,7 @@ namespace aplicacionPrincipal
             this.lblNivel.BackColor = System.Drawing.Color.Transparent;
             this.lblNivel.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblNivel.Font = new System.Drawing.Font("Lato", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNivel.ForeColor = System.Drawing.Color.OliveDrab;
             this.lblNivel.Location = new System.Drawing.Point(0, 0);
             this.lblNivel.Name = "lblNivel";
             this.lblNivel.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -101,55 +91,6 @@ namespace aplicacionPrincipal
             this.panelMenu.Size = new System.Drawing.Size(220, 633);
             this.panelMenu.TabIndex = 5;
             // 
-            // lblNv
-            // 
-            this.lblNv.AutoSize = true;
-            this.lblNv.BackColor = System.Drawing.Color.Transparent;
-            this.lblNv.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblNv.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNv.Location = new System.Drawing.Point(206, 0);
-            this.lblNv.Name = "lblNv";
-            this.lblNv.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNv.Size = new System.Drawing.Size(14, 15);
-            this.lblNv.TabIndex = 5;
-            this.lblNv.Text = "0";
-            // 
-            // bntExit
-            // 
-            this.bntExit.AutoSize = true;
-            this.bntExit.BackColor = System.Drawing.Color.Transparent;
-            this.bntExit.Dock = System.Windows.Forms.DockStyle.Right;
-            this.bntExit.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntExit.Location = new System.Drawing.Point(821, 0);
-            this.bntExit.Name = "bntExit";
-            this.bntExit.Padding = new System.Windows.Forms.Padding(6);
-            this.bntExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bntExit.Size = new System.Drawing.Size(30, 30);
-            this.bntExit.TabIndex = 4;
-            this.bntExit.Text = "X";
-            this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
-            // 
-            // panelLogo
-            // 
-            this.panelLogo.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.panelLogo.Controls.Add(this.label1);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(220, 100);
-            this.panelLogo.TabIndex = 6;
-            // 
-            // panelHeader
-            // 
-            this.panelHeader.Controls.Add(this.lblNombreUsuario);
-            this.panelHeader.Controls.Add(this.lblFecha);
-            this.panelHeader.Controls.Add(this.bntExit);
-            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(220, 0);
-            this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(851, 100);
-            this.panelHeader.TabIndex = 7;
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.lblNivel);
@@ -160,27 +101,19 @@ namespace aplicacionPrincipal
             this.panel1.Size = new System.Drawing.Size(220, 30);
             this.panel1.TabIndex = 11;
             // 
-            // label1
+            // lblNv
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lato Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(41, 39);
-            this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(128, 23);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Java The Hutt";
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.Controls.Add(this.flpnlMain);
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(220, 100);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(851, 533);
-            this.panelDesktop.TabIndex = 8;
+            this.lblNv.AutoSize = true;
+            this.lblNv.BackColor = System.Drawing.Color.Transparent;
+            this.lblNv.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblNv.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNv.ForeColor = System.Drawing.Color.OliveDrab;
+            this.lblNv.Location = new System.Drawing.Point(206, 0);
+            this.lblNv.Name = "lblNv";
+            this.lblNv.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblNv.Size = new System.Drawing.Size(14, 15);
+            this.lblNv.TabIndex = 5;
+            this.lblNv.Text = "0";
             // 
             // Settings
             // 
@@ -243,16 +176,83 @@ namespace aplicacionPrincipal
             this.bntHome.UseVisualStyleBackColor = false;
             this.bntHome.Click += new System.EventHandler(this.bntHome_Click);
             // 
-            // flpnlMain
+            // panelLogo
             // 
-            this.flpnlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flpnlMain.BackColor = System.Drawing.Color.Beige;
-            this.flpnlMain.Location = new System.Drawing.Point(72, 104);
-            this.flpnlMain.Name = "flpnlMain";
-            this.flpnlMain.Size = new System.Drawing.Size(742, 397);
-            this.flpnlMain.TabIndex = 6;
+            this.panelLogo.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.panelLogo.Controls.Add(this.label1);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(220, 100);
+            this.panelLogo.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Lato Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.Location = new System.Drawing.Point(41, 39);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(128, 23);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Java The Hutt";
+            // 
+            // bntExit
+            // 
+            this.bntExit.AutoSize = true;
+            this.bntExit.BackColor = System.Drawing.Color.Transparent;
+            this.bntExit.Dock = System.Windows.Forms.DockStyle.Right;
+            this.bntExit.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntExit.Location = new System.Drawing.Point(821, 0);
+            this.bntExit.Name = "bntExit";
+            this.bntExit.Padding = new System.Windows.Forms.Padding(6);
+            this.bntExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bntExit.Size = new System.Drawing.Size(30, 30);
+            this.bntExit.TabIndex = 4;
+            this.bntExit.Text = "X";
+            this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
+            // 
+            // panelHeader
+            // 
+            this.panelHeader.Controls.Add(this.lblFecha);
+            this.panelHeader.Controls.Add(this.lblTitulo);
+            this.panelHeader.Controls.Add(this.bntExit);
+            this.panelHeader.Controls.Add(this.lblNombreUsuario);
+            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeader.Location = new System.Drawing.Point(220, 0);
+            this.panelHeader.Name = "panelHeader";
+            this.panelHeader.Size = new System.Drawing.Size(851, 100);
+            this.panelHeader.TabIndex = 7;
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.lblFecha.Location = new System.Drawing.Point(642, 25);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(34, 13);
+            this.lblFecha.TabIndex = 5;
+            this.lblFecha.Text = "fecha";
+            // 
+            // lblNombreUsuario
+            // 
+            this.lblNombreUsuario.AutoSize = true;
+            this.lblNombreUsuario.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.lblNombreUsuario.Location = new System.Drawing.Point(642, 47);
+            this.lblNombreUsuario.Name = "lblNombreUsuario";
+            this.lblNombreUsuario.Size = new System.Drawing.Size(27, 13);
+            this.lblNombreUsuario.TabIndex = 6;
+            this.lblNombreUsuario.Text = "user";
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(220, 100);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(851, 533);
+            this.panelDesktop.TabIndex = 8;
             // 
             // appPrinc
             // 
@@ -269,22 +269,20 @@ namespace aplicacionPrincipal
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplicacion Java The Hutt";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.appPrinc_Load);
             this.panelMenu.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panelDesktop.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lblFecha;
-        public System.Windows.Forms.Label lblNombreUsuario;
+        public System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblNivel;
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Label bntExit;
@@ -297,7 +295,8 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelDesktop;
-        private System.Windows.Forms.FlowLayoutPanel flpnlMain;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Label lblNombreUsuario;
     }
 }
 

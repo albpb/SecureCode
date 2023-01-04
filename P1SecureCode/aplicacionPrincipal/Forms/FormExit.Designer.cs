@@ -29,26 +29,30 @@ namespace aplicacionPrincipal.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblNombreUsuario = new System.Windows.Forms.Label();
+            this.lblUser = new System.Windows.Forms.Label();
             this.lblNivel = new System.Windows.Forms.Label();
             this.lblNv = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lblNombreUsuario
+            // lblUser
             // 
-            this.lblNombreUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNombreUsuario.AutoSize = true;
-            this.lblNombreUsuario.BackColor = System.Drawing.Color.Transparent;
-            this.lblNombreUsuario.Font = new System.Drawing.Font("Lato", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreUsuario.Location = new System.Drawing.Point(204, 95);
-            this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(392, 51);
-            this.lblNombreUsuario.TabIndex = 3;
-            this.lblNombreUsuario.Text = "Nombre de Usuario";
+            this.lblUser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblUser.AutoSize = true;
+            this.lblUser.BackColor = System.Drawing.Color.Transparent;
+            this.lblUser.Font = new System.Drawing.Font("Lato", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Location = new System.Drawing.Point(204, 95);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(392, 51);
+            this.lblUser.TabIndex = 3;
+            this.lblUser.Text = "Nombre de Usuario";
             // 
             // lblNivel
             // 
-            this.lblNivel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNivel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNivel.AutoSize = true;
             this.lblNivel.BackColor = System.Drawing.Color.Transparent;
             this.lblNivel.Font = new System.Drawing.Font("Lato", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -61,7 +65,9 @@ namespace aplicacionPrincipal.Forms
             // 
             // lblNv
             // 
-            this.lblNv.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNv.AutoSize = true;
             this.lblNv.BackColor = System.Drawing.Color.Transparent;
             this.lblNv.Font = new System.Drawing.Font("Lato", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -79,7 +85,7 @@ namespace aplicacionPrincipal.Forms
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblNivel);
             this.Controls.Add(this.lblNv);
-            this.Controls.Add(this.lblNombreUsuario);
+            this.Controls.Add(this.lblUser);
             this.Name = "FormExit";
             this.Text = "FormExit";
             this.Load += new System.EventHandler(this.FormExit_Load);
@@ -90,7 +96,7 @@ namespace aplicacionPrincipal.Forms
 
         #endregion
 
-        public System.Windows.Forms.Label lblNombreUsuario;
+        public System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.Label lblNivel;
         private System.Windows.Forms.Label lblNv;
     }

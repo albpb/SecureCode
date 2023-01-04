@@ -47,7 +47,7 @@ namespace aplicacionPrincipal
                 this.Hide();
                 frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
                 frmPrincipal.ShowDialog();
-                frmPrincipal.lblNombreUsuario.Text = valorUserBBDD;
+                frmPrincipal.lblTitulo.Text = valorUserBBDD;
             }
 
         }
