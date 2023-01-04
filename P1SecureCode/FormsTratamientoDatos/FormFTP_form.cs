@@ -17,6 +17,7 @@ namespace FormsTratamientoDatos
         {
             NomTaula = taula;
             InitializeComponent();
+            
         }
 
         public override void ConfigurarDataGrid()
@@ -24,5 +25,29 @@ namespace FormsTratamientoDatos
             dgvSpecies.Columns["AccessLevel"].HeaderText = "Nivell Accés";
             dgvSpecies.Columns[0].Visible = false;
         }
+        private void BindingLaunchForm()
+        {
+            swLauchForm1.DataBindings.Add("Label", swTText, "Text");
+            swLauchForm1.DataBindings.Add("ColorFons", swTColor, "Text");
+        }
+
+        private void FormFTP_form_Load(object sender, EventArgs e)
+        {
+            BindingLaunchForm();
+        }
+
+        private void swTImage_Validated(object sender, EventArgs e)
+        {
+            try
+            {
+                swLauchForm1.Imagen = swTImage.Text;
+            }
+            catch (Exception)
+            {
+                swLauchForm1.Imagen = "form_test.png";
+                MessageBox.Show("Imagen no encontrada");
+            }
+        }
+
     }
 }

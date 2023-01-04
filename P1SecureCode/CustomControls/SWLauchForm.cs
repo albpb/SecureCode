@@ -40,6 +40,7 @@ namespace CustomControls
             get { return _img; }
             set
             {
+                if (DesignMode) return;
                 value = @"..\Img\icons\" + value;
                 _img = value;
 
@@ -84,6 +85,13 @@ namespace CustomControls
             get { return _taula; }
             set { _taula = value; }
         }
+        private bool _isEnabled;
+
+        public bool isEnabled
+        {
+            get { return _isEnabled; }
+            set { _isEnabled = value; }
+        }
 
 
         public SWLauchForm()
@@ -102,6 +110,8 @@ namespace CustomControls
             Label = label;
             Form = form;
             Taula = taula;
+
+            isEnabled = true;
 
         }
 
