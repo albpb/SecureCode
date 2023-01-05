@@ -18,17 +18,21 @@ namespace aplicacionPrincipal.Forms
         {
             InitializeComponent();
         }
-        string valorUserBBDD, valorNivelUser;
-        int valorNivelJedi;
+        public FormAplicaciones(string _poder)
+        {
+            valorPoder = _poder;
+            InitializeComponent();
+        }
+        string valorPoder;
         claseAccesoDatos ddbb = new claseAccesoDatos();
         DataSet dts = new DataSet();
         string querry = "SELECT * FROM UserOptions WHERE AccessLevel <= ";
 
         private void flpnlMain_Paint_1(object sender, PaintEventArgs e)
         {
-            valorNivelJedi = int.Parse(valorNivelUser.ToString());
+            //valorNivelJedi = int.Parse(valorNivelUser.ToString());
 
-            querry += valorNivelJedi;
+            querry += valorPoder;
 
             dts = ddbb.PortarPerConsulta(querry);
 

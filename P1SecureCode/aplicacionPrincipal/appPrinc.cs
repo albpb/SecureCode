@@ -99,7 +99,8 @@ namespace aplicacionPrincipal
 
         private void bntTablaS_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormAplicaciones(), sender);
+            string valorPoder = lblNv.Text;
+            OpenChildForm(new Forms.FormAplicaciones(valorPoder), sender);
         }
         private void Settings_Click(object sender, EventArgs e)
         {
