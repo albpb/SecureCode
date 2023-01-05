@@ -116,12 +116,11 @@ namespace aplicacionPrincipal
             string fechaActual = DateTime.Now.ToString("D");
             lblFecha.Text = fechaActual;
             lblNombreUsuario.Text = valorUserBBDD;
-
             lblNv.Text = valorNivelJedi.ToString();
 
-            querry += valorNivelJedi;
+            //querry += valorNivelJedi;
 
-            dts = ddbb.PortarPerConsulta(querry);
+            //dts = ddbb.PortarPerConsulta(querry);
         }
  
         //private void bntTablaF_Click(object sender, EventArgs e)

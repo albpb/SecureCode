@@ -65,6 +65,7 @@ namespace aplicacionPrincipal.Forms
             this.Controls.Add(this.lblApps);
             this.Name = "FormAplicaciones";
             this.Text = "FormAplicaciones";
+            this.Load += new System.EventHandler(this.FormAplicaciones_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -37,10 +37,8 @@ namespace aplicacionPrincipal
             this.txtPass = new System.Windows.Forms.TextBox();
             this.bntLogin = new System.Windows.Forms.Button();
             this.lblInfo = new System.Windows.Forms.Label();
-            this.pctbLogin = new System.Windows.Forms.PictureBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.tmalo = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pctbLogin)).BeginInit();
             this.SuspendLayout();
             // 
             // txtUser
@@ -113,16 +111,6 @@ namespace aplicacionPrincipal
             this.lblInfo.Size = new System.Drawing.Size(0, 13);
             this.lblInfo.TabIndex = 8;
             // 
-            // pctbLogin
-            // 
-            this.pctbLogin.BackColor = System.Drawing.Color.Transparent;
-            this.pctbLogin.Location = new System.Drawing.Point(3, 3);
-            this.pctbLogin.Name = "pctbLogin";
-            this.pctbLogin.Size = new System.Drawing.Size(379, 260);
-            this.pctbLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctbLogin.TabIndex = 9;
-            this.pctbLogin.TabStop = false;
-            // 
             // timer
             // 
             this.timer.Interval = 1000;
@@ -137,9 +125,8 @@ namespace aplicacionPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::aplicacionPrincipal.Properties.Resources.javalogin;
+            this.BackgroundImage = global::aplicacionPrincipal.Properties.Resources.javaloginbase;
             this.ClientSize = new System.Drawing.Size(383, 461);
-            this.Controls.Add(this.pctbLogin);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.bntLogin);
             this.Controls.Add(this.txtPass);
@@ -151,7 +138,6 @@ namespace aplicacionPrincipal
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
-            ((System.ComponentModel.ISupportInitialize)(this.pctbLogin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,7 +151,6 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.Button bntLogin;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label lblInfo;
-        private System.Windows.Forms.PictureBox pctbLogin;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Timer tmalo;
     }

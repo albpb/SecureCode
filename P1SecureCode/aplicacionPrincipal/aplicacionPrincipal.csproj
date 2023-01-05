@@ -179,5 +179,17 @@
   <ItemGroup>
     <None Include="Resources\settings.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Java_theHutt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\javaloginbase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\javaloginbueno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\javaloginmalo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

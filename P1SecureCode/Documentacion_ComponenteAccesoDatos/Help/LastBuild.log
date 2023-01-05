@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.8.14.1" projectFile="E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Documentacion_ComponenteAccesoDatos.shfbproj" started="04/01/2023 17:49:19">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.8.14.1" projectFile="E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Documentacion_ComponenteAccesoDatos.shfbproj" started="05/01/2023 17:23:24">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -25,17 +25,17 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, Ingl&#233;s (Estados Unidos))...
-    Last step completed in 00:00:00,0237
+    Last step completed in 00:00:00,0179
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0041
+    Last step completed in 00:00:00,0000
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-0693aeb6-a422-4431-975d-00cfa97adc4a.proj]
-Compilaci&#162;n iniciada a las 04/01/2023 17:49:20.
-Proyecto &quot;E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-0693aeb6-a422-4431-975d-00cfa97adc4a.proj&quot; en nodo 1 (destinos predeterminados).
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-3e930ebe-6080-4d71-81c7-f7ca9f235127.proj]
+Compilaci&#162;n iniciada a las 05/01/2023 17:23:26.
+Proyecto &quot;E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-3e930ebe-6080-4d71-81c7-f7ca9f235127.proj&quot; en nodo 1 (destinos predeterminados).
 PrepareForBuild:
   Creando directorio &quot;obj\Debug\&quot;.
 GenerateBindingRedirects:
@@ -48,24 +48,24 @@ GenerateRefInfo:
   Wrote information on 1 namespaces, 1 types, and 8 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Compilaci&#162;n del proyecto terminada &quot;E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-0693aeb6-a422-4431-975d-00cfa97adc4a.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:01,2722
+Compilaci&#162;n del proyecto terminada &quot;E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\GenerateRefInfo-3e930ebe-6080-4d71-81c7-f7ca9f235127.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,3508
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00,0182
+    Last step completed in 00:00:00,0638
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00,0201
+    Last step completed in 00:00:00,0154
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00,0076
+    Last step completed in 00:00:00,0156
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,0865
+    Last step completed in 00:00:00,1441
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -79,19 +79,19 @@ Generating conceptual topic files
     E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\VersionHistory.aml -&gt; E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\45a635b2-b1e2-4460-9056-829a2d32a296.xml
     Parsing topic file &#39;E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\v1.0.0.0.aml&#39;
     E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Content\VersionHistory\v1.0.0.0.aml -&gt; E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\ddueXml\28794b6c-9449-4a0b-babc-2b27c4b3c656.xml
-    Last step completed in 00:00:00,1914
+    Last step completed in 00:00:00,2600
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into reference topic manifest file
-    Last step completed in 00:00:00,1079
+    Last step completed in 00:00:00,1362
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\icons\Help.png -&gt; E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00,0596
+    Last step completed in 00:00:00,0837
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -100,15 +100,15 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,0254
+    Last step completed in 00:00:00,0405
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00,2568
+    Last step completed in 00:00:00,2796
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0100
+    Last step completed in 00:00:00,0302
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -116,7 +116,7 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Docu
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0160
+    Last step completed in 00:00:00,0301
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -132,10 +132,10 @@ CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 
 ResolveArtLinksComponent: Copying media files...
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
-SaveComponent: Waiting for the document writer task to finish (4 Website API file(s) remaining)...
+SaveComponent: Waiting for the document writer task to finish (3 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:00,7695
+</plugIn>    Last step completed in 00:00:00,9402
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -171,26 +171,26 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Documentacion_ComponenteAccesoDatos\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00,6099
+    Last step completed in 00:00:00,6615
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00,2424
+    Last step completed in 00:00:00,3083
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 81 files for the website content
-    Last step completed in 00:00:01,3755
+    Last step completed in 00:00:01,4121
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,4983
+    Last step completed in 00:00:00,5312
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 04/01/2023 17:49:25.  Total time: 00:00:06,1285
+Build completed successfully at 05/01/2023 17:23:32.  Total time: 00:00:07,1694
 
 </buildStep>
 </shfbBuild>

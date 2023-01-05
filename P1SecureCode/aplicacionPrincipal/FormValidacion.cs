@@ -94,8 +94,10 @@ namespace aplicacionPrincipal
                 if (txtUser.Text.ToString() == valorUserBBDD && palabraPassIgual)
                 {
                     timer.Enabled = true;
-                    pctbLogin.Image = Image.FromFile(@"buena.png");
+                    //pctbLogin.Image = Image.FromFile(@"buena.png");
+                    this.BackgroundImage = Image.FromFile(@"javaloginbueno.png");
                     lblInfo.Text = "Bienvenido!";
+                    lblInfo.ForeColor = Color.Green;
 
                     timer.Start();
                     
@@ -112,7 +114,8 @@ namespace aplicacionPrincipal
                     contador++;
                     if (contador == 3)
                     {
-                        pctbLogin.Image = Image.FromFile(@"mala.png");
+                        //pctbLogin.Image = Image.FromFile(@"mala.png");
+                        this.BackgroundImage = Image.FromFile(@"javaloginmalo.png");
                         intruso = true;
                         tmalo.Start();
                     }

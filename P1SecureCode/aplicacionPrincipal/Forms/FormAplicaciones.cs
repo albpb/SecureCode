@@ -28,10 +28,8 @@ namespace aplicacionPrincipal.Forms
         DataSet dts = new DataSet();
         string querry = "SELECT * FROM UserOptions WHERE AccessLevel <= ";
 
-        private void flpnlMain_Paint_1(object sender, PaintEventArgs e)
+        private void FormAplicaciones_Load(object sender, EventArgs e)
         {
-            //valorNivelJedi = int.Parse(valorNivelUser.ToString());
-
             querry += valorPoder;
 
             dts = ddbb.PortarPerConsulta(querry);
@@ -51,5 +49,29 @@ namespace aplicacionPrincipal.Forms
                 flpnlMain.Controls.Add(launchform);
             }
         }
+        private void flpnlMain_Paint_1(object sender, PaintEventArgs e)
+        {
+            //valorNivelJedi = int.Parse(valorNivelUser.ToString());
+
+            //querry += valorPoder;
+
+            //dts = ddbb.PortarPerConsulta(querry);
+
+            //foreach (DataRow row in dts.Tables[0].Rows)
+            //{
+            //    string text = row["Texto"].ToString();
+            //    string clase = row["Clase"].ToString();
+            //    string form = row["Form"].ToString();
+            //    string color = row["Color"].ToString();
+            //    string taula = row["Taula"].ToString();
+
+            //    string imagen = row["Icono"].ToString();
+
+            //    SWLauchForm launchform = new SWLauchForm(color, imagen, clase, text, form, taula);
+
+            //    flpnlMain.Controls.Add(launchform);
+            //}
+        }
+
     }
 }

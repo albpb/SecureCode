@@ -34,9 +34,6 @@ namespace aplicacionPrincipal
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblNv = new System.Windows.Forms.Label();
-            this.Settings = new System.Windows.Forms.Button();
-            this.bntTablaS = new System.Windows.Forms.Button();
-            this.bntHome = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.bntExit = new System.Windows.Forms.Label();
@@ -44,10 +41,16 @@ namespace aplicacionPrincipal
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblNombreUsuario = new System.Windows.Forms.Label();
             this.panelDesktop = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Settings = new System.Windows.Forms.Button();
+            this.bntTablaS = new System.Windows.Forms.Button();
+            this.bntHome = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelHeader.SuspendLayout();
+            this.panelDesktop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -114,67 +117,6 @@ namespace aplicacionPrincipal
             this.lblNv.Size = new System.Drawing.Size(14, 15);
             this.lblNv.TabIndex = 5;
             this.lblNv.Text = "0";
-            // 
-            // Settings
-            // 
-            this.Settings.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Settings.FlatAppearance.BorderSize = 0;
-            this.Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Settings.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Settings.ForeColor = System.Drawing.Color.Black;
-            this.Settings.Image = global::aplicacionPrincipal.Properties.Resources.settings;
-            this.Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Settings.Location = new System.Drawing.Point(0, 220);
-            this.Settings.Name = "Settings";
-            this.Settings.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.Settings.Size = new System.Drawing.Size(220, 60);
-            this.Settings.TabIndex = 10;
-            this.Settings.Text = "    Ajustes";
-            this.Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Settings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Settings.UseVisualStyleBackColor = true;
-            this.Settings.Click += new System.EventHandler(this.Settings_Click);
-            // 
-            // bntTablaS
-            // 
-            this.bntTablaS.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bntTablaS.FlatAppearance.BorderSize = 0;
-            this.bntTablaS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntTablaS.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntTablaS.ForeColor = System.Drawing.Color.Black;
-            this.bntTablaS.Image = global::aplicacionPrincipal.Properties.Resources.menu_burger;
-            this.bntTablaS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntTablaS.Location = new System.Drawing.Point(0, 160);
-            this.bntTablaS.Name = "bntTablaS";
-            this.bntTablaS.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntTablaS.Size = new System.Drawing.Size(220, 60);
-            this.bntTablaS.TabIndex = 8;
-            this.bntTablaS.Text = "    Aplicaciones";
-            this.bntTablaS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntTablaS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bntTablaS.UseVisualStyleBackColor = true;
-            this.bntTablaS.Click += new System.EventHandler(this.bntTablaS_Click);
-            // 
-            // bntHome
-            // 
-            this.bntHome.BackColor = System.Drawing.Color.OliveDrab;
-            this.bntHome.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bntHome.FlatAppearance.BorderSize = 0;
-            this.bntHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntHome.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntHome.ForeColor = System.Drawing.Color.Black;
-            this.bntHome.Image = global::aplicacionPrincipal.Properties.Resources.home;
-            this.bntHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntHome.Location = new System.Drawing.Point(0, 100);
-            this.bntHome.Name = "bntHome";
-            this.bntHome.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntHome.Size = new System.Drawing.Size(220, 60);
-            this.bntHome.TabIndex = 7;
-            this.bntHome.Text = "    Inicio";
-            this.bntHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bntHome.UseVisualStyleBackColor = false;
-            this.bntHome.Click += new System.EventHandler(this.bntHome_Click);
             // 
             // panelLogo
             // 
@@ -248,11 +190,84 @@ namespace aplicacionPrincipal
             // 
             // panelDesktop
             // 
+            this.panelDesktop.Controls.Add(this.pictureBox1);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 100);
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(851, 533);
             this.panelDesktop.TabIndex = 8;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::aplicacionPrincipal.Properties.Resources.Logo_Java_theHutt;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(851, 533);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Settings
+            // 
+            this.Settings.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Settings.FlatAppearance.BorderSize = 0;
+            this.Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Settings.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Settings.ForeColor = System.Drawing.Color.Black;
+            this.Settings.Image = global::aplicacionPrincipal.Properties.Resources.settings;
+            this.Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Settings.Location = new System.Drawing.Point(0, 220);
+            this.Settings.Name = "Settings";
+            this.Settings.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.Settings.Size = new System.Drawing.Size(220, 60);
+            this.Settings.TabIndex = 10;
+            this.Settings.Text = "    Ajustes";
+            this.Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Settings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Settings.UseVisualStyleBackColor = true;
+            this.Settings.Click += new System.EventHandler(this.Settings_Click);
+            // 
+            // bntTablaS
+            // 
+            this.bntTablaS.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bntTablaS.FlatAppearance.BorderSize = 0;
+            this.bntTablaS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntTablaS.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntTablaS.ForeColor = System.Drawing.Color.Black;
+            this.bntTablaS.Image = global::aplicacionPrincipal.Properties.Resources.menu_burger;
+            this.bntTablaS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bntTablaS.Location = new System.Drawing.Point(0, 160);
+            this.bntTablaS.Name = "bntTablaS";
+            this.bntTablaS.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.bntTablaS.Size = new System.Drawing.Size(220, 60);
+            this.bntTablaS.TabIndex = 8;
+            this.bntTablaS.Text = "    Aplicaciones";
+            this.bntTablaS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bntTablaS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bntTablaS.UseVisualStyleBackColor = true;
+            this.bntTablaS.Click += new System.EventHandler(this.bntTablaS_Click);
+            // 
+            // bntHome
+            // 
+            this.bntHome.BackColor = System.Drawing.Color.OliveDrab;
+            this.bntHome.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bntHome.FlatAppearance.BorderSize = 0;
+            this.bntHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntHome.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntHome.ForeColor = System.Drawing.Color.Black;
+            this.bntHome.Image = global::aplicacionPrincipal.Properties.Resources.home;
+            this.bntHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bntHome.Location = new System.Drawing.Point(0, 100);
+            this.bntHome.Name = "bntHome";
+            this.bntHome.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.bntHome.Size = new System.Drawing.Size(220, 60);
+            this.bntHome.TabIndex = 7;
+            this.bntHome.Text = "    Inicio";
+            this.bntHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bntHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bntHome.UseVisualStyleBackColor = false;
+            this.bntHome.Click += new System.EventHandler(this.bntHome_Click);
             // 
             // appPrinc
             // 
@@ -277,6 +292,8 @@ namespace aplicacionPrincipal
             this.panelLogo.PerformLayout();
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
+            this.panelDesktop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -297,6 +314,7 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Label lblNombreUsuario;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
