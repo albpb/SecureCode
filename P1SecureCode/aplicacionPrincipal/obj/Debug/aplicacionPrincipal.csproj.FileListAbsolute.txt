@@ -74,3 +74,6 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.FormExit.resources
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.FormAplicaciones.resources
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.inicioApp.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.FormAplicaciones.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.FormExit.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\aplicacionPrincipal\obj\Debug\aplicacionPrincipal.Forms.inicioApp.resources

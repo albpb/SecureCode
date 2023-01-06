@@ -31,9 +31,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,12 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formTaulaForanea_Users.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formTaulaForanea_Users.Designer.cs">
-      <DependentUpon>formTaulaForanea_Users.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormFTP_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,11 +81,14 @@
     <Compile Include="UserCat_form.Designer.cs">
       <DependentUpon>UserCat_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Users_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users_form.Designer.cs">
+      <DependentUpon>Users_form.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="formTaulaForanea_Users.resx">
-      <DependentUpon>formTaulaForanea_Users.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormFTP_form.resx">
       <DependentUpon>FormFTP_form.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserCat_form.resx">
       <DependentUpon>UserCat_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_form.resx">
+      <DependentUpon>Users_form.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
