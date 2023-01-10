@@ -38,9 +38,10 @@ namespace FormBase
             // 
             // btActualitzar
             // 
-            this.btActualitzar.Location = new System.Drawing.Point(629, 24);
+            this.btActualitzar.Location = new System.Drawing.Point(559, 19);
+            this.btActualitzar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btActualitzar.Name = "btActualitzar";
-            this.btActualitzar.Size = new System.Drawing.Size(118, 61);
+            this.btActualitzar.Size = new System.Drawing.Size(105, 49);
             this.btActualitzar.TabIndex = 7;
             this.btActualitzar.Text = "Actualitzar";
             this.btActualitzar.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@ namespace FormBase
             // 
             // btNou
             // 
-            this.btNou.Location = new System.Drawing.Point(513, 24);
+            this.btNou.Location = new System.Drawing.Point(456, 19);
+            this.btNou.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btNou.Name = "btNou";
-            this.btNou.Size = new System.Drawing.Size(87, 61);
+            this.btNou.Size = new System.Drawing.Size(77, 49);
             this.btNou.TabIndex = 6;
             this.btNou.Text = "Nou";
             this.btNou.UseVisualStyleBackColor = true;
@@ -61,33 +63,36 @@ namespace FormBase
             this.dgvSpecies.AllowUserToAddRows = false;
             this.dgvSpecies.AllowUserToDeleteRows = false;
             this.dgvSpecies.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSpecies.Location = new System.Drawing.Point(53, 115);
+            this.dgvSpecies.Location = new System.Drawing.Point(47, 92);
+            this.dgvSpecies.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvSpecies.Name = "dgvSpecies";
             this.dgvSpecies.ReadOnly = true;
             this.dgvSpecies.RowHeadersWidth = 62;
             this.dgvSpecies.RowTemplate.Height = 28;
-            this.dgvSpecies.Size = new System.Drawing.Size(694, 311);
+            this.dgvSpecies.Size = new System.Drawing.Size(617, 249);
             this.dgvSpecies.TabIndex = 5;
+            this.dgvSpecies.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSpecies_CellContentClick);
             // 
             // lb_Informatiu
             // 
             this.lb_Informatiu.AutoSize = true;
             this.lb_Informatiu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Informatiu.Location = new System.Drawing.Point(47, 453);
+            this.lb_Informatiu.Location = new System.Drawing.Point(42, 362);
             this.lb_Informatiu.Name = "lb_Informatiu";
-            this.lb_Informatiu.Size = new System.Drawing.Size(126, 32);
+            this.lb_Informatiu.Size = new System.Drawing.Size(109, 29);
             this.lb_Informatiu.TabIndex = 8;
             this.lb_Informatiu.Text = "Campos";
             // 
             // formBaseTratamientoDatos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 662);
+            this.ClientSize = new System.Drawing.Size(711, 530);
             this.Controls.Add(this.lb_Informatiu);
             this.Controls.Add(this.btActualitzar);
             this.Controls.Add(this.btNou);
             this.Controls.Add(this.dgvSpecies);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "formBaseTratamientoDatos";
             this.Text = "formBaseTratamientoDatos";
             this.Load += new System.EventHandler(this.formBaseTratamientoDatos_Load);

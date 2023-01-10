@@ -38,6 +38,8 @@ namespace FormBase
 
         DataSet dts = new DataSet();
 
+        public DataRow selectedRow;
+
         private void DataBindingsTextBoxs()
         {
             foreach (Control c in this.Controls)
@@ -118,6 +120,12 @@ namespace FormBase
             DataBindingsTextBoxs();
 
             dgvSpecies.DataSource = dts.Tables[0];
+        }
+
+        private void dgvSpecies_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataRowView currentDataRowView = (DataRowView)dgvSpecies.CurrentRow.DataBoundItem;
+            selectedRow = currentDataRowView.Row;
         }
     }
 }
