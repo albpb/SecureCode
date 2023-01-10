@@ -34,6 +34,9 @@ namespace aplicacionPrincipal
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblNv = new System.Windows.Forms.Label();
+            this.Settings = new System.Windows.Forms.Button();
+            this.bntTablaS = new System.Windows.Forms.Button();
+            this.bntHome = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.bntExit = new System.Windows.Forms.Label();
@@ -42,9 +45,6 @@ namespace aplicacionPrincipal
             this.lblNombreUsuario = new System.Windows.Forms.Label();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Settings = new System.Windows.Forms.Button();
-            this.bntTablaS = new System.Windows.Forms.Button();
-            this.bntHome = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -58,10 +58,11 @@ namespace aplicacionPrincipal
             this.lblTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitulo.Font = new System.Drawing.Font("Lato", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(90, 25);
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(120, 31);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(138, 51);
+            this.lblTitulo.Size = new System.Drawing.Size(175, 63);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Home";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -71,12 +72,13 @@ namespace aplicacionPrincipal
             this.lblNivel.AutoSize = true;
             this.lblNivel.BackColor = System.Drawing.Color.Transparent;
             this.lblNivel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblNivel.Font = new System.Drawing.Font("Lato", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNivel.ForeColor = System.Drawing.Color.OliveDrab;
             this.lblNivel.Location = new System.Drawing.Point(0, 0);
+            this.lblNivel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNivel.Name = "lblNivel";
             this.lblNivel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNivel.Size = new System.Drawing.Size(178, 23);
+            this.lblNivel.Size = new System.Drawing.Size(230, 29);
             this.lblNivel.TabIndex = 3;
             this.lblNivel.Text = "Nivel de poder Jedi:";
             // 
@@ -90,8 +92,9 @@ namespace aplicacionPrincipal
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(220, 633);
+            this.panelMenu.Size = new System.Drawing.Size(293, 779);
             this.panelMenu.TabIndex = 5;
             // 
             // panel1
@@ -99,9 +102,10 @@ namespace aplicacionPrincipal
             this.panel1.Controls.Add(this.lblNivel);
             this.panel1.Controls.Add(this.lblNv);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 603);
+            this.panel1.Location = new System.Drawing.Point(0, 742);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(220, 30);
+            this.panel1.Size = new System.Drawing.Size(293, 37);
             this.panel1.TabIndex = 11;
             // 
             // lblNv
@@ -109,118 +113,30 @@ namespace aplicacionPrincipal
             this.lblNv.AutoSize = true;
             this.lblNv.BackColor = System.Drawing.Color.Transparent;
             this.lblNv.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblNv.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNv.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNv.ForeColor = System.Drawing.Color.OliveDrab;
-            this.lblNv.Location = new System.Drawing.Point(206, 0);
+            this.lblNv.Location = new System.Drawing.Point(276, 0);
+            this.lblNv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNv.Name = "lblNv";
             this.lblNv.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNv.Size = new System.Drawing.Size(14, 15);
+            this.lblNv.Size = new System.Drawing.Size(17, 18);
             this.lblNv.TabIndex = 5;
             this.lblNv.Text = "0";
-            // 
-            // panelLogo
-            // 
-            this.panelLogo.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.panelLogo.Controls.Add(this.label1);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(220, 100);
-            this.panelLogo.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lato Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(41, 39);
-            this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(128, 23);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Java The Hutt";
-            // 
-            // bntExit
-            // 
-            this.bntExit.AutoSize = true;
-            this.bntExit.BackColor = System.Drawing.Color.Transparent;
-            this.bntExit.Dock = System.Windows.Forms.DockStyle.Right;
-            this.bntExit.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntExit.Location = new System.Drawing.Point(821, 0);
-            this.bntExit.Name = "bntExit";
-            this.bntExit.Padding = new System.Windows.Forms.Padding(6);
-            this.bntExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bntExit.Size = new System.Drawing.Size(30, 30);
-            this.bntExit.TabIndex = 4;
-            this.bntExit.Text = "X";
-            this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
-            // 
-            // panelHeader
-            // 
-            this.panelHeader.Controls.Add(this.lblFecha);
-            this.panelHeader.Controls.Add(this.lblTitulo);
-            this.panelHeader.Controls.Add(this.bntExit);
-            this.panelHeader.Controls.Add(this.lblNombreUsuario);
-            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(220, 0);
-            this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(851, 100);
-            this.panelHeader.TabIndex = 7;
-            // 
-            // lblFecha
-            // 
-            this.lblFecha.AutoSize = true;
-            this.lblFecha.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.lblFecha.Location = new System.Drawing.Point(642, 25);
-            this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(34, 13);
-            this.lblFecha.TabIndex = 5;
-            this.lblFecha.Text = "fecha";
-            // 
-            // lblNombreUsuario
-            // 
-            this.lblNombreUsuario.AutoSize = true;
-            this.lblNombreUsuario.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.lblNombreUsuario.Location = new System.Drawing.Point(642, 47);
-            this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(27, 13);
-            this.lblNombreUsuario.TabIndex = 6;
-            this.lblNombreUsuario.Text = "user";
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.Controls.Add(this.pictureBox1);
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(220, 100);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(851, 533);
-            this.panelDesktop.TabIndex = 8;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::aplicacionPrincipal.Properties.Resources.Logo_Java_theHutt;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(851, 533);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // Settings
             // 
             this.Settings.Dock = System.Windows.Forms.DockStyle.Top;
             this.Settings.FlatAppearance.BorderSize = 0;
             this.Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Settings.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Settings.ForeColor = System.Drawing.Color.Black;
             this.Settings.Image = global::aplicacionPrincipal.Properties.Resources.settings;
             this.Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Settings.Location = new System.Drawing.Point(0, 220);
+            this.Settings.Location = new System.Drawing.Point(0, 271);
+            this.Settings.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Settings.Name = "Settings";
-            this.Settings.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.Settings.Size = new System.Drawing.Size(220, 60);
+            this.Settings.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.Settings.Size = new System.Drawing.Size(293, 74);
             this.Settings.TabIndex = 10;
             this.Settings.Text = "    Ajustes";
             this.Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -233,14 +149,15 @@ namespace aplicacionPrincipal
             this.bntTablaS.Dock = System.Windows.Forms.DockStyle.Top;
             this.bntTablaS.FlatAppearance.BorderSize = 0;
             this.bntTablaS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntTablaS.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntTablaS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntTablaS.ForeColor = System.Drawing.Color.Black;
             this.bntTablaS.Image = global::aplicacionPrincipal.Properties.Resources.menu_burger;
             this.bntTablaS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntTablaS.Location = new System.Drawing.Point(0, 160);
+            this.bntTablaS.Location = new System.Drawing.Point(0, 197);
+            this.bntTablaS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bntTablaS.Name = "bntTablaS";
-            this.bntTablaS.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntTablaS.Size = new System.Drawing.Size(220, 60);
+            this.bntTablaS.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.bntTablaS.Size = new System.Drawing.Size(293, 74);
             this.bntTablaS.TabIndex = 8;
             this.bntTablaS.Text = "    Aplicaciones";
             this.bntTablaS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -254,14 +171,15 @@ namespace aplicacionPrincipal
             this.bntHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.bntHome.FlatAppearance.BorderSize = 0;
             this.bntHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntHome.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntHome.ForeColor = System.Drawing.Color.Black;
             this.bntHome.Image = global::aplicacionPrincipal.Properties.Resources.home;
             this.bntHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntHome.Location = new System.Drawing.Point(0, 100);
+            this.bntHome.Location = new System.Drawing.Point(0, 123);
+            this.bntHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bntHome.Name = "bntHome";
-            this.bntHome.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntHome.Size = new System.Drawing.Size(220, 60);
+            this.bntHome.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.bntHome.Size = new System.Drawing.Size(293, 74);
             this.bntHome.TabIndex = 7;
             this.bntHome.Text = "    Inicio";
             this.bntHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -269,17 +187,116 @@ namespace aplicacionPrincipal
             this.bntHome.UseVisualStyleBackColor = false;
             this.bntHome.Click += new System.EventHandler(this.bntHome_Click);
             // 
+            // panelLogo
+            // 
+            this.panelLogo.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.panelLogo.Controls.Add(this.label1);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(293, 123);
+            this.panelLogo.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.Location = new System.Drawing.Point(55, 48);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(172, 29);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Java The Hutt";
+            // 
+            // bntExit
+            // 
+            this.bntExit.AutoSize = true;
+            this.bntExit.BackColor = System.Drawing.Color.Transparent;
+            this.bntExit.Dock = System.Windows.Forms.DockStyle.Right;
+            this.bntExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntExit.Location = new System.Drawing.Point(1094, 0);
+            this.bntExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.bntExit.Name = "bntExit";
+            this.bntExit.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.bntExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bntExit.Size = new System.Drawing.Size(41, 38);
+            this.bntExit.TabIndex = 4;
+            this.bntExit.Text = "X";
+            this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
+            // 
+            // panelHeader
+            // 
+            this.panelHeader.Controls.Add(this.lblFecha);
+            this.panelHeader.Controls.Add(this.lblTitulo);
+            this.panelHeader.Controls.Add(this.bntExit);
+            this.panelHeader.Controls.Add(this.lblNombreUsuario);
+            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeader.Location = new System.Drawing.Point(293, 0);
+            this.panelHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelHeader.Name = "panelHeader";
+            this.panelHeader.Size = new System.Drawing.Size(1135, 123);
+            this.panelHeader.TabIndex = 7;
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.lblFecha.Location = new System.Drawing.Point(856, 31);
+            this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(43, 17);
+            this.lblFecha.TabIndex = 5;
+            this.lblFecha.Text = "fecha";
+            // 
+            // lblNombreUsuario
+            // 
+            this.lblNombreUsuario.AutoSize = true;
+            this.lblNombreUsuario.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.lblNombreUsuario.Location = new System.Drawing.Point(856, 58);
+            this.lblNombreUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNombreUsuario.Name = "lblNombreUsuario";
+            this.lblNombreUsuario.Size = new System.Drawing.Size(36, 17);
+            this.lblNombreUsuario.TabIndex = 6;
+            this.lblNombreUsuario.Text = "user";
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.Controls.Add(this.pictureBox1);
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(293, 123);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(1135, 656);
+            this.panelDesktop.TabIndex = 8;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::aplicacionPrincipal.Properties.Resources.Logo_Java_theHutt;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1135, 656);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // appPrinc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.ClientSize = new System.Drawing.Size(1071, 633);
+            this.ClientSize = new System.Drawing.Size(1428, 779);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "appPrinc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplicacion Java The Hutt";

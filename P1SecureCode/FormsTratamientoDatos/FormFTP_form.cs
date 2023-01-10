@@ -25,10 +25,31 @@ namespace FormsTratamientoDatos
             dgvSpecies.Columns["AccessLevel"].HeaderText = "Nivell Accés";
             dgvSpecies.Columns[0].Visible = false;
         }
-
-        private void swTImage_Validated(object sender, EventArgs e)
+        private void BindingLaunchForm()
         {
+            viewlabel.DataBindings.Add("Text", swTText, "Text");
         }
 
+        private void FormFTP_form_Load(object sender, EventArgs e)
+        {
+            BindingLaunchForm();
+        }
+
+        private void swTImage_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                img.Image = Image.FromFile(@"..\Img\icons\" + swTImage.Text);
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void swTColor_TextChanged(object sender, EventArgs e)
+        {
+            panel1.BackColor = Color.FromName(swTColor.Text.Trim());
+        }
     }
 }

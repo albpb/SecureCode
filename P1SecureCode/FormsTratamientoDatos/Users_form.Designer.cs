@@ -41,6 +41,7 @@ namespace FormsTratamientoDatos
             this.swSpecie = new CustomControls.SWCodi();
             this.swTextbox7 = new CustomControls.SWTextbox();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.swTextbox8 = new CustomControls.SWTextbox();
             this.SuspendLayout();
             // 
             // swTextbox1
@@ -50,7 +51,7 @@ namespace FormsTratamientoDatos
             this.swTextbox1.ForeignKey = false;
             this.swTextbox1.IsEmpty = false;
             this.swTextbox1.Location = new System.Drawing.Point(47, 418);
-            this.swTextbox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox1.Name = "swTextbox1";
             this.swTextbox1.Size = new System.Drawing.Size(132, 22);
             this.swTextbox1.SWCodi = null;
@@ -63,7 +64,7 @@ namespace FormsTratamientoDatos
             this.swTextbox2.ForeignKey = false;
             this.swTextbox2.IsEmpty = false;
             this.swTextbox2.Location = new System.Drawing.Point(47, 450);
-            this.swTextbox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox2.Name = "swTextbox2";
             this.swTextbox2.Size = new System.Drawing.Size(373, 22);
             this.swTextbox2.SWCodi = null;
@@ -76,7 +77,7 @@ namespace FormsTratamientoDatos
             this.swTextbox3.ForeignKey = false;
             this.swTextbox3.IsEmpty = false;
             this.swTextbox3.Location = new System.Drawing.Point(47, 482);
-            this.swTextbox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swTextbox3.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox3.Name = "swTextbox3";
             this.swTextbox3.Size = new System.Drawing.Size(373, 22);
             this.swTextbox3.SWCodi = null;
@@ -88,7 +89,7 @@ namespace FormsTratamientoDatos
             this.swRank.ControlID = null;
             this.swRank.FormCS = null;
             this.swRank.Location = new System.Drawing.Point(685, 92);
-            this.swRank.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.swRank.Margin = new System.Windows.Forms.Padding(5);
             this.swRank.Name = "swRank";
             this.swRank.Nomcodi = "CodeRank";
             this.swRank.NomDesc = "DescRank";
@@ -104,7 +105,7 @@ namespace FormsTratamientoDatos
             this.swTextbox4.ForeignKey = true;
             this.swTextbox4.IsEmpty = false;
             this.swTextbox4.Location = new System.Drawing.Point(1309, 96);
-            this.swTextbox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swTextbox4.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox4.Name = "swTextbox4";
             this.swTextbox4.Size = new System.Drawing.Size(132, 22);
             this.swTextbox4.SWCodi = "swRank";
@@ -116,7 +117,7 @@ namespace FormsTratamientoDatos
             this.swCategory.ControlID = null;
             this.swCategory.FormCS = null;
             this.swCategory.Location = new System.Drawing.Point(685, 138);
-            this.swCategory.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.swCategory.Margin = new System.Windows.Forms.Padding(5);
             this.swCategory.Name = "swCategory";
             this.swCategory.Nomcodi = "CodeCategory";
             this.swCategory.NomDesc = "DescCategory";
@@ -132,7 +133,7 @@ namespace FormsTratamientoDatos
             this.swTextbox5.ForeignKey = true;
             this.swTextbox5.IsEmpty = false;
             this.swTextbox5.Location = new System.Drawing.Point(1309, 138);
-            this.swTextbox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swTextbox5.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox5.Name = "swTextbox5";
             this.swTextbox5.Size = new System.Drawing.Size(132, 22);
             this.swTextbox5.SWCodi = "swCategory";
@@ -144,7 +145,7 @@ namespace FormsTratamientoDatos
             this.swPlanet.ControlID = null;
             this.swPlanet.FormCS = null;
             this.swPlanet.Location = new System.Drawing.Point(685, 180);
-            this.swPlanet.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.swPlanet.Margin = new System.Windows.Forms.Padding(5);
             this.swPlanet.Name = "swPlanet";
             this.swPlanet.Nomcodi = "CodePlanet";
             this.swPlanet.NomDesc = "DescPlanet";
@@ -160,7 +161,7 @@ namespace FormsTratamientoDatos
             this.swTextbox6.ForeignKey = true;
             this.swTextbox6.IsEmpty = false;
             this.swTextbox6.Location = new System.Drawing.Point(1309, 180);
-            this.swTextbox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swTextbox6.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox6.Name = "swTextbox6";
             this.swTextbox6.Size = new System.Drawing.Size(132, 22);
             this.swTextbox6.SWCodi = "swPlanet";
@@ -172,7 +173,7 @@ namespace FormsTratamientoDatos
             this.swSpecie.ControlID = null;
             this.swSpecie.FormCS = null;
             this.swSpecie.Location = new System.Drawing.Point(685, 222);
-            this.swSpecie.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.swSpecie.Margin = new System.Windows.Forms.Padding(5);
             this.swSpecie.Name = "swSpecie";
             this.swSpecie.Nomcodi = "CodeSpecie";
             this.swSpecie.NomDesc = "DescSpecie";
@@ -188,7 +189,7 @@ namespace FormsTratamientoDatos
             this.swTextbox7.ForeignKey = true;
             this.swTextbox7.IsEmpty = false;
             this.swTextbox7.Location = new System.Drawing.Point(1309, 222);
-            this.swTextbox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swTextbox7.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox7.Name = "swTextbox7";
             this.swTextbox7.Size = new System.Drawing.Size(132, 22);
             this.swTextbox7.SWCodi = "swSpecie";
@@ -201,7 +202,7 @@ namespace FormsTratamientoDatos
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer1.DisplayStatusBar = false;
             this.crystalReportViewer1.Location = new System.Drawing.Point(705, 282);
-            this.crystalReportViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.crystalReportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.ReportSource = "C:\\Users\\Albert\\Documents\\GitHub\\SecureCode\\P1SecureCode\\Crystal-Reports\\UserRepo" +
     "rt.rpt";
@@ -214,11 +215,24 @@ namespace FormsTratamientoDatos
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             this.crystalReportViewer1.ToolPanelWidth = 267;
             // 
+            // swTextbox8
+            // 
+            this.swTextbox8.Data = CustomControls.SWTextbox.DataType.Numero;
+            this.swTextbox8.DBName = "idUser";
+            this.swTextbox8.ForeignKey = false;
+            this.swTextbox8.IsEmpty = false;
+            this.swTextbox8.Location = new System.Drawing.Point(548, 369);
+            this.swTextbox8.Name = "swTextbox8";
+            this.swTextbox8.Size = new System.Drawing.Size(100, 22);
+            this.swTextbox8.SWCodi = null;
+            this.swTextbox8.TabIndex = 21;
+            // 
             // Users_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1460, 702);
+            this.Controls.Add(this.swTextbox8);
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.swTextbox7);
             this.Controls.Add(this.swSpecie);
@@ -246,6 +260,7 @@ namespace FormsTratamientoDatos
             this.Controls.SetChildIndex(this.swSpecie, 0);
             this.Controls.SetChildIndex(this.swTextbox7, 0);
             this.Controls.SetChildIndex(this.crystalReportViewer1, 0);
+            this.Controls.SetChildIndex(this.swTextbox8, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,5 +280,6 @@ namespace FormsTratamientoDatos
         private CustomControls.SWCodi swSpecie;
         private CustomControls.SWTextbox swTextbox7;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private CustomControls.SWTextbox swTextbox8;
     }
 }

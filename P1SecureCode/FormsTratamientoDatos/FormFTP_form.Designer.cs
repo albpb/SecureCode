@@ -44,6 +44,11 @@ namespace FormsTratamientoDatos
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.viewlabel = new System.Windows.Forms.Label();
+            this.img = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.img)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -91,7 +96,7 @@ namespace FormsTratamientoDatos
             this.swTImage.Size = new System.Drawing.Size(199, 22);
             this.swTImage.SWCodi = null;
             this.swTImage.TabIndex = 13;
-            this.swTImage.Validated += new System.EventHandler(this.swTImage_Validated);
+            this.swTImage.TextChanged += new System.EventHandler(this.swTImage_TextChanged);
             // 
             // swTColor
             // 
@@ -105,6 +110,7 @@ namespace FormsTratamientoDatos
             this.swTColor.Size = new System.Drawing.Size(132, 22);
             this.swTColor.SWCodi = null;
             this.swTColor.TabIndex = 14;
+            this.swTColor.TextChanged += new System.EventHandler(this.swTColor_TextChanged);
             // 
             // label3
             // 
@@ -122,9 +128,9 @@ namespace FormsTratamientoDatos
             this.label4.Location = new System.Drawing.Point(44, 523);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 17);
+            this.label4.Size = new System.Drawing.Size(41, 17);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Color (HEX)";
+            this.label4.Text = "Color";
             // 
             // label5
             // 
@@ -218,11 +224,41 @@ namespace FormsTratamientoDatos
             this.label8.TabIndex = 24;
             this.label8.Text = "Form";
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.viewlabel);
+            this.panel1.Controls.Add(this.img);
+            this.panel1.Location = new System.Drawing.Point(756, 92);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(543, 344);
+            this.panel1.TabIndex = 25;
+            // 
+            // viewlabel
+            // 
+            this.viewlabel.AutoSize = true;
+            this.viewlabel.Font = new System.Drawing.Font("Microsoft Tai Le", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewlabel.ForeColor = System.Drawing.Color.Snow;
+            this.viewlabel.Location = new System.Drawing.Point(314, 64);
+            this.viewlabel.Name = "viewlabel";
+            this.viewlabel.Size = new System.Drawing.Size(136, 51);
+            this.viewlabel.TabIndex = 1;
+            this.viewlabel.Text = "label9";
+            // 
+            // img
+            // 
+            this.img.Location = new System.Drawing.Point(3, 0);
+            this.img.Name = "img";
+            this.img.Size = new System.Drawing.Size(296, 246);
+            this.img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.img.TabIndex = 0;
+            this.img.TabStop = false;
+            // 
             // FormFTP_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1368, 658);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -241,6 +277,7 @@ namespace FormsTratamientoDatos
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "FormFTP_form";
             this.Text = "FormulariFTP";
+            this.Load += new System.EventHandler(this.FormFTP_form_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.swTText, 0);
             this.Controls.SetChildIndex(this.label2, 0);
@@ -256,6 +293,10 @@ namespace FormsTratamientoDatos
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.label7, 0);
             this.Controls.SetChildIndex(this.label8, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.img)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,5 +318,8 @@ namespace FormsTratamientoDatos
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label viewlabel;
+        private System.Windows.Forms.PictureBox img;
     }
 }

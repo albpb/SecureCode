@@ -27,9 +27,10 @@ namespace CustomControls
             }
             set
             {
+                value = value.Trim();
                 _colorfons = value;
 
-                panel1.BackColor = System.Drawing.ColorTranslator.FromHtml(value);
+                panel1.BackColor = Color.FromName(value);
 
             }
         }
