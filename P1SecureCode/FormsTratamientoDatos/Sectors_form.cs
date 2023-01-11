@@ -22,8 +22,8 @@ namespace FormsTratamientoDatos
 
         public override void ConfigurarDataGrid()
         {
-            dgvSpecies.Columns["CodeSector"].HeaderText = "Codi del sector";
-            dgvSpecies.Columns["DescSector"].HeaderText = "Descripció";
+            dgvSpecies.Columns["CodeSector"].HeaderText = "Código";
+            dgvSpecies.Columns["DescSector"].HeaderText = "Descripción";
             dgvSpecies.Columns["Remarks"].HeaderText = "Nota";
 
             dgvSpecies.Columns[0].Visible = false;

@@ -43,7 +43,7 @@ namespace FormBase
             this.btActualitzar.Name = "btActualitzar";
             this.btActualitzar.Size = new System.Drawing.Size(105, 49);
             this.btActualitzar.TabIndex = 7;
-            this.btActualitzar.Text = "Actualitzar";
+            this.btActualitzar.Text = "Actualizar";
             this.btActualitzar.UseVisualStyleBackColor = true;
             this.btActualitzar.Click += new System.EventHandler(this.btActualitzar_Click);
             // 
@@ -54,7 +54,7 @@ namespace FormBase
             this.btNou.Name = "btNou";
             this.btNou.Size = new System.Drawing.Size(77, 49);
             this.btNou.TabIndex = 6;
-            this.btNou.Text = "Nou";
+            this.btNou.Text = "Nuevo";
             this.btNou.UseVisualStyleBackColor = true;
             this.btNou.Click += new System.EventHandler(this.btNou_Click);
             // 

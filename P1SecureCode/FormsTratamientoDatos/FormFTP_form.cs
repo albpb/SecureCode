@@ -22,7 +22,7 @@ namespace FormsTratamientoDatos
 
         public override void ConfigurarDataGrid()
         {
-            dgvSpecies.Columns["AccessLevel"].HeaderText = "Nivell Accés";
+            dgvSpecies.Columns["AccessLevel"].HeaderText = "Nivel de acceso";
             dgvSpecies.Columns[0].Visible = false;
         }
         private void BindingLaunchForm()

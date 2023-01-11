@@ -38,22 +38,20 @@ namespace FormsTratamientoDatos
             // lb_CodeSpecie
             // 
             this.lb_CodeSpecie.AutoSize = true;
-            this.lb_CodeSpecie.Location = new System.Drawing.Point(33, 330);
-            this.lb_CodeSpecie.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_CodeSpecie.Location = new System.Drawing.Point(44, 416);
             this.lb_CodeSpecie.Name = "lb_CodeSpecie";
-            this.lb_CodeSpecie.Size = new System.Drawing.Size(79, 15);
+            this.lb_CodeSpecie.Size = new System.Drawing.Size(140, 17);
             this.lb_CodeSpecie.TabIndex = 9;
-            this.lb_CodeSpecie.Text = "Codi Especie";
+            this.lb_CodeSpecie.Text = "Código de la especie";
             // 
             // lb_DescSpecie
             // 
             this.lb_DescSpecie.AutoSize = true;
-            this.lb_DescSpecie.Location = new System.Drawing.Point(171, 330);
-            this.lb_DescSpecie.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_DescSpecie.Location = new System.Drawing.Point(228, 416);
             this.lb_DescSpecie.Name = "lb_DescSpecie";
-            this.lb_DescSpecie.Size = new System.Drawing.Size(106, 15);
+            this.lb_DescSpecie.Size = new System.Drawing.Size(170, 17);
             this.lb_DescSpecie.TabIndex = 10;
-            this.lb_DescSpecie.Text = "Descripció Specie";
+            this.lb_DescSpecie.Text = "Descripción de la especie";
             // 
             // swTextbox_CodeSpecie
             // 
@@ -61,10 +59,10 @@ namespace FormsTratamientoDatos
             this.swTextbox_CodeSpecie.DBName = "CodeSpecie";
             this.swTextbox_CodeSpecie.ForeignKey = false;
             this.swTextbox_CodeSpecie.IsEmpty = false;
-            this.swTextbox_CodeSpecie.Location = new System.Drawing.Point(35, 357);
-            this.swTextbox_CodeSpecie.Margin = new System.Windows.Forms.Padding(2);
+            this.swTextbox_CodeSpecie.Location = new System.Drawing.Point(47, 439);
+            this.swTextbox_CodeSpecie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.swTextbox_CodeSpecie.Name = "swTextbox_CodeSpecie";
-            this.swTextbox_CodeSpecie.Size = new System.Drawing.Size(118, 20);
+            this.swTextbox_CodeSpecie.Size = new System.Drawing.Size(156, 22);
             this.swTextbox_CodeSpecie.SWCodi = null;
             this.swTextbox_CodeSpecie.TabIndex = 11;
             // 
@@ -74,18 +72,18 @@ namespace FormsTratamientoDatos
             this.swTextbox_DescSpecie.DBName = "DescSpecie";
             this.swTextbox_DescSpecie.ForeignKey = false;
             this.swTextbox_DescSpecie.IsEmpty = false;
-            this.swTextbox_DescSpecie.Location = new System.Drawing.Point(173, 357);
-            this.swTextbox_DescSpecie.Margin = new System.Windows.Forms.Padding(2);
+            this.swTextbox_DescSpecie.Location = new System.Drawing.Point(231, 439);
+            this.swTextbox_DescSpecie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.swTextbox_DescSpecie.Name = "swTextbox_DescSpecie";
-            this.swTextbox_DescSpecie.Size = new System.Drawing.Size(118, 20);
+            this.swTextbox_DescSpecie.Size = new System.Drawing.Size(156, 22);
             this.swTextbox_DescSpecie.SWCodi = null;
             this.swTextbox_DescSpecie.TabIndex = 12;
             // 
             // Species_form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(527, 392);
+            this.ClientSize = new System.Drawing.Size(703, 482);
             this.Controls.Add(this.swTextbox_DescSpecie);
             this.Controls.Add(this.swTextbox_CodeSpecie);
             this.Controls.Add(this.lb_DescSpecie);
@@ -94,7 +92,7 @@ namespace FormsTratamientoDatos
             this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "Species_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Species";
+            this.Text = "Especies";
             this.Controls.SetChildIndex(this.lb_CodeSpecie, 0);
             this.Controls.SetChildIndex(this.lb_DescSpecie, 0);
             this.Controls.SetChildIndex(this.swTextbox_CodeSpecie, 0);

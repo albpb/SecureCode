@@ -138,9 +138,9 @@ namespace FormsTratamientoDatos
             this.label5.Location = new System.Drawing.Point(43, 578);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 17);
+            this.label5.Size = new System.Drawing.Size(135, 21);
             this.label5.TabIndex = 17;
-            this.label5.Text = "Nivell d\'accés";
+            this.label5.Text = "Nivel de acceso";
             // 
             // swTAccess
             // 
@@ -202,7 +202,7 @@ namespace FormsTratamientoDatos
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(44, 17);
             this.label6.TabIndex = 22;
-            this.label6.Text = "Taula";
+            this.label6.Text = "Tabla";
             // 
             // label7
             // 
@@ -276,7 +276,7 @@ namespace FormsTratamientoDatos
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "FormFTP_form";
-            this.Text = "FormulariFTP";
+            this.Text = "Modificador de Opciones";
             this.Load += new System.EventHandler(this.FormFTP_form_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.swTText, 0);

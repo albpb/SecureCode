@@ -44,6 +44,13 @@ namespace FormsTratamientoDatos
             this.crystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.swTextbox_IdUser = new CustomControls.SWTextbox();
             this.bt_ActualizarTarjetaIdentificación = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // swTextbox1
@@ -65,7 +72,7 @@ namespace FormsTratamientoDatos
             this.swTextbox2.DBName = "UserName";
             this.swTextbox2.ForeignKey = false;
             this.swTextbox2.IsEmpty = false;
-            this.swTextbox2.Location = new System.Drawing.Point(47, 450);
+            this.swTextbox2.Location = new System.Drawing.Point(47, 480);
             this.swTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox2.Name = "swTextbox2";
             this.swTextbox2.Size = new System.Drawing.Size(373, 22);
@@ -78,7 +85,7 @@ namespace FormsTratamientoDatos
             this.swTextbox3.DBName = "Photo";
             this.swTextbox3.ForeignKey = false;
             this.swTextbox3.IsEmpty = false;
-            this.swTextbox3.Location = new System.Drawing.Point(47, 482);
+            this.swTextbox3.Location = new System.Drawing.Point(47, 533);
             this.swTextbox3.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox3.Name = "swTextbox3";
             this.swTextbox3.Size = new System.Drawing.Size(373, 22);
@@ -104,9 +111,10 @@ namespace FormsTratamientoDatos
             // 
             this.swTextbox4.Data = CustomControls.SWTextbox.DataType.Numero;
             this.swTextbox4.DBName = "idUserRank";
+            this.swTextbox4.Enabled = false;
             this.swTextbox4.ForeignKey = true;
             this.swTextbox4.IsEmpty = false;
-            this.swTextbox4.Location = new System.Drawing.Point(1309, 96);
+            this.swTextbox4.Location = new System.Drawing.Point(1309, 97);
             this.swTextbox4.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox4.Name = "swTextbox4";
             this.swTextbox4.Size = new System.Drawing.Size(132, 22);
@@ -118,7 +126,7 @@ namespace FormsTratamientoDatos
             this.swCategory.ClasseCS = null;
             this.swCategory.ControlID = null;
             this.swCategory.FormCS = null;
-            this.swCategory.Location = new System.Drawing.Point(685, 138);
+            this.swCategory.Location = new System.Drawing.Point(685, 145);
             this.swCategory.Margin = new System.Windows.Forms.Padding(5);
             this.swCategory.Name = "swCategory";
             this.swCategory.Nomcodi = "CodeCategory";
@@ -132,9 +140,10 @@ namespace FormsTratamientoDatos
             // 
             this.swTextbox5.Data = CustomControls.SWTextbox.DataType.Numero;
             this.swTextbox5.DBName = "idUserCategory";
+            this.swTextbox5.Enabled = false;
             this.swTextbox5.ForeignKey = true;
             this.swTextbox5.IsEmpty = false;
-            this.swTextbox5.Location = new System.Drawing.Point(1309, 138);
+            this.swTextbox5.Location = new System.Drawing.Point(1309, 151);
             this.swTextbox5.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox5.Name = "swTextbox5";
             this.swTextbox5.Size = new System.Drawing.Size(132, 22);
@@ -146,7 +155,7 @@ namespace FormsTratamientoDatos
             this.swPlanet.ClasseCS = null;
             this.swPlanet.ControlID = null;
             this.swPlanet.FormCS = null;
-            this.swPlanet.Location = new System.Drawing.Point(685, 180);
+            this.swPlanet.Location = new System.Drawing.Point(685, 206);
             this.swPlanet.Margin = new System.Windows.Forms.Padding(5);
             this.swPlanet.Name = "swPlanet";
             this.swPlanet.Nomcodi = "CodePlanet";
@@ -160,9 +169,10 @@ namespace FormsTratamientoDatos
             // 
             this.swTextbox6.Data = CustomControls.SWTextbox.DataType.Numero;
             this.swTextbox6.DBName = "idPlanet";
+            this.swTextbox6.Enabled = false;
             this.swTextbox6.ForeignKey = true;
             this.swTextbox6.IsEmpty = false;
-            this.swTextbox6.Location = new System.Drawing.Point(1309, 180);
+            this.swTextbox6.Location = new System.Drawing.Point(1309, 209);
             this.swTextbox6.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox6.Name = "swTextbox6";
             this.swTextbox6.Size = new System.Drawing.Size(132, 22);
@@ -174,7 +184,7 @@ namespace FormsTratamientoDatos
             this.swSpecie.ClasseCS = null;
             this.swSpecie.ControlID = null;
             this.swSpecie.FormCS = null;
-            this.swSpecie.Location = new System.Drawing.Point(685, 222);
+            this.swSpecie.Location = new System.Drawing.Point(685, 266);
             this.swSpecie.Margin = new System.Windows.Forms.Padding(5);
             this.swSpecie.Name = "swSpecie";
             this.swSpecie.Nomcodi = "CodeSpecie";
@@ -188,9 +198,10 @@ namespace FormsTratamientoDatos
             // 
             this.swTextbox7.Data = CustomControls.SWTextbox.DataType.Numero;
             this.swTextbox7.DBName = "idSpecie";
+            this.swTextbox7.Enabled = false;
             this.swTextbox7.ForeignKey = true;
             this.swTextbox7.IsEmpty = false;
-            this.swTextbox7.Location = new System.Drawing.Point(1309, 222);
+            this.swTextbox7.Location = new System.Drawing.Point(1309, 272);
             this.swTextbox7.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox7.Name = "swTextbox7";
             this.swTextbox7.Size = new System.Drawing.Size(132, 22);
@@ -203,7 +214,7 @@ namespace FormsTratamientoDatos
             this.crystalReportViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer.DisplayStatusBar = false;
-            this.crystalReportViewer.Location = new System.Drawing.Point(705, 282);
+            this.crystalReportViewer.Location = new System.Drawing.Point(695, 326);
             this.crystalReportViewer.Margin = new System.Windows.Forms.Padding(4);
             this.crystalReportViewer.Name = "crystalReportViewer";
             this.crystalReportViewer.ShowCopyButton = false;
@@ -214,7 +225,7 @@ namespace FormsTratamientoDatos
             this.crystalReportViewer.ShowParameterPanelButton = false;
             this.crystalReportViewer.ShowRefreshButton = false;
             this.crystalReportViewer.ShowTextSearchButton = false;
-            this.crystalReportViewer.Size = new System.Drawing.Size(699, 393);
+            this.crystalReportViewer.Size = new System.Drawing.Size(746, 400);
             this.crystalReportViewer.TabIndex = 20;
             this.crystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             this.crystalReportViewer.ToolPanelWidth = 267;
@@ -223,9 +234,10 @@ namespace FormsTratamientoDatos
             // 
             this.swTextbox_IdUser.Data = CustomControls.SWTextbox.DataType.Numero;
             this.swTextbox_IdUser.DBName = "idUser";
+            this.swTextbox_IdUser.Enabled = false;
             this.swTextbox_IdUser.ForeignKey = false;
             this.swTextbox_IdUser.IsEmpty = false;
-            this.swTextbox_IdUser.Location = new System.Drawing.Point(559, 589);
+            this.swTextbox_IdUser.Location = new System.Drawing.Point(705, 682);
             this.swTextbox_IdUser.Name = "swTextbox_IdUser";
             this.swTextbox_IdUser.Size = new System.Drawing.Size(105, 22);
             this.swTextbox_IdUser.SWCodi = null;
@@ -242,14 +254,83 @@ namespace FormsTratamientoDatos
             this.bt_ActualizarTarjetaIdentificación.UseVisualStyleBackColor = true;
             this.bt_ActualizarTarjetaIdentificación.Click += new System.EventHandler(this.bt_ActualizarTarjetaIdentificación_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(44, 393);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(126, 17);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Código del usuario";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(44, 455);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 17);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Nombre de usuario";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(47, 509);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 21);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Imagen";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(692, 70);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 17);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Rango";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(692, 130);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(69, 17);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Categoria";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(692, 183);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 17);
+            this.label6.TabIndex = 28;
+            this.label6.Text = "Planetas";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(692, 244);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(58, 17);
+            this.label7.TabIndex = 29;
+            this.label7.Text = "Especie";
+            // 
             // Users_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1460, 702);
+            this.ClientSize = new System.Drawing.Size(1507, 756);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bt_ActualizarTarjetaIdentificación);
-            this.Controls.Add(this.swTextbox_IdUser);
             this.Controls.Add(this.crystalReportViewer);
             this.Controls.Add(this.swTextbox7);
             this.Controls.Add(this.swSpecie);
@@ -262,11 +343,13 @@ namespace FormsTratamientoDatos
             this.Controls.Add(this.swTextbox3);
             this.Controls.Add(this.swTextbox2);
             this.Controls.Add(this.swTextbox1);
+            this.Controls.Add(this.swTextbox_IdUser);
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "Users_form";
-            this.Text = "Users_form";
+            this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.Users_form_Load);
+            this.Controls.SetChildIndex(this.swTextbox_IdUser, 0);
             this.Controls.SetChildIndex(this.swTextbox1, 0);
             this.Controls.SetChildIndex(this.swTextbox2, 0);
             this.Controls.SetChildIndex(this.swTextbox3, 0);
@@ -279,8 +362,14 @@ namespace FormsTratamientoDatos
             this.Controls.SetChildIndex(this.swSpecie, 0);
             this.Controls.SetChildIndex(this.swTextbox7, 0);
             this.Controls.SetChildIndex(this.crystalReportViewer, 0);
-            this.Controls.SetChildIndex(this.swTextbox_IdUser, 0);
             this.Controls.SetChildIndex(this.bt_ActualizarTarjetaIdentificación, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.label4, 0);
+            this.Controls.SetChildIndex(this.label5, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -302,5 +391,12 @@ namespace FormsTratamientoDatos
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer;
         private CustomControls.SWTextbox swTextbox_IdUser;
         private System.Windows.Forms.Button bt_ActualizarTarjetaIdentificación;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

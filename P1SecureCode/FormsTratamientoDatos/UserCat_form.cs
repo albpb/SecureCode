@@ -20,9 +20,9 @@ namespace FormsTratamientoDatos
         }
         public override void ConfigurarDataGrid()
         {
-            dgvSpecies.Columns[1].HeaderText = "Codi Categoria";
-            dgvSpecies.Columns[2].HeaderText = "Descripció Categoria";
-            dgvSpecies.Columns[3].HeaderText = "Nivell Accés";
+            dgvSpecies.Columns[1].HeaderText = "Código";
+            dgvSpecies.Columns[2].HeaderText = "Descripción";
+            dgvSpecies.Columns[3].HeaderText = "Nivel de acceso";
             dgvSpecies.Columns[0].Visible = false;
         }
     }

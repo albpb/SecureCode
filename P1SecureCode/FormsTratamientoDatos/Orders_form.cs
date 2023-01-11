@@ -24,8 +24,8 @@ namespace FormsTratamientoDatos
             dgvSpecies.Columns[swTextbox1.DBName].Visible = false;
             dgvSpecies.Columns[swTextbox2.DBName].Visible = false;
 
-            dgvSpecies.Columns[swTextbox3.DBName].HeaderText = "Codi";
-            dgvSpecies.Columns[swTextbox4.DBName].HeaderText = "Data";
+            dgvSpecies.Columns[swTextbox3.DBName].HeaderText = "Codigo";
+            dgvSpecies.Columns[swTextbox4.DBName].HeaderText = "Fecha";
 
 
         }

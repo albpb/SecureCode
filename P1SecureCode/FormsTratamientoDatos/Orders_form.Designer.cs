@@ -129,9 +129,9 @@ namespace FormsTratamientoDatos
             this.label1.Location = new System.Drawing.Point(47, 398);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 17);
+            this.label1.Size = new System.Drawing.Size(113, 17);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Codi ordre";
+            this.label1.Text = "Código de orden";
             // 
             // label2
             // 
@@ -139,9 +139,9 @@ namespace FormsTratamientoDatos
             this.label2.Location = new System.Drawing.Point(47, 457);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 17);
+            this.label2.Size = new System.Drawing.Size(47, 17);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Data";
+            this.label2.Text = "Fecha";
             // 
             // Orders_form
             // 
@@ -158,7 +158,7 @@ namespace FormsTratamientoDatos
             this.Controls.Add(this.swPriority);
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "Orders_form";
-            this.Text = "Orders_form";
+            this.Text = "Ordenes";
             this.Controls.SetChildIndex(this.swPriority, 0);
             this.Controls.SetChildIndex(this.swTextbox1, 0);
             this.Controls.SetChildIndex(this.swFactory, 0);

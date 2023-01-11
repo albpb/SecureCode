@@ -26,8 +26,8 @@ namespace FormsTratamientoDatos
 
         public override void ConfigurarDataGrid()
         {
-            dgvSpecies.Columns["CodeUser"].HeaderText = "Codi de l'usuari";
-            dgvSpecies.Columns["UserName"].HeaderText = "Nom del usuari";
+            dgvSpecies.Columns["CodeUser"].HeaderText = "Código";
+            dgvSpecies.Columns["UserName"].HeaderText = "Nombre de usuario";
             dgvSpecies.Columns["Photo"].HeaderText = "Foto de perfil";
 
             dgvSpecies.Columns[0].Visible = false;
@@ -59,7 +59,7 @@ namespace FormsTratamientoDatos
             //
 
             cryRpt.SetParameterValue(0, swTextbox_IdUser.Text);
-            cryRpt.SetParameterValue(1, "");
+            cryRpt.SetParameterValue(1, swTextbox3.Text);
 
             Console.WriteLine(cryRpt.ParameterFields);
             string cnx = "";
