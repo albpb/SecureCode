@@ -221,7 +221,7 @@ namespace FormsTratamientoDatos
             this.swTextbox8.DBName = "idUser";
             this.swTextbox8.ForeignKey = false;
             this.swTextbox8.IsEmpty = false;
-            this.swTextbox8.Location = new System.Drawing.Point(548, 369);
+            this.swTextbox8.Location = new System.Drawing.Point(564, 653);
             this.swTextbox8.Name = "swTextbox8";
             this.swTextbox8.Size = new System.Drawing.Size(100, 22);
             this.swTextbox8.SWCodi = null;

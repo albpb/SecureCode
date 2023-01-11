@@ -92,7 +92,7 @@ namespace aplicacionPrincipal
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(293, 779);
             this.panelMenu.TabIndex = 5;
@@ -103,7 +103,7 @@ namespace aplicacionPrincipal
             this.panel1.Controls.Add(this.lblNv);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 742);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(293, 37);
             this.panel1.TabIndex = 11;
@@ -133,7 +133,7 @@ namespace aplicacionPrincipal
             this.Settings.Image = global::aplicacionPrincipal.Properties.Resources.settings;
             this.Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Settings.Location = new System.Drawing.Point(0, 271);
-            this.Settings.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Settings.Margin = new System.Windows.Forms.Padding(4);
             this.Settings.Name = "Settings";
             this.Settings.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.Settings.Size = new System.Drawing.Size(293, 74);
@@ -154,7 +154,7 @@ namespace aplicacionPrincipal
             this.bntTablaS.Image = global::aplicacionPrincipal.Properties.Resources.menu_burger;
             this.bntTablaS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bntTablaS.Location = new System.Drawing.Point(0, 197);
-            this.bntTablaS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bntTablaS.Margin = new System.Windows.Forms.Padding(4);
             this.bntTablaS.Name = "bntTablaS";
             this.bntTablaS.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.bntTablaS.Size = new System.Drawing.Size(293, 74);
@@ -176,7 +176,7 @@ namespace aplicacionPrincipal
             this.bntHome.Image = global::aplicacionPrincipal.Properties.Resources.home;
             this.bntHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bntHome.Location = new System.Drawing.Point(0, 123);
-            this.bntHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bntHome.Margin = new System.Windows.Forms.Padding(4);
             this.bntHome.Name = "bntHome";
             this.bntHome.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.bntHome.Size = new System.Drawing.Size(293, 74);
@@ -193,7 +193,7 @@ namespace aplicacionPrincipal
             this.panelLogo.Controls.Add(this.label1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(293, 123);
             this.panelLogo.TabIndex = 6;
@@ -236,7 +236,7 @@ namespace aplicacionPrincipal
             this.panelHeader.Controls.Add(this.lblNombreUsuario);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(293, 0);
-            this.panelHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(1135, 123);
             this.panelHeader.TabIndex = 7;
@@ -268,7 +268,7 @@ namespace aplicacionPrincipal
             this.panelDesktop.Controls.Add(this.pictureBox1);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(293, 123);
-            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4);
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(1135, 656);
             this.panelDesktop.TabIndex = 8;
@@ -278,7 +278,7 @@ namespace aplicacionPrincipal
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::aplicacionPrincipal.Properties.Resources.Logo_Java_theHutt;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1135, 656);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -296,7 +296,7 @@ namespace aplicacionPrincipal
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "appPrinc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplicacion Java The Hutt";
