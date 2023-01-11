@@ -39,7 +39,7 @@ namespace aplicacionPrincipal
         int valorNivelJedi;
         claseAccesoDatos ddbb = new claseAccesoDatos();
         DataSet dts = new DataSet();
-        string querry = "SELECT * FROM UserOptions WHERE AccessLevel <= ";
+        //string querry = "SELECT * FROM UserOptions WHERE AccessLevel <= ";
         
 
         //bnt X

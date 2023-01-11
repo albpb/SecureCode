@@ -26,18 +26,18 @@ namespace ComponenteAccesoDatos
         /// </summary>
         private void Connectar()
         {
-            //Configuration conf = ConfigurationManager.OpenExeConfiguration("aplicacionPrincipal.exe");
+            Configuration conf = ConfigurationManager.OpenExeConfiguration("aplicacionPrincipal.exe");
 
-            //ConnectionStringsSection section = conf.GetSection("connectionStrings")
+            ConnectionStringsSection section = conf.GetSection("connectionStrings")
 
-            //as ConnectionStringsSection;
+            as ConnectionStringsSection;
 
-            //if (!section.SectionInformation.IsProtected)
-            //{
-            //    section.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
-            //}
+            if (!section.SectionInformation.IsProtected)
+            {
+                section.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
+            }
 
-            //conf.Save();
+            conf.Save();
 
             string cnx = "";
             ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["aplicacionPrincipal.Properties.Settings.SecureCoreG4ConnectionString"];
