@@ -35,5 +35,16 @@ namespace FormsTratamientoDatos
             dgvSpecies.Columns["Login"].Visible = false;
             dgvSpecies.Columns["Password"].Visible = false;
         }
+
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            crystalReportViewer1.ParameterFieldInfo["Parameter_IdUser"].PromptText = "2";
+
+        }
+
+        private void Users_form_Load(object sender, EventArgs e)
+        {
+        }
     }
 }

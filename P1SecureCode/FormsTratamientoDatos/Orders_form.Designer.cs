@@ -44,13 +44,14 @@ namespace FormsTratamientoDatos
             this.swPriority.ClasseCS = null;
             this.swPriority.ControlID = null;
             this.swPriority.FormCS = null;
-            this.swPriority.Location = new System.Drawing.Point(519, 75);
+            this.swPriority.Location = new System.Drawing.Point(692, 92);
+            this.swPriority.Margin = new System.Windows.Forms.Padding(5);
             this.swPriority.Name = "swPriority";
             this.swPriority.Nomcodi = "CodePriority";
             this.swPriority.NomDesc = "DescPriority";
             this.swPriority.NomId = "idPriority";
             this.swPriority.NomTaula = "Priority";
-            this.swPriority.Size = new System.Drawing.Size(477, 27);
+            this.swPriority.Size = new System.Drawing.Size(636, 33);
             this.swPriority.TabIndex = 9;
             // 
             // swTextbox1
@@ -60,9 +61,10 @@ namespace FormsTratamientoDatos
             this.swTextbox1.Enabled = false;
             this.swTextbox1.ForeignKey = true;
             this.swTextbox1.IsEmpty = false;
-            this.swTextbox1.Location = new System.Drawing.Point(1002, 78);
+            this.swTextbox1.Location = new System.Drawing.Point(1336, 96);
+            this.swTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox1.Name = "swTextbox1";
-            this.swTextbox1.Size = new System.Drawing.Size(100, 20);
+            this.swTextbox1.Size = new System.Drawing.Size(132, 22);
             this.swTextbox1.SWCodi = "swPriority";
             this.swTextbox1.TabIndex = 10;
             // 
@@ -71,13 +73,14 @@ namespace FormsTratamientoDatos
             this.swFactory.ClasseCS = null;
             this.swFactory.ControlID = null;
             this.swFactory.FormCS = null;
-            this.swFactory.Location = new System.Drawing.Point(519, 109);
+            this.swFactory.Location = new System.Drawing.Point(692, 134);
+            this.swFactory.Margin = new System.Windows.Forms.Padding(5);
             this.swFactory.Name = "swFactory";
             this.swFactory.Nomcodi = "codeFactory";
             this.swFactory.NomDesc = "DescFactory";
             this.swFactory.NomId = "idFactory";
             this.swFactory.NomTaula = "Factories";
-            this.swFactory.Size = new System.Drawing.Size(477, 27);
+            this.swFactory.Size = new System.Drawing.Size(636, 33);
             this.swFactory.TabIndex = 11;
             // 
             // swTextbox2
@@ -87,9 +90,10 @@ namespace FormsTratamientoDatos
             this.swTextbox2.Enabled = false;
             this.swTextbox2.ForeignKey = true;
             this.swTextbox2.IsEmpty = false;
-            this.swTextbox2.Location = new System.Drawing.Point(1002, 109);
+            this.swTextbox2.Location = new System.Drawing.Point(1336, 134);
+            this.swTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox2.Name = "swTextbox2";
-            this.swTextbox2.Size = new System.Drawing.Size(100, 20);
+            this.swTextbox2.Size = new System.Drawing.Size(132, 22);
             this.swTextbox2.SWCodi = "swFactory";
             this.swTextbox2.TabIndex = 12;
             // 
@@ -99,9 +103,10 @@ namespace FormsTratamientoDatos
             this.swTextbox3.DBName = "codeOrder";
             this.swTextbox3.ForeignKey = false;
             this.swTextbox3.IsEmpty = false;
-            this.swTextbox3.Location = new System.Drawing.Point(35, 344);
+            this.swTextbox3.Location = new System.Drawing.Point(47, 423);
+            this.swTextbox3.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox3.Name = "swTextbox3";
-            this.swTextbox3.Size = new System.Drawing.Size(212, 20);
+            this.swTextbox3.Size = new System.Drawing.Size(281, 22);
             this.swTextbox3.SWCodi = null;
             this.swTextbox3.TabIndex = 13;
             // 
@@ -111,35 +116,38 @@ namespace FormsTratamientoDatos
             this.swTextbox4.DBName = "dateOrder";
             this.swTextbox4.ForeignKey = false;
             this.swTextbox4.IsEmpty = false;
-            this.swTextbox4.Location = new System.Drawing.Point(36, 394);
+            this.swTextbox4.Location = new System.Drawing.Point(48, 485);
+            this.swTextbox4.Margin = new System.Windows.Forms.Padding(4);
             this.swTextbox4.Name = "swTextbox4";
-            this.swTextbox4.Size = new System.Drawing.Size(462, 20);
+            this.swTextbox4.Size = new System.Drawing.Size(615, 22);
             this.swTextbox4.SWCodi = null;
             this.swTextbox4.TabIndex = 14;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 323);
+            this.label1.Location = new System.Drawing.Point(47, 398);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 15);
+            this.label1.Size = new System.Drawing.Size(74, 17);
             this.label1.TabIndex = 15;
             this.label1.Text = "Codi ordre";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 371);
+            this.label2.Location = new System.Drawing.Point(47, 457);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 15);
+            this.label2.Size = new System.Drawing.Size(38, 17);
             this.label2.TabIndex = 16;
             this.label2.Text = "Data";
             // 
             // Orders_form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1179, 450);
+            this.ClientSize = new System.Drawing.Size(1572, 554);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.swTextbox4);
@@ -148,6 +156,7 @@ namespace FormsTratamientoDatos
             this.Controls.Add(this.swFactory);
             this.Controls.Add(this.swTextbox1);
             this.Controls.Add(this.swPriority);
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "Orders_form";
             this.Text = "Orders_form";
             this.Controls.SetChildIndex(this.swPriority, 0);
