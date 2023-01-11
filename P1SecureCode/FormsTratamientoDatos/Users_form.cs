@@ -48,19 +48,20 @@ namespace FormsTratamientoDatos
         private void bt_ActualizarTarjetaIdentificación_Click(object sender, EventArgs e)
         {
             crystalReportViewer.Visible = true;
-            //crystalReportViewer.ReportSource = Environment.CurrentDirectory + "\\UserReport.rpt";
-            //
 
             ReportDocument cryRpt = new ReportDocument();
             cryRpt.Load("UserReport.rpt");
 
             crystalReportViewer.ReportSource = cryRpt;
-            crystalReportViewer.Refresh();
 
             //
-            // Lo de abajo no funciona, estamos en pruebas, no tocar lo de arriba.
+            // Añadir parametros y info de red
             //
 
+            cryRpt.SetParameterValue(0, swTextbox_IdUser.Text);
+            cryRpt.SetParameterValue(1, "");
+
+            Console.WriteLine(cryRpt.ParameterFields);
             string cnx = "";
             ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["aplicacionPrincipal.Properties.Settings.SecureCoreG4ConnectionString"];
 
@@ -90,9 +91,9 @@ namespace FormsTratamientoDatos
                 CrTable.ApplyLogOnInfo(crtableLogoninfo);
             }
 
-            //Para enviar a la impresora, en caso de que la tuviésemos configurada.
-            //cryRpt.PrintOptions.PrinterName = "";
-            //cryRpt.PrintToPrinter(1, false, 0, 0);
+
+            crystalReportViewer.Refresh();
+
         }
     }
 }
