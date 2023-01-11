@@ -36,17 +36,13 @@ namespace aplicacionPrincipal
         // Es incorrecto ya que no realiza el join a la categoria para coger el nivel
         //string querry = "select * from Users where 1=1 and Login = '";
 
-        string querry = "SELECT UserCategories.*,Users.* FROM UserCategories INNER JOIN Users ON UserCategories.idUserCategory = Users.idUserCategory " +
-        "WHERE(Users.Login = '";
         int salBH;
-        bool esIgual = false;
         string salbbdd;
 
         private void txtPassConfirm_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter) //Funciona
             {
-                this.Hide();
                 button1_Click(sender, e);
             }
         }
@@ -58,43 +54,44 @@ namespace aplicacionPrincipal
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string query = "SELECT UserCategories.*,Users.* FROM UserCategories INNER JOIN Users ON UserCategories.idUserCategory = Users.idUserCategory " +
+            "WHERE(Users.Login = '";
             //coger el user y pass del form pasado 
-            querry = querry + valorUserBBDD + "')";
+            query = query + valorUserBBDD + "')";
 
-            dts = ddbb.PortarPerConsulta(querry);
+            dts = ddbb.PortarPerConsulta(query);
 
             valorNivelUser = dts.Tables[0].Rows[0]["AccessLevel"].ToString();
 
             //nueva contraseña
             if (txtPass.Text== txtPassConfirm.Text)
             {
-                esIgual = true;
                 valorPassBBDD = txtPassConfirm.Text.ToString();
+
+                //HASHEAR Sal
+                salBH = rdm.Next(0, 100);
+                salbbdd = hs.hashingConAleatorio(salBH);
+
+                valorPassBBDD = hs.hashingPass(salbbdd, txtPassConfirm.Text.ToString());
+
+                dts.Tables[0].Rows[0]["Salt"] = salbbdd;
+                dts.Tables[0].Rows[0]["Password"] = valorPassBBDD;
+
+                dts = ddbb.Actualitzar(dts, query);
+                
+
+                MessageBox.Show("Credenciales Actualizadas.");
+                this.Hide();
+                frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
+                frmPrincipal.ShowDialog();
+                frmPrincipal.lblTitulo.Text = valorUserBBDD;
             }
             else
             {
                 MessageBox.Show("Contraseñas no coinciden");
             }
 
-            //HASHEAR Sal
-            salBH = rdm.Next(0, 100);
-            salbbdd = hs.hashingConAleatorio(salBH);
-
-            valorPassBBDD = hs.hashingPass(salbbdd, txtPassConfirm.Text.ToString());
             
-             dts.Tables[0].Rows[0]["Salt"] = salbbdd;
-             dts.Tables[0].Rows[0]["Password"] = valorPassBBDD;
-
-            if (esIgual)
-            {
-                dts = ddbb.Actualitzar(dts, querry);
-            }
-
-            MessageBox.Show("Credenciales Actualizadas.");
-            this.Hide();
-            frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
-            frmPrincipal.ShowDialog();
-            frmPrincipal.lblTitulo.Text = valorUserBBDD;
         }
     }
 }
