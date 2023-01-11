@@ -59,10 +59,10 @@ namespace aplicacionPrincipal
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(120, 31);
+            this.lblTitulo.Location = new System.Drawing.Point(135, 39);
             this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(175, 63);
+            this.lblTitulo.Size = new System.Drawing.Size(209, 74);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Home";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -78,7 +78,7 @@ namespace aplicacionPrincipal
             this.lblNivel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNivel.Name = "lblNivel";
             this.lblNivel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNivel.Size = new System.Drawing.Size(230, 29);
+            this.lblNivel.Size = new System.Drawing.Size(273, 33);
             this.lblNivel.TabIndex = 3;
             this.lblNivel.Text = "Nivel de poder Jedi:";
             // 
@@ -92,9 +92,9 @@ namespace aplicacionPrincipal
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(293, 779);
+            this.panelMenu.Size = new System.Drawing.Size(330, 974);
             this.panelMenu.TabIndex = 5;
             // 
             // panel1
@@ -102,10 +102,10 @@ namespace aplicacionPrincipal
             this.panel1.Controls.Add(this.lblNivel);
             this.panel1.Controls.Add(this.lblNv);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 742);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(0, 928);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(293, 37);
+            this.panel1.Size = new System.Drawing.Size(330, 46);
             this.panel1.TabIndex = 11;
             // 
             // lblNv
@@ -115,11 +115,11 @@ namespace aplicacionPrincipal
             this.lblNv.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblNv.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNv.ForeColor = System.Drawing.Color.OliveDrab;
-            this.lblNv.Location = new System.Drawing.Point(276, 0);
+            this.lblNv.Location = new System.Drawing.Point(309, 0);
             this.lblNv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNv.Name = "lblNv";
             this.lblNv.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNv.Size = new System.Drawing.Size(17, 18);
+            this.lblNv.Size = new System.Drawing.Size(21, 22);
             this.lblNv.TabIndex = 5;
             this.lblNv.Text = "0";
             // 
@@ -132,11 +132,11 @@ namespace aplicacionPrincipal
             this.Settings.ForeColor = System.Drawing.Color.Black;
             this.Settings.Image = global::aplicacionPrincipal.Properties.Resources.settings;
             this.Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Settings.Location = new System.Drawing.Point(0, 271);
-            this.Settings.Margin = new System.Windows.Forms.Padding(4);
+            this.Settings.Location = new System.Drawing.Point(0, 338);
+            this.Settings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Settings.Name = "Settings";
-            this.Settings.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.Settings.Size = new System.Drawing.Size(293, 74);
+            this.Settings.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.Settings.Size = new System.Drawing.Size(330, 92);
             this.Settings.TabIndex = 10;
             this.Settings.Text = "    Ajustes";
             this.Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -153,11 +153,11 @@ namespace aplicacionPrincipal
             this.bntTablaS.ForeColor = System.Drawing.Color.Black;
             this.bntTablaS.Image = global::aplicacionPrincipal.Properties.Resources.menu_burger;
             this.bntTablaS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntTablaS.Location = new System.Drawing.Point(0, 197);
-            this.bntTablaS.Margin = new System.Windows.Forms.Padding(4);
+            this.bntTablaS.Location = new System.Drawing.Point(0, 246);
+            this.bntTablaS.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bntTablaS.Name = "bntTablaS";
-            this.bntTablaS.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.bntTablaS.Size = new System.Drawing.Size(293, 74);
+            this.bntTablaS.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.bntTablaS.Size = new System.Drawing.Size(330, 92);
             this.bntTablaS.TabIndex = 8;
             this.bntTablaS.Text = "    Aplicaciones";
             this.bntTablaS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -175,11 +175,11 @@ namespace aplicacionPrincipal
             this.bntHome.ForeColor = System.Drawing.Color.Black;
             this.bntHome.Image = global::aplicacionPrincipal.Properties.Resources.home;
             this.bntHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntHome.Location = new System.Drawing.Point(0, 123);
-            this.bntHome.Margin = new System.Windows.Forms.Padding(4);
+            this.bntHome.Location = new System.Drawing.Point(0, 154);
+            this.bntHome.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bntHome.Name = "bntHome";
-            this.bntHome.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.bntHome.Size = new System.Drawing.Size(293, 74);
+            this.bntHome.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.bntHome.Size = new System.Drawing.Size(330, 92);
             this.bntHome.TabIndex = 7;
             this.bntHome.Text = "    Inicio";
             this.bntHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -193,9 +193,9 @@ namespace aplicacionPrincipal
             this.panelLogo.Controls.Add(this.label1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(293, 123);
+            this.panelLogo.Size = new System.Drawing.Size(330, 154);
             this.panelLogo.TabIndex = 6;
             // 
             // label1
@@ -204,11 +204,11 @@ namespace aplicacionPrincipal
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(55, 48);
+            this.label1.Location = new System.Drawing.Point(62, 60);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(172, 29);
+            this.label1.Size = new System.Drawing.Size(209, 33);
             this.label1.TabIndex = 8;
             this.label1.Text = "Java The Hutt";
             // 
@@ -218,12 +218,12 @@ namespace aplicacionPrincipal
             this.bntExit.BackColor = System.Drawing.Color.Transparent;
             this.bntExit.Dock = System.Windows.Forms.DockStyle.Right;
             this.bntExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntExit.Location = new System.Drawing.Point(1094, 0);
+            this.bntExit.Location = new System.Drawing.Point(1227, 0);
             this.bntExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bntExit.Name = "bntExit";
-            this.bntExit.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.bntExit.Padding = new System.Windows.Forms.Padding(9, 9, 9, 9);
             this.bntExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bntExit.Size = new System.Drawing.Size(41, 38);
+            this.bntExit.Size = new System.Drawing.Size(49, 47);
             this.bntExit.TabIndex = 4;
             this.bntExit.Text = "X";
             this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
@@ -235,20 +235,20 @@ namespace aplicacionPrincipal
             this.panelHeader.Controls.Add(this.bntExit);
             this.panelHeader.Controls.Add(this.lblNombreUsuario);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(293, 0);
-            this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
+            this.panelHeader.Location = new System.Drawing.Point(330, 0);
+            this.panelHeader.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(1135, 123);
+            this.panelHeader.Size = new System.Drawing.Size(1276, 154);
             this.panelHeader.TabIndex = 7;
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.lblFecha.Location = new System.Drawing.Point(856, 31);
+            this.lblFecha.Location = new System.Drawing.Point(963, 39);
             this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(43, 17);
+            this.lblFecha.Size = new System.Drawing.Size(49, 20);
             this.lblFecha.TabIndex = 5;
             this.lblFecha.Text = "fecha";
             // 
@@ -256,10 +256,10 @@ namespace aplicacionPrincipal
             // 
             this.lblNombreUsuario.AutoSize = true;
             this.lblNombreUsuario.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.lblNombreUsuario.Location = new System.Drawing.Point(856, 58);
+            this.lblNombreUsuario.Location = new System.Drawing.Point(963, 72);
             this.lblNombreUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(36, 17);
+            this.lblNombreUsuario.Size = new System.Drawing.Size(40, 20);
             this.lblNombreUsuario.TabIndex = 6;
             this.lblNombreUsuario.Text = "user";
             // 
@@ -267,10 +267,10 @@ namespace aplicacionPrincipal
             // 
             this.panelDesktop.Controls.Add(this.pictureBox1);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(293, 123);
-            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4);
+            this.panelDesktop.Location = new System.Drawing.Point(330, 154);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1135, 656);
+            this.panelDesktop.Size = new System.Drawing.Size(1276, 820);
             this.panelDesktop.TabIndex = 8;
             // 
             // pictureBox1
@@ -278,25 +278,25 @@ namespace aplicacionPrincipal
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::aplicacionPrincipal.Properties.Resources.Logo_Java_theHutt;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1135, 656);
+            this.pictureBox1.Size = new System.Drawing.Size(1276, 820);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // appPrinc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.ClientSize = new System.Drawing.Size(1428, 779);
+            this.ClientSize = new System.Drawing.Size(1606, 974);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "appPrinc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplicacion Java The Hutt";

@@ -35,11 +35,13 @@ namespace aplicacionPrincipal.Forms
             // 
             // flpnlMain
             // 
+            this.flpnlMain.AutoScroll = true;
             this.flpnlMain.BackColor = System.Drawing.Color.Beige;
             this.flpnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpnlMain.Location = new System.Drawing.Point(0, 23);
+            this.flpnlMain.Location = new System.Drawing.Point(0, 33);
+            this.flpnlMain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flpnlMain.Name = "flpnlMain";
-            this.flpnlMain.Size = new System.Drawing.Size(800, 427);
+            this.flpnlMain.Size = new System.Drawing.Size(1200, 659);
             this.flpnlMain.TabIndex = 9;
             this.flpnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.flpnlMain_Paint_1);
             // 
@@ -48,21 +50,23 @@ namespace aplicacionPrincipal.Forms
             this.lblApps.AutoSize = true;
             this.lblApps.BackColor = System.Drawing.Color.Transparent;
             this.lblApps.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblApps.Font = new System.Drawing.Font("Lato Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApps.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApps.Location = new System.Drawing.Point(0, 0);
+            this.lblApps.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApps.Name = "lblApps";
             this.lblApps.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblApps.Size = new System.Drawing.Size(403, 23);
+            this.lblApps.Size = new System.Drawing.Size(666, 33);
             this.lblApps.TabIndex = 8;
             this.lblApps.Text = "Aplicaciones permitidas al nivel de Poder Jedi:";
             // 
             // FormAplicaciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.flpnlMain);
             this.Controls.Add(this.lblApps);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormAplicaciones";
             this.Text = "FormAplicaciones";
             this.Load += new System.EventHandler(this.FormAplicaciones_Load);
