@@ -105,7 +105,7 @@ namespace aplicacionPrincipal
                 else if (txtUser.Text.ToString() == valorUserBBDD && txtPass.Text.ToString() == "12345aA" && valorPassBBDD == "12345aA")
                 {
                     this.Hide();
-                    frmCredenciales = new attCredenciales(valorUserBBDD, valorPassBBDD);
+                    frmCredenciales = new attCredenciales(valorUserBBDD, valorNivelUser);
                     frmCredenciales.ShowDialog();
                     frmCredenciales.lblValorUser.Text = valorUserBBDD;
                 }

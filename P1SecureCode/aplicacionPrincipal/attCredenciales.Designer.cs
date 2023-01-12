@@ -38,6 +38,7 @@ namespace aplicacionPrincipal
             this.lblValorUser = new System.Windows.Forms.Label();
             this.lblUserTitulo = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblNivel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,12 +130,23 @@ namespace aplicacionPrincipal
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // lblNivel
+            // 
+            this.lblNivel.AutoSize = true;
+            this.lblNivel.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.lblNivel.Location = new System.Drawing.Point(344, 171);
+            this.lblNivel.Name = "lblNivel";
+            this.lblNivel.Size = new System.Drawing.Size(20, 13);
+            this.lblNivel.TabIndex = 9;
+            this.lblNivel.Text = "efij";
+            // 
             // attCredenciales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(383, 194);
+            this.Controls.Add(this.lblNivel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblUserTitulo);
             this.Controls.Add(this.lblValorUser);
@@ -166,6 +178,7 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.Label lblUserTitulo;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblNivel;
     }
 }
 

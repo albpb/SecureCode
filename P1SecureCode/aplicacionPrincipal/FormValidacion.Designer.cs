@@ -55,9 +55,9 @@ namespace aplicacionPrincipal
             this.lblTitulo.Font = new System.Drawing.Font("Lato", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(134, 266);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(125, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(124, 29);
             this.lblTitulo.TabIndex = 2;
-            this.lblTitulo.Text = "Jaba Login";
+            this.lblTitulo.Text = "Java Login";
             // 
             // lblUser
             // 
