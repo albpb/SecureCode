@@ -24,7 +24,6 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\o
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\FormsTratamientoDatos.dll
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Compilacion\FormsTratamientoDatos.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.AssemblyReference.cache
-E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.formTaulaForanea_Users.resources
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.FormFTP_form.resources
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Orders_form.resources
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Sectors_form.resources
@@ -37,3 +36,5 @@ E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\Form
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Users_form.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Properties.Resources.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Properties.Resources.resources
+E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Users_form.resources
