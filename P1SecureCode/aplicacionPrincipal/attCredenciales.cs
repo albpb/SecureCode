@@ -19,11 +19,12 @@ namespace aplicacionPrincipal
         {
             InitializeComponent();
         }
-        public attCredenciales(string user, string nv)
+        public attCredenciales(string user, string nv, string nom)
         {
             InitializeComponent();
             valorUserBBDD = user;
             valorNivelUser = nv;
+            valorNombre = nom;
         }
 
         hashing hs = new hashing();
@@ -32,7 +33,7 @@ namespace aplicacionPrincipal
         Random rdm = new Random();
         appPrinc frmPrincipal;
 
-        string valorUserBBDD, valorPassBBDD, valorNivelUser;
+        string valorUserBBDD, valorPassBBDD, valorNivelUser, valorNombre;
         //string querry = "SELECT UserCategories.*,Users.* FROM UserCategories INNER JOIN Users ON UserCategories.idUserCategory = Users.idUserCategory " +
         //"WHERE(Users.Login = '";
         int salBH;
@@ -81,7 +82,7 @@ namespace aplicacionPrincipal
 
                 MessageBox.Show("Credenciales Actualizadas.");
                 this.Hide();
-                frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
+                frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser, valorNombre);
                 frmPrincipal.ShowDialog();
                 frmPrincipal.lblTitulo.Text = valorUserBBDD;
             }

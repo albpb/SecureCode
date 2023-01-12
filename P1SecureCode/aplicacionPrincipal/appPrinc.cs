@@ -27,15 +27,16 @@ namespace aplicacionPrincipal
         }
 
         //constructor actual
-        public appPrinc(string user, string nivel)
+        public appPrinc(string user, string nivel, string nom)
         {
             InitializeComponent();
             valorUserBBDD = user;
             valorNivelUser = nivel;
+            valorNombre = nom;
         }
 
         //Variables necesarias
-        string valorUserBBDD, valorNivelUser;
+        string valorUserBBDD, valorNivelUser, valorNombre;
         int valorNivelJedi;
         claseAccesoDatos ddbb = new claseAccesoDatos();
         DataSet dts = new DataSet();
@@ -106,7 +107,7 @@ namespace aplicacionPrincipal
         {
             string userName = lblNombreUsuario.Text;
             string valorPoder = lblNv.Text;
-            OpenChildForm(new Forms.FormExit(userName, valorPoder), sender);
+            OpenChildForm(new Forms.FormExit(userName, valorPoder, valorNombre), sender);
         }
         public void appPrinc_Load(object sender, EventArgs e)
         {

@@ -210,7 +210,7 @@ namespace aplicacionPrincipal
             this.bntExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntExit.Location = new System.Drawing.Point(820, 0);
             this.bntExit.Name = "bntExit";
-            this.bntExit.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bntExit.Padding = new System.Windows.Forms.Padding(6);
             this.bntExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bntExit.Size = new System.Drawing.Size(31, 30);
             this.bntExit.TabIndex = 4;

@@ -27,7 +27,7 @@ namespace aplicacionPrincipal
         DataSet dts = new DataSet();
 
         int contador = 0, segundos = 0, segundosMalos = 0;
-        string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser, passActual;
+        string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser, passActual, valorNombre;
         bool intruso = false;
 
         private void tmalo_Tick(object sender, EventArgs e)
@@ -45,7 +45,7 @@ namespace aplicacionPrincipal
             if (segundos == 3)
             {
                 this.Hide();
-                frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser);
+                frmPrincipal = new appPrinc(valorUserBBDD, valorNivelUser, valorNombre);
                 frmPrincipal.ShowDialog();
                 frmPrincipal.lblTitulo.Text = valorUserBBDD;
             }
@@ -82,6 +82,7 @@ namespace aplicacionPrincipal
                     valorPassBBDD = dts.Tables[0].Rows[0]["Password"].ToString();
                     valorSaltBBDD = dts.Tables[0].Rows[0]["Salt"].ToString();
                     valorNivelUser = dts.Tables[0].Rows[0]["AccessLevel"].ToString();
+                    valorNombre = dts.Tables[0].Rows[0]["UserName"].ToString();
 
                     passActual = hs.hashingPass(valorSaltBBDD, txtPass.Text.ToString());
                     if (passActual == valorPassBBDD)
@@ -105,7 +106,7 @@ namespace aplicacionPrincipal
                 else if (txtUser.Text.ToString() == valorUserBBDD && txtPass.Text.ToString() == "12345aA" && valorPassBBDD == "12345aA")
                 {
                     this.Hide();
-                    frmCredenciales = new attCredenciales(valorUserBBDD, valorNivelUser);
+                    frmCredenciales = new attCredenciales(valorUserBBDD, valorNivelUser, valorNombre);
                     frmCredenciales.ShowDialog();
                     frmCredenciales.lblValorUser.Text = valorUserBBDD;
                 }
