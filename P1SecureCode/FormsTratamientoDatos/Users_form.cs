@@ -43,6 +43,7 @@ namespace FormsTratamientoDatos
         private void Users_form_Load(object sender, EventArgs e)
         {
             crystalReportViewer.Visible = false;
+            swTextbox_IdUser.Visible = false;
         }
 
         private void bt_ActualizarTarjetaIdentificación_Click(object sender, EventArgs e)
@@ -91,9 +92,7 @@ namespace FormsTratamientoDatos
                 CrTable.ApplyLogOnInfo(crtableLogoninfo);
             }
 
-
             crystalReportViewer.Refresh();
-
         }
     }
 }

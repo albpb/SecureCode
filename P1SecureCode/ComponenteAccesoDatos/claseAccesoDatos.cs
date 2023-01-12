@@ -28,9 +28,7 @@ namespace ComponenteAccesoDatos
         {
             Configuration conf = ConfigurationManager.OpenExeConfiguration("aplicacionPrincipal.exe");
 
-            ConnectionStringsSection section = conf.GetSection("connectionStrings")
-
-            as ConnectionStringsSection;
+            ConnectionStringsSection section = conf.GetSection("connectionStrings") as ConnectionStringsSection;
 
             if (!section.SectionInformation.IsProtected)
             {
