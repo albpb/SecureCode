@@ -39,6 +39,7 @@ namespace aplicacionPrincipal
             this.lblInfo = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.tmalo = new System.Windows.Forms.Timer(this.components);
+            this.bntExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtUser
@@ -121,12 +122,23 @@ namespace aplicacionPrincipal
             this.tmalo.Interval = 1000;
             this.tmalo.Tick += new System.EventHandler(this.tmalo_Tick);
             // 
+            // bntExit
+            // 
+            this.bntExit.Location = new System.Drawing.Point(93, 360);
+            this.bntExit.Name = "bntExit";
+            this.bntExit.Size = new System.Drawing.Size(75, 23);
+            this.bntExit.TabIndex = 9;
+            this.bntExit.Text = "Sair";
+            this.bntExit.UseVisualStyleBackColor = true;
+            this.bntExit.Click += new System.EventHandler(this.bntExit_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::aplicacionPrincipal.Properties.Resources.javaloginbase;
             this.ClientSize = new System.Drawing.Size(383, 461);
+            this.Controls.Add(this.bntExit);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.bntLogin);
             this.Controls.Add(this.txtPass);
@@ -153,6 +165,7 @@ namespace aplicacionPrincipal
         private System.Windows.Forms.Label lblInfo;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Timer tmalo;
+        private System.Windows.Forms.Button bntExit;
     }
 }
 

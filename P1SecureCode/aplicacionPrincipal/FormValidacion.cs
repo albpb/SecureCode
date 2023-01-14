@@ -28,6 +28,12 @@ namespace aplicacionPrincipal
 
         int contador = 0, segundos = 0, segundosMalos = 0;
         string valorUserBBDD, valorPassBBDD, valorSaltBBDD, valorNivelUser, passActual, valorNombre;
+
+        private void bntExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         bool intruso = false;
 
         private void tmalo_Tick(object sender, EventArgs e)
