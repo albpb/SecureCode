@@ -80,12 +80,39 @@ namespace CustomControls
             claseAccesoDatos bbdd = new claseAccesoDatos();
             DataSet dts = new DataSet();
 
-            string query = $"Select {_Nomcodi}, {_NomDesc} From {_NomTaula} Where {_NomId} = {_ControlID}";
-            
+            string query; 
+
+            if (_ControlID == "")
+            {
+                query = $"Select {_Nomcodi}, {_NomDesc} From {_NomTaula} Where {_NomId} = ''";
+            }
+            else
+            {
+                query = $"Select {_Nomcodi}, {_NomDesc} From {_NomTaula} Where {_NomId} = {_ControlID}";
+            }
+
             dts = bbdd.PortarPerConsulta(query);
 
-            TBCode.Text = dts.Tables[0].Rows[0][_Nomcodi].ToString();
-            TBDesc.Text = dts.Tables[0].Rows[0][_NomDesc].ToString();
+            try
+            {
+                TBCode.Text = dts.Tables[0].Rows[0][_Nomcodi].ToString();
+
+            }
+            catch (Exception)
+            {
+                TBCode.Text = "";
+
+            }
+            try
+            {
+                TBDesc.Text = dts.Tables[0].Rows[0][_NomDesc].ToString();
+
+            }
+            catch (Exception)
+            {
+                TBDesc.Text = "";
+
+            }
 
             _SWTextbox = sw;
 

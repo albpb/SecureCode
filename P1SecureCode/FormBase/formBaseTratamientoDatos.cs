@@ -100,8 +100,16 @@ namespace FormBase
                     if (c is CustomControls.SWTextbox)
                     {
                         CustomControls.SWTextbox ctr = (CustomControls.SWTextbox)c;
-                        dr[ctr.DBName] = ctr.Text;
+
+                        if (ctr.Tag is null || ctr.Tag.ToString() != "NaN")
+                        {
+                            dr[ctr.DBName] = ctr.Text;
+                        }
                     }
+                }
+                if (dts.Tables[0].TableName == "Users")
+                {
+                    dr["Password"] = "12345aA";
                 }
 
                 dts.Tables[0].Rows.Add(dr);

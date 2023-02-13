@@ -51,6 +51,8 @@ namespace FormsTratamientoDatos
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.swTB_UserName = new CustomControls.SWTextbox();
             this.SuspendLayout();
             // 
             // swTextbox1
@@ -214,7 +216,7 @@ namespace FormsTratamientoDatos
             this.crystalReportViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer.DisplayStatusBar = false;
-            this.crystalReportViewer.Location = new System.Drawing.Point(695, 326);
+            this.crystalReportViewer.Location = new System.Drawing.Point(685, 308);
             this.crystalReportViewer.Margin = new System.Windows.Forms.Padding(4);
             this.crystalReportViewer.Name = "crystalReportViewer";
             this.crystalReportViewer.ShowCopyButton = false;
@@ -242,6 +244,7 @@ namespace FormsTratamientoDatos
             this.swTextbox_IdUser.Size = new System.Drawing.Size(105, 22);
             this.swTextbox_IdUser.SWCodi = null;
             this.swTextbox_IdUser.TabIndex = 21;
+            this.swTextbox_IdUser.Tag = "NaN";
             // 
             // bt_ActualizarTarjetaIdentificación
             // 
@@ -277,7 +280,7 @@ namespace FormsTratamientoDatos
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(47, 509);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 21);
+            this.label3.Size = new System.Drawing.Size(54, 17);
             this.label3.TabIndex = 25;
             this.label3.Text = "Imagen";
             // 
@@ -317,12 +320,36 @@ namespace FormsTratamientoDatos
             this.label7.TabIndex = 29;
             this.label7.Text = "Especie";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(47, 574);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(75, 17);
+            this.label8.TabIndex = 30;
+            this.label8.Text = "UserName";
+            // 
+            // swTB_UserName
+            // 
+            this.swTB_UserName.Data = CustomControls.SWTextbox.DataType.Texte;
+            this.swTB_UserName.DBName = "Login";
+            this.swTB_UserName.ForeignKey = false;
+            this.swTB_UserName.IsEmpty = false;
+            this.swTB_UserName.Location = new System.Drawing.Point(47, 594);
+            this.swTB_UserName.Name = "swTB_UserName";
+            this.swTB_UserName.Size = new System.Drawing.Size(100, 22);
+            this.swTB_UserName.SWCodi = null;
+            this.swTB_UserName.TabIndex = 31;
+            // 
             // Users_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1507, 756);
+            this.Controls.Add(this.crystalReportViewer);
+            this.Controls.Add(this.swTB_UserName);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -331,7 +358,6 @@ namespace FormsTratamientoDatos
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bt_ActualizarTarjetaIdentificación);
-            this.Controls.Add(this.crystalReportViewer);
             this.Controls.Add(this.swTextbox7);
             this.Controls.Add(this.swSpecie);
             this.Controls.Add(this.swTextbox6);
@@ -361,7 +387,6 @@ namespace FormsTratamientoDatos
             this.Controls.SetChildIndex(this.swTextbox6, 0);
             this.Controls.SetChildIndex(this.swSpecie, 0);
             this.Controls.SetChildIndex(this.swTextbox7, 0);
-            this.Controls.SetChildIndex(this.crystalReportViewer, 0);
             this.Controls.SetChildIndex(this.bt_ActualizarTarjetaIdentificación, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
@@ -370,6 +395,9 @@ namespace FormsTratamientoDatos
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.label8, 0);
+            this.Controls.SetChildIndex(this.swTB_UserName, 0);
+            this.Controls.SetChildIndex(this.crystalReportViewer, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -398,5 +426,7 @@ namespace FormsTratamientoDatos
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private CustomControls.SWTextbox swTB_UserName;
     }
 }

@@ -54,10 +54,9 @@ namespace aplicacionPrincipal
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             string query = "SELECT UserCategories.*,Users.* FROM UserCategories INNER JOIN Users ON UserCategories.idUserCategory = Users.idUserCategory " +
-            "WHERE(Users.Login = '";
-            //coger el user y pass del form pasado 
-            query = query + valorUserBBDD + "')";
+            "WHERE(Users.Login = '" + valorUserBBDD + "')";
 
             dts = ddbb.PortarPerConsulta(query);
 
