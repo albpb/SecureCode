@@ -47,52 +47,60 @@ namespace FormsTratamientoDatos
 
         private void bt_ActualizarTarjetaIdentificación_Click(object sender, EventArgs e)
         {
-            crystalReportViewer.Visible = true;
-
-            ReportDocument cryRpt = new ReportDocument();
-            cryRpt.Load("UserReport.rpt");
-
-            crystalReportViewer.ReportSource = cryRpt;
+           
 
             //
             // Añadir parametros y info de red
             //
-
-            cryRpt.SetParameterValue(0, swTextbox_IdUser.Text);
-            cryRpt.SetParameterValue(1, swTextbox3.Text);
-
-            Console.WriteLine(cryRpt.ParameterFields);
-            string cnx = "";
-            ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["aplicacionPrincipal.Properties.Settings.SecureCoreG4ConnectionString"];
-
-            if (conf2 != null)
+            if (swTextbox_IdUser.Text == "")
             {
-                cnx = conf2.ConnectionString;
+                MessageBox.Show("Este usuario aún no existe");
+            }
+            else
+            {
+                crystalReportViewer.Visible = true;
+
+                ReportDocument cryRpt = new ReportDocument();
+                cryRpt.Load("UserReport.rpt");
+
+                crystalReportViewer.ReportSource = cryRpt;
+                cryRpt.SetParameterValue(0, swTextbox_IdUser.Text);
+                cryRpt.SetParameterValue(1, swTextbox3.Text);
+
+                Console.WriteLine(cryRpt.ParameterFields);
+                string cnx = "";
+                ConnectionStringSettings conf2 = ConfigurationManager.ConnectionStrings["aplicacionPrincipal.Properties.Settings.SecureCoreG4ConnectionString"];
+
+                if (conf2 != null)
+                {
+                    cnx = conf2.ConnectionString;
+                }
+
+                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(cnx);
+                string server = builder.DataSource;
+                string database = builder.InitialCatalog;
+                string user = builder.UserID;
+                string passwd = builder.Password;
+
+                ConnectionInfo crConnectionInfo = new ConnectionInfo();
+                crConnectionInfo.ServerName = server;
+                crConnectionInfo.DatabaseName = database;
+                crConnectionInfo.UserID = user;
+                crConnectionInfo.Password = passwd;
+
+                TableLogOnInfo crtableLogoninfo = new TableLogOnInfo();
+                Tables CrTables = cryRpt.Database.Tables;
+                foreach (Table CrTable in CrTables)
+                {
+                    crtableLogoninfo = CrTable.LogOnInfo;
+                    crtableLogoninfo.ConnectionInfo = crConnectionInfo;
+                    CrTable.ApplyLogOnInfo(crtableLogoninfo);
+                }
+
+
+                crystalReportViewer.Refresh();
             }
 
-            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(cnx);
-            string server = builder.DataSource;
-            string database = builder.InitialCatalog;
-            string user = builder.UserID;
-            string passwd = builder.Password;
-
-            ConnectionInfo crConnectionInfo = new ConnectionInfo();
-            crConnectionInfo.ServerName = server;
-            crConnectionInfo.DatabaseName = database;
-            crConnectionInfo.UserID = user;
-            crConnectionInfo.Password = passwd;
-
-            TableLogOnInfo crtableLogoninfo = new TableLogOnInfo();
-            Tables CrTables = cryRpt.Database.Tables;
-            foreach (Table CrTable in CrTables)
-            {
-                crtableLogoninfo = CrTable.LogOnInfo;
-                crtableLogoninfo.ConnectionInfo = crConnectionInfo;
-                CrTable.ApplyLogOnInfo(crtableLogoninfo);
-            }
-
-
-            crystalReportViewer.Refresh();
 
         }
     }

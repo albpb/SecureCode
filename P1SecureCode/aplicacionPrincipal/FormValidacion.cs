@@ -121,17 +121,13 @@ namespace aplicacionPrincipal
                     }
                     if (intruso)
                     {
-                        throw new Exception("Eres un intruso, vete de aqui!");
+                        throw new ArgumentException("Eres un intruso, vete de aqui!");
                     }
-                    throw new Exception("(" + contador + ")" + " Contraseña incorrecta");
+                    throw new ArgumentException("(" + contador + ")" + " Contraseña incorrecta");
                 }
 
             }
-            catch (FileNotFoundException ex)
-            {
-                MessageBox.Show("No se ha encontrado el archivo. \n"+ex.Message);
-            }
-            catch (Exception ex)
+            catch (ArgumentException ex)
             {
                 lblInfo.Text = ex.Message;
 

@@ -76,7 +76,7 @@ namespace aplicacionPrincipal
                 dts.Tables[0].Rows[0]["Salt"] = salbbdd;
                 dts.Tables[0].Rows[0]["Password"] = valorPassBBDD;
 
-                dts = ddbb.Actualitzar(dts, query);
+                dts = ddbb.Actualitzar(dts, "SELECT * FROM Users");
                 
 
                 MessageBox.Show("Credenciales Actualizadas.");
