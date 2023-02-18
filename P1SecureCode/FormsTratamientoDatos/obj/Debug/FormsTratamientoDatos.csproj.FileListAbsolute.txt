@@ -41,3 +41,4 @@ E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\Forms
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Users_form.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.UserCat_form.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.Orders_form.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\FormsTratamientoDatos\obj\Debug\FormsTratamientoDatos.csproj.CopyComplete

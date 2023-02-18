@@ -1,0 +1,6 @@
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\OrdersEDITranslator.dll.config
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\OrdersEDITranslator.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\OrdersEDITranslator.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.pdb

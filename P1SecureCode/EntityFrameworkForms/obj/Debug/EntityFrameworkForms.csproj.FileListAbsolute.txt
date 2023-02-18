@@ -1,0 +1,7 @@
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\EntityFrameworkForms.dll.config
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\EntityFrameworkForms.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\EntityFrameworkForms.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\obj\Debug\EntityFrameworkForms.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\obj\Debug\EntityFrameworkForms.dll
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\obj\Debug\EntityFrameworkForms.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\obj\Debug\EntityFrameworkForms.csproj.AssemblyReference.cache

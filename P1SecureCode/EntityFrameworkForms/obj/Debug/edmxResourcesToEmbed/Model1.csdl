@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SecureCoreG4Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Factories">
+    <Key>
+      <PropertyRef Name="idFactory" />
+    </Key>
+    <Property Name="idFactory" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeFactory" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DescFactory" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Factories" FromRole="Factories" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="idOrder" />
+    </Key>
+    <Property Name="idOrder" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeOrder" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="dateOrder" Type="DateTime" Precision="0" />
+    <Property Name="IdPriority" Type="Int16" Nullable="false" />
+    <Property Name="IdFactory" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Factories" Relationship="Self.FK_Orders_Factories" FromRole="Orders" ToRole="Factories" />
+    <NavigationProperty Name="Priority" Relationship="Self.FK_Orders_Priority" FromRole="Orders" ToRole="Priority" />
+  </EntityType>
+  <EntityType Name="Priority">
+    <Key>
+      <PropertyRef Name="idPriority" />
+    </Key>
+    <Property Name="idPriority" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodePriority" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DescPriority" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Priority" FromRole="Priority" ToRole="Orders" />
+  </EntityType>
+  <Association Name="FK_Orders_Factories">
+    <End Role="Factories" Type="Self.Factories" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Factories">
+        <PropertyRef Name="idFactory" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="IdFactory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Priority">
+    <End Role="Priority" Type="Self.Priority" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Priority">
+        <PropertyRef Name="idPriority" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="IdPriority" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FormsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Factories" EntityType="Self.Factories" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" />
+    <EntitySet Name="Priority" EntityType="Self.Priority" />
+    <AssociationSet Name="FK_Orders_Factories" Association="Self.FK_Orders_Factories">
+      <End Role="Factories" EntitySet="Factories" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Priority" Association="Self.FK_Orders_Priority">
+      <End Role="Priority" EntitySet="Priority" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

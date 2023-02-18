@@ -126,8 +126,16 @@ namespace CustomControls
 
             //instanciem l’objecte
 
-            Object[] args = { _taula };
-            dllBD = Activator.CreateInstance(tipus, args);
+            if (_taula == "")
+            {
+                dllBD = Activator.CreateInstance(tipus);
+
+            }
+            else
+            {
+                Object[] args = { _taula };
+                dllBD = Activator.CreateInstance(tipus, args);
+            }
 
             //el mostrem assumint que es tracta d’un form
 

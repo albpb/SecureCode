@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SecureCoreG4ModelStoreContainer" CdmEntityContainer="FormsEntities">
+    <EntitySetMapping Name="Factories">
+      <EntityTypeMapping TypeName="SecureCoreG4Model.Factories">
+        <MappingFragment StoreEntitySet="Factories">
+          <ScalarProperty Name="idFactory" ColumnName="idFactory" />
+          <ScalarProperty Name="codeFactory" ColumnName="codeFactory" />
+          <ScalarProperty Name="DescFactory" ColumnName="DescFactory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="SecureCoreG4Model.Orders">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="codeOrder" ColumnName="codeOrder" />
+          <ScalarProperty Name="dateOrder" ColumnName="dateOrder" />
+          <ScalarProperty Name="IdPriority" ColumnName="IdPriority" />
+          <ScalarProperty Name="IdFactory" ColumnName="IdFactory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Priority">
+      <EntityTypeMapping TypeName="SecureCoreG4Model.Priority">
+        <MappingFragment StoreEntitySet="Priority">
+          <ScalarProperty Name="idPriority" ColumnName="idPriority" />
+          <ScalarProperty Name="CodePriority" ColumnName="CodePriority" />
+          <ScalarProperty Name="DescPriority" ColumnName="DescPriority" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e5d069dcc99e48a2876802737067c443" Name="Diagram1">
+        <EntityTypeShape EntityType="SecureCoreG4Model.Agencies" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.DefinedRoutes" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.DeliveryData" Width="1.5" PointX="10.5" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Factories" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Filiations" Width="1.5" PointX="0.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.InnerEncryption" Width="1.5" PointX="5.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.InnerEncryptionData" Width="1.5" PointX="7.5" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.MilitaryCamps" Width="1.5" PointX="5.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.OperationalAreas" Width="1.5" PointX="3" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.OrderInfo" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Orders" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.OrdersDetail" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.PlanetKeys" Width="1.5" PointX="5.25" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.PlanetRoutes" Width="1.5" PointX="8.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Planets" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Priority" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.PV1" Width="1.5" PointX="7.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.References" Width="1.5" PointX="3" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Regions" Width="1.5" PointX="1.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Routes" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.RouteTypes" Width="1.5" PointX="3.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Sectors" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.SpaceShipCategories" Width="1.5" PointX="3.75" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.SpaceShips" Width="1.5" PointX="8.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.SpaceShipTypes" Width="1.5" PointX="6" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Species" Width="1.5" PointX="0.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.UserCategories" Width="1.5" PointX="8" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.UserOptions" Width="1.5" PointX="9.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.UserRanks" Width="1.5" PointX="8" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecureCoreG4Model.Users" Width="1.5" PointX="10.25" PointY="18.125" IsExpanded="true" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_OrderInfo_Agencies" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_DefinedRoutes_Routes" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_DeliveryData_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_DeliveryData_SpaceShips" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Orders_Factories" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Planets_Filiations" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_SpaceShipTypes_Filiations" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_InnerEncryption_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_InnerEncryptionData_InnerEncryption" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_MilitaryCamps_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_OrderInfo_OperationalAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_OrderInfo_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Orders_Priority" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_OrdersDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_OrdersDetail_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_OrdersDetail_References" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_PlanetKeys_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_PlanetRoutes_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_PlanetRoutes_Routes" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Planets_Sectors" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Planets_Species" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Users_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Sectors_Regions" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Routes_RouteTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_SpaceShipTypes_SpaceShipCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_SpaceShips_SpaceShipTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Users_Species" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Users_UserCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="SecureCoreG4Model.FK_Users_UserRanks" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
