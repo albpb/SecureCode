@@ -56,3 +56,4 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\UserReport.
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\UserReport.cs
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\UserReport.rpt
 E:\S2AM\Proyecto 1\SecureCode\P1SecureCode\Compilacion\UserReport.cs
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Crystal-Reports\obj\Debug\Crystal-Reports.csproj.AssemblyReference.cache

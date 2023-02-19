@@ -1,8 +1,9 @@
-﻿<FTP>
-	<ip>91.134.211.178</ip>
-	<credentials>
-		<username>g04</username>
-		<password>12345aA</password>
-	</credentials>
-	<rutaCarpeta>Descargas</rutaCarpeta>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FTP>
+  <ip />
+  <credentials>
+    <username>g04</username>
+    <password>12345aA</password>
+  </credentials>
+  <rutaCarpeta>Descargas</rutaCarpeta>
 </FTP>

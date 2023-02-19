@@ -34,7 +34,7 @@ namespace ConsolaProyecto
 
             Console.Write($"{Environment.NewLine}---------------------------------------------");
             Console.Write($"{Environment.NewLine}---------------------------------------------");
-            Console.Write($"{Environment.NewLine}---------------------------------------------");
+            Console.WriteLine($"{Environment.NewLine}---------------------------------------------");
             Console.WriteLine("._,.\n" +
         "           \"..-..pf.\n" +
         "          -L   ..#'\n" +
@@ -54,8 +54,8 @@ namespace ConsolaProyecto
         "  ......-f.                 .-,,.,.-:--&`\n" +
         "                            .`...'..`_J`\n" +
         "                            .~......'#'\n" +
-        "                            '..,,.,_]`     Java the Hutt Group' TIE/In\n" +
-        "                            .L..`..``.     Programa de conexión FTP para descarga de EDIs (2)");
+        "                            '..,,.,_]`     Java the Hutt Group'\n" +
+        "                            .L..`..``.     Programa de conexión FTP para descarga de EDIs");
 
             Console.Write($"{Environment.NewLine}---------------------------------------------");
 

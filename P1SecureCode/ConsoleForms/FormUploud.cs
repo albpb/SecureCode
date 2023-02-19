@@ -60,7 +60,7 @@ namespace ConsoleForms
                 }
             }
 
-            lb_RutaArxiu.Text = filePath;
+            TBroute.Text = filePath;
         }
 
         private void bt_VisualitzarDades_Click(object sender, EventArgs e)
@@ -68,59 +68,6 @@ namespace ConsoleForms
             MessageBox.Show(fileContent);
         }
 
-        private void btCarregarDadesBD_Click(object sender, EventArgs e)
-        {
-            string fileName = Path.GetFileName(filePath);
-
-            try
-            {
-                string filePath2 = "Recursos/credencialsFTP.xml";
-
-                XmlReaderSettings settings = new XmlReaderSettings();
-                settings.ConformanceLevel = ConformanceLevel.Document;
-                settings.IgnoreWhitespace = true;
-                settings.IgnoreComments = true;
-                settings.DtdProcessing = DtdProcessing.Ignore;
-
-                XmlReader reader = XmlReader.Create(filePath2, settings);
-                reader.ReadToFollowing("ip");
-                string ipFTP = reader.ReadElementContentAsString();
-                reader.ReadToFollowing("username");
-                string usernameFTP = reader.ReadElementContentAsString();
-                reader.Close();
-
-                XmlReader reader2 = XmlReader.Create(filePath2, settings);
-                reader2.ReadToFollowing("password");
-                string passwordFTP = reader2.ReadElementContentAsString();
-                reader2.Close();
-
-                if (passwordFTP == "" || ipFTP == "" || usernameFTP == "")
-                {
-                    throw new Exception("No es pot conectar al servidor FTP perque les dades no son correctes.");
-                }
-                else
-                {
-                    FtpWebRequest ftpRequest2;
-                    ftpRequest2 = (FtpWebRequest)WebRequest.Create("ftp://" + ipFTP + "/" + fileName);
-                    ftpRequest2.Credentials = new NetworkCredential(usernameFTP, passwordFTP);
-                    ftpRequest2.Method = WebRequestMethods.Ftp.UploadFile;
-
-                    byte[] content = File.ReadAllBytes(filePath);
-                    ftpRequest2.ContentLength = content.Length;
-                    Stream stream = ftpRequest2.GetRequestStream();
-                    stream.Write(content, 0, content.Length);
-                    stream.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-            MessageBox.Show("Proceso Finalizado");
-            bt_VisualitzarDades.Enabled = false;
-            btCarregarDadesBD.Enabled = false;
-        }
 
         private void Form_SubirFicherosFTP_Load(object sender, EventArgs e)
         {
@@ -130,7 +77,6 @@ namespace ConsoleForms
 
         private void Form_SubirFicherosFTP_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
         }
 
         private void btModificarDatosXML_Click(object sender, EventArgs e)
@@ -237,6 +183,65 @@ namespace ConsoleForms
             {
                 btModificarDatosXML.Enabled = true;
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            string fileName = Path.GetFileName(filePath);
+
+            try
+            {
+                string filePath2 = "Recursos/credencialsFTP.xml";
+
+                XmlReaderSettings settings = new XmlReaderSettings();
+                settings.ConformanceLevel = ConformanceLevel.Document;
+                settings.IgnoreWhitespace = true;
+                settings.IgnoreComments = true;
+                settings.DtdProcessing = DtdProcessing.Ignore;
+
+                XmlReader reader = XmlReader.Create(filePath2, settings);
+                reader.ReadToFollowing("ip");
+                string ipFTP = reader.ReadElementContentAsString();
+                reader.ReadToFollowing("username");
+                string usernameFTP = reader.ReadElementContentAsString();
+                reader.Close();
+
+                XmlReader reader2 = XmlReader.Create(filePath2, settings);
+                reader2.ReadToFollowing("password");
+                string passwordFTP = reader2.ReadElementContentAsString();
+                reader2.Close();
+
+                if (passwordFTP == "" || ipFTP == "" || usernameFTP == "")
+                {
+                    throw new Exception("No es pot conectar al servidor FTP perque les dades no son correctes.");
+                }
+                else
+                {
+                    FtpWebRequest ftpRequest2;
+                    ftpRequest2 = (FtpWebRequest)WebRequest.Create("ftp://" + ipFTP + "/" + fileName);
+                    ftpRequest2.Credentials = new NetworkCredential(usernameFTP, passwordFTP);
+                    ftpRequest2.Method = WebRequestMethods.Ftp.UploadFile;
+
+                    byte[] content = File.ReadAllBytes(filePath);
+                    ftpRequest2.ContentLength = content.Length;
+                    Stream stream = ftpRequest2.GetRequestStream();
+                    stream.Write(content, 0, content.Length);
+                    stream.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            MessageBox.Show("Proceso Finalizado");
+            bt_VisualitzarDades.Enabled = false;
+            btCarregarDadesBD.Enabled = false;
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show(fileContent);
         }
     }
 }
