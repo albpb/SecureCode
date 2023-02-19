@@ -32,7 +32,33 @@ namespace ConsolaProyecto
 
             Console.Title = "PROGRAMA CONNEXIÓ FTP";
 
-            Console.Write($"{Environment.NewLine}BENVINGUT A LA CONSOLA DEL GRUP 4");
+            Console.Write($"{Environment.NewLine}---------------------------------------------");
+            Console.Write($"{Environment.NewLine}---------------------------------------------");
+            Console.Write($"{Environment.NewLine}---------------------------------------------");
+            Console.WriteLine("._,.\n" +
+        "           \"..-..pf.\n" +
+        "          -L   ..#'\n" +
+        "        .+_L  .\"]#\n" +
+        "        ,'j' .+.j`                 -'.__..,.,p.\n" +
+        "       _~ #..<..0.                 .J-.``..._f.\n" +
+        "      .7..#_.. _f.                .....-..,`4'\n" +
+        "      ;` ,#j.  T'      ..         ..J....,'.j`\n" +
+        "     .` ..\"^.,-0.,,,,yMMMMM,.    ,-.J...+`.j@\n" +
+        "    .'.`...' .yMMMMM0M@^=`\"\"g.. .'..J..\".'.jH\n" +
+        "    j' .'1`  q'^)@@#\"^\".`\"='BNg_...,]_)'...0-\n" +
+        "   .T ...I. j\"    .'..+,_.'3#MMM0MggCBf....F.\n" +
+        "   j/.+'.{..+       `^~'-^~~\"\"\"\"'\"\"\"?'\"``'1`\n" +
+        "   .... .y.}                  `.._-:`_...jf\n" +
+        "   g-.  .Lg'                 ..,..'-....,'.\n" +
+        "  .'.   .Y^                  .....',].._f\n" +
+        "  ......-f.                 .-,,.,.-:--&`\n" +
+        "                            .`...'..`_J`\n" +
+        "                            .~......'#'\n" +
+        "                            '..,,.,_]`     Java the Hutt Group' TIE/In\n" +
+        "                            .L..`..``.     Programa de conexión FTP para descarga de EDIs (2)");
+
+            Console.Write($"{Environment.NewLine}---------------------------------------------");
+
             CarregarComandes();
 
             string option = "";

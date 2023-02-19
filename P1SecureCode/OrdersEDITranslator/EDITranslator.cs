@@ -112,7 +112,6 @@ namespace OrdersEDITranslator
             foreach (OrdersDetail detail in ordersDetails)
             {
                 _context.OrdersDetail.Add(detail);
-
             }
             _context.OrderInfo.Add(orderinfo);
             _context.Orders.Add(order);

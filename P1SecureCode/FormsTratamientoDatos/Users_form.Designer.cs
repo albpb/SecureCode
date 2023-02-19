@@ -97,7 +97,7 @@ namespace FormsTratamientoDatos
             this.swRank.ControlID = null;
             this.swRank.FormCS = null;
             this.swRank.Location = new System.Drawing.Point(514, 75);
-            this.swRank.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swRank.Margin = new System.Windows.Forms.Padding(4);
             this.swRank.Name = "swRank";
             this.swRank.Nomcodi = "CodeRank";
             this.swRank.NomDesc = "DescRank";
@@ -125,7 +125,7 @@ namespace FormsTratamientoDatos
             this.swCategory.ControlID = null;
             this.swCategory.FormCS = null;
             this.swCategory.Location = new System.Drawing.Point(514, 118);
-            this.swCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swCategory.Margin = new System.Windows.Forms.Padding(4);
             this.swCategory.Name = "swCategory";
             this.swCategory.Nomcodi = "CodeCategory";
             this.swCategory.NomDesc = "DescCategory";
@@ -153,7 +153,7 @@ namespace FormsTratamientoDatos
             this.swPlanet.ControlID = null;
             this.swPlanet.FormCS = null;
             this.swPlanet.Location = new System.Drawing.Point(514, 167);
-            this.swPlanet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swPlanet.Margin = new System.Windows.Forms.Padding(4);
             this.swPlanet.Name = "swPlanet";
             this.swPlanet.Nomcodi = "CodePlanet";
             this.swPlanet.NomDesc = "DescPlanet";
@@ -181,7 +181,7 @@ namespace FormsTratamientoDatos
             this.swSpecie.ControlID = null;
             this.swSpecie.FormCS = null;
             this.swSpecie.Location = new System.Drawing.Point(514, 216);
-            this.swSpecie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.swSpecie.Margin = new System.Windows.Forms.Padding(4);
             this.swSpecie.Name = "swSpecie";
             this.swSpecie.Nomcodi = "CodeSpecie";
             this.swSpecie.NomDesc = "DescSpecie";
@@ -232,7 +232,7 @@ namespace FormsTratamientoDatos
             this.swTextbox_IdUser.ForeignKey = false;
             this.swTextbox_IdUser.IsEmpty = false;
             this.swTextbox_IdUser.Location = new System.Drawing.Point(529, 554);
-            this.swTextbox_IdUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.swTextbox_IdUser.Margin = new System.Windows.Forms.Padding(2);
             this.swTextbox_IdUser.Name = "swTextbox_IdUser";
             this.swTextbox_IdUser.Size = new System.Drawing.Size(80, 20);
             this.swTextbox_IdUser.SWCodi = null;
@@ -241,14 +241,15 @@ namespace FormsTratamientoDatos
             // 
             // bt_ActualizarTarjetaIdentificación
             // 
+            this.bt_ActualizarTarjetaIdentificación.BackColor = System.Drawing.Color.Ivory;
             this.bt_ActualizarTarjetaIdentificación.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ActualizarTarjetaIdentificación.Location = new System.Drawing.Point(349, 294);
-            this.bt_ActualizarTarjetaIdentificación.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_ActualizarTarjetaIdentificación.Margin = new System.Windows.Forms.Padding(2);
             this.bt_ActualizarTarjetaIdentificación.Name = "bt_ActualizarTarjetaIdentificación";
             this.bt_ActualizarTarjetaIdentificación.Size = new System.Drawing.Size(149, 89);
             this.bt_ActualizarTarjetaIdentificación.TabIndex = 22;
             this.bt_ActualizarTarjetaIdentificación.Text = "Cargar Tarjeta Identificación";
-            this.bt_ActualizarTarjetaIdentificación.UseVisualStyleBackColor = true;
+            this.bt_ActualizarTarjetaIdentificación.UseVisualStyleBackColor = false;
             this.bt_ActualizarTarjetaIdentificación.Click += new System.EventHandler(this.bt_ActualizarTarjetaIdentificación_Click);
             // 
             // label1
@@ -338,7 +339,7 @@ namespace FormsTratamientoDatos
             this.swTB_UserName.ForeignKey = false;
             this.swTB_UserName.IsEmpty = false;
             this.swTB_UserName.Location = new System.Drawing.Point(35, 483);
-            this.swTB_UserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.swTB_UserName.Margin = new System.Windows.Forms.Padding(2);
             this.swTB_UserName.Name = "swTB_UserName";
             this.swTB_UserName.Size = new System.Drawing.Size(76, 20);
             this.swTB_UserName.SWCodi = null;
@@ -348,7 +349,7 @@ namespace FormsTratamientoDatos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.ClientSize = new System.Drawing.Size(1130, 614);
             this.Controls.Add(this.crystalReportViewer);
             this.Controls.Add(this.swTB_UserName);

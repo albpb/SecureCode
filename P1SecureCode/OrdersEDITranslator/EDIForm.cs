@@ -25,6 +25,7 @@ namespace OrdersEDITranslator
             openFileDialog.ShowDialog();
 
             directoryTB.Text = openFileDialog.FileName;
+            writePreview();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -34,6 +35,16 @@ namespace OrdersEDITranslator
             translator.translateEDI();
 
             MessageBox.Show("S'han pujat les dades");
+        }
+
+        private void writePreview()
+        {
+            string text = "";
+            foreach (string line in System.IO.File.ReadLines(directoryTB.Text))
+            {
+                text += line + Environment.NewLine;
+            }
+            TBEDIpreview.Text = text;
         }
 
     }

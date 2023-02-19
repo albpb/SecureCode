@@ -4,3 +4,5 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\OrdersEDITr
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.pdb
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.EDIForm.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.csproj.GenerateResource.cache

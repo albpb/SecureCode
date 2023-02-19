@@ -49,6 +49,7 @@ namespace EntityFrameworkForms
             // 
             this.DGVFactories.AllowUserToAddRows = false;
             this.DGVFactories.AllowUserToDeleteRows = false;
+            this.DGVFactories.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
             this.DGVFactories.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVFactories.Location = new System.Drawing.Point(28, 73);
             this.DGVFactories.Name = "DGVFactories";
@@ -93,19 +94,20 @@ namespace EntityFrameworkForms
             // 
             // BTNUpdate
             // 
+            this.BTNUpdate.BackColor = System.Drawing.Color.Ivory;
             this.BTNUpdate.Location = new System.Drawing.Point(458, 22);
             this.BTNUpdate.Name = "BTNUpdate";
             this.BTNUpdate.Size = new System.Drawing.Size(90, 36);
             this.BTNUpdate.TabIndex = 7;
             this.BTNUpdate.Text = "Actualizar";
-            this.BTNUpdate.UseVisualStyleBackColor = true;
+            this.BTNUpdate.UseVisualStyleBackColor = false;
             this.BTNUpdate.Click += new System.EventHandler(this.BTNUpdate_Click);
             // 
             // CBFactory
             // 
             this.CBFactory.FormattingEnabled = true;
-            this.CBFactory.Location = new System.Drawing.Point(375, 396);
-            this.CBFactory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CBFactory.Location = new System.Drawing.Point(583, 399);
+            this.CBFactory.Margin = new System.Windows.Forms.Padding(2);
             this.CBFactory.Name = "CBFactory";
             this.CBFactory.Size = new System.Drawing.Size(168, 21);
             this.CBFactory.TabIndex = 8;
@@ -113,8 +115,8 @@ namespace EntityFrameworkForms
             // CBPriority
             // 
             this.CBPriority.FormattingEnabled = true;
-            this.CBPriority.Location = new System.Drawing.Point(375, 425);
-            this.CBPriority.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CBPriority.Location = new System.Drawing.Point(353, 399);
+            this.CBPriority.Margin = new System.Windows.Forms.Padding(2);
             this.CBPriority.Name = "CBPriority";
             this.CBPriority.Size = new System.Drawing.Size(168, 21);
             this.CBPriority.TabIndex = 9;
@@ -122,7 +124,7 @@ namespace EntityFrameworkForms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(328, 402);
+            this.label1.Location = new System.Drawing.Point(536, 402);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 10;
@@ -131,7 +133,7 @@ namespace EntityFrameworkForms
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(322, 428);
+            this.label2.Location = new System.Drawing.Point(300, 402);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 11;
@@ -150,13 +152,14 @@ namespace EntityFrameworkForms
             // 
             // BTNReport
             // 
+            this.BTNReport.BackColor = System.Drawing.Color.Ivory;
             this.BTNReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNReport.Location = new System.Drawing.Point(575, 387);
+            this.BTNReport.Location = new System.Drawing.Point(769, 386);
             this.BTNReport.Name = "BTNReport";
             this.BTNReport.Size = new System.Drawing.Size(113, 59);
             this.BTNReport.TabIndex = 13;
             this.BTNReport.Text = "VER INFORME";
-            this.BTNReport.UseVisualStyleBackColor = true;
+            this.BTNReport.UseVisualStyleBackColor = false;
             this.BTNReport.Click += new System.EventHandler(this.button1_Click);
             // 
             // crystalReportViewer
@@ -184,6 +187,7 @@ namespace EntityFrameworkForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.ClientSize = new System.Drawing.Size(1077, 470);
             this.Controls.Add(this.crystalReportViewer);
             this.Controls.Add(this.BTNReport);
@@ -198,6 +202,7 @@ namespace EntityFrameworkForms
             this.Controls.Add(this.TBCodi);
             this.Controls.Add(this.LBLCodi);
             this.Controls.Add(this.DGVFactories);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "OrderForm";
             this.Text = "Ordenes";
             this.Load += new System.EventHandler(this.Factories_Load);

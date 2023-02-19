@@ -44,6 +44,7 @@ namespace EntityFrameworkForms
             // 
             this.DGVFactories.AllowUserToAddRows = false;
             this.DGVFactories.AllowUserToDeleteRows = false;
+            this.DGVFactories.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
             this.DGVFactories.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVFactories.Location = new System.Drawing.Point(24, 64);
             this.DGVFactories.Name = "DGVFactories";
@@ -87,22 +88,24 @@ namespace EntityFrameworkForms
             // 
             // BTNNew
             // 
-            this.BTNNew.Location = new System.Drawing.Point(402, 12);
+            this.BTNNew.BackColor = System.Drawing.Color.Ivory;
+            this.BTNNew.Location = new System.Drawing.Point(392, 12);
             this.BTNNew.Name = "BTNNew";
             this.BTNNew.Size = new System.Drawing.Size(75, 37);
             this.BTNNew.TabIndex = 6;
             this.BTNNew.Text = "Nuevo";
-            this.BTNNew.UseVisualStyleBackColor = true;
+            this.BTNNew.UseVisualStyleBackColor = false;
             this.BTNNew.Click += new System.EventHandler(this.BTNNew_Click);
             // 
             // BTNUpdate
             // 
+            this.BTNUpdate.BackColor = System.Drawing.Color.Ivory;
             this.BTNUpdate.Location = new System.Drawing.Point(483, 12);
             this.BTNUpdate.Name = "BTNUpdate";
             this.BTNUpdate.Size = new System.Drawing.Size(76, 37);
             this.BTNUpdate.TabIndex = 7;
             this.BTNUpdate.Text = "Actualizar";
-            this.BTNUpdate.UseVisualStyleBackColor = true;
+            this.BTNUpdate.UseVisualStyleBackColor = false;
             this.BTNUpdate.Click += new System.EventHandler(this.BTNUpdate_Click);
             // 
             // lb_Informatiu
@@ -120,6 +123,7 @@ namespace EntityFrameworkForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.ClientSize = new System.Drawing.Size(595, 450);
             this.Controls.Add(this.lb_Informatiu);
             this.Controls.Add(this.BTNUpdate);
@@ -129,6 +133,7 @@ namespace EntityFrameworkForms
             this.Controls.Add(this.TBCodi);
             this.Controls.Add(this.LBLCodi);
             this.Controls.Add(this.DGVFactories);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "FactoryForm";
             this.Text = "Fabricas";
             this.Load += new System.EventHandler(this.Factories_Load);

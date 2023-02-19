@@ -135,5 +135,10 @@ namespace FormBase
             DataRowView currentDataRowView = (DataRowView)dgvSpecies.CurrentRow.DataBoundItem;
             selectedRow = currentDataRowView.Row;
         }
+
+        private void bntExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
