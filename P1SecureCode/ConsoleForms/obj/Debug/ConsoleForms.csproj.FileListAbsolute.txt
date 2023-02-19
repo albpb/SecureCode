@@ -5,6 +5,5 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsoleForms\obj\Debug\
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsoleForms\obj\Debug\ConsoleForms.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsoleForms\obj\Debug\ConsoleForms.Properties.Resources.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsoleForms\obj\Debug\ConsoleForms.csproj.GenerateResource.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsoleForms\obj\Debug\ConsoleForms.csproj.AssemblyReference.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsoleForms\obj\Debug\ConsoleForms.MenuForm.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsoleForms\obj\Debug\ConsoleForms.FormUploud.resources

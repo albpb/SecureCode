@@ -4,4 +4,3 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ConsolaProy
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsolaProyecto\obj\Debug\ConsolaProyecto.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsolaProyecto\obj\Debug\ConsolaProyecto.exe
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsolaProyecto\obj\Debug\ConsolaProyecto.pdb
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ConsolaProyecto\obj\Debug\ConsolaProyecto.csproj.AssemblyReference.cache

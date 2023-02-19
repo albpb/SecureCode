@@ -6,4 +6,3 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.pdb
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.EDIForm.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.csproj.GenerateResource.cache
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\OrdersEDITranslator\obj\Debug\OrdersEDITranslator.csproj.AssemblyReference.cache

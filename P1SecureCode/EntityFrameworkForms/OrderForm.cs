@@ -77,6 +77,7 @@ namespace EntityFrameworkForms
         private void BTNUpdate_Click(object sender, EventArgs e)
         {
             data.SaveChanges();
+
             orderList = data.Orders.ToList();
         }
 

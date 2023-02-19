@@ -28,16 +28,17 @@ namespace EntityFrameworkForms
 
             DGVFactories.DataSource = factoriesList;
             DGVFactories.Columns[0].Visible = false;
+            DGVFactories.Columns["Orders"].Visible = false;
 
             BindData();
         }
 
         private void BindData()
         {
-            TBCodi.Clear();
+            TBCodi.DataBindings.Clear();
             TBCodi.DataBindings.Add("Text", factoriesList, TBCodi.Tag.ToString());
 
-            TBDesc.Clear();
+            TBDesc.DataBindings.Clear();
             TBDesc.DataBindings.Add("Text", factoriesList, TBDesc.Tag.ToString());
         }
 
@@ -67,9 +68,12 @@ namespace EntityFrameworkForms
                     DescFactory = TBDesc.Text
                 };
                 data.Factories.Add(factory);
+                isNew = false;
             }
 
             data.SaveChanges();
+
+            LoadData();
         }
 
         private void BTNNew_Click(object sender, EventArgs e)

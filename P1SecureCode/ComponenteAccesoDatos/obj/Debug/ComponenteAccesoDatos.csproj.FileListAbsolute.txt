@@ -27,4 +27,3 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\Compilacion\ComponenteA
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.CoreCompileInputs.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.pdb
-C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\ComponenteAccesoDatos\obj\Debug\ComponenteAccesoDatos.csproj.AssemblyReference.cache
