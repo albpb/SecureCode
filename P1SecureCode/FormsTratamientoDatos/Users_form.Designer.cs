@@ -61,10 +61,9 @@ namespace FormsTratamientoDatos
             this.swTextbox1.DBName = "CodeUser";
             this.swTextbox1.ForeignKey = false;
             this.swTextbox1.IsEmpty = false;
-            this.swTextbox1.Location = new System.Drawing.Point(47, 418);
-            this.swTextbox1.Margin = new System.Windows.Forms.Padding(4);
+            this.swTextbox1.Location = new System.Drawing.Point(35, 340);
             this.swTextbox1.Name = "swTextbox1";
-            this.swTextbox1.Size = new System.Drawing.Size(132, 22);
+            this.swTextbox1.Size = new System.Drawing.Size(100, 20);
             this.swTextbox1.SWCodi = null;
             this.swTextbox1.TabIndex = 9;
             // 
@@ -74,10 +73,9 @@ namespace FormsTratamientoDatos
             this.swTextbox2.DBName = "UserName";
             this.swTextbox2.ForeignKey = false;
             this.swTextbox2.IsEmpty = false;
-            this.swTextbox2.Location = new System.Drawing.Point(47, 480);
-            this.swTextbox2.Margin = new System.Windows.Forms.Padding(4);
+            this.swTextbox2.Location = new System.Drawing.Point(35, 390);
             this.swTextbox2.Name = "swTextbox2";
-            this.swTextbox2.Size = new System.Drawing.Size(373, 22);
+            this.swTextbox2.Size = new System.Drawing.Size(281, 20);
             this.swTextbox2.SWCodi = null;
             this.swTextbox2.TabIndex = 10;
             // 
@@ -87,10 +85,9 @@ namespace FormsTratamientoDatos
             this.swTextbox3.DBName = "Photo";
             this.swTextbox3.ForeignKey = false;
             this.swTextbox3.IsEmpty = false;
-            this.swTextbox3.Location = new System.Drawing.Point(47, 533);
-            this.swTextbox3.Margin = new System.Windows.Forms.Padding(4);
+            this.swTextbox3.Location = new System.Drawing.Point(35, 433);
             this.swTextbox3.Name = "swTextbox3";
-            this.swTextbox3.Size = new System.Drawing.Size(373, 22);
+            this.swTextbox3.Size = new System.Drawing.Size(281, 20);
             this.swTextbox3.SWCodi = null;
             this.swTextbox3.TabIndex = 11;
             // 
@@ -99,14 +96,14 @@ namespace FormsTratamientoDatos
             this.swRank.ClasseCS = null;
             this.swRank.ControlID = null;
             this.swRank.FormCS = null;
-            this.swRank.Location = new System.Drawing.Point(685, 92);
-            this.swRank.Margin = new System.Windows.Forms.Padding(5);
+            this.swRank.Location = new System.Drawing.Point(514, 75);
+            this.swRank.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.swRank.Name = "swRank";
             this.swRank.Nomcodi = "CodeRank";
             this.swRank.NomDesc = "DescRank";
             this.swRank.NomId = "idUserRank";
             this.swRank.NomTaula = "UserRanks";
-            this.swRank.Size = new System.Drawing.Size(636, 33);
+            this.swRank.Size = new System.Drawing.Size(477, 27);
             this.swRank.TabIndex = 12;
             // 
             // swTextbox4
@@ -116,10 +113,9 @@ namespace FormsTratamientoDatos
             this.swTextbox4.Enabled = false;
             this.swTextbox4.ForeignKey = true;
             this.swTextbox4.IsEmpty = false;
-            this.swTextbox4.Location = new System.Drawing.Point(1309, 97);
-            this.swTextbox4.Margin = new System.Windows.Forms.Padding(4);
+            this.swTextbox4.Location = new System.Drawing.Point(982, 79);
             this.swTextbox4.Name = "swTextbox4";
-            this.swTextbox4.Size = new System.Drawing.Size(132, 22);
+            this.swTextbox4.Size = new System.Drawing.Size(100, 20);
             this.swTextbox4.SWCodi = "swRank";
             this.swTextbox4.TabIndex = 13;
             // 
@@ -128,14 +124,14 @@ namespace FormsTratamientoDatos
             this.swCategory.ClasseCS = null;
             this.swCategory.ControlID = null;
             this.swCategory.FormCS = null;
-            this.swCategory.Location = new System.Drawing.Point(685, 145);
-            this.swCategory.Margin = new System.Windows.Forms.Padding(5);
+            this.swCategory.Location = new System.Drawing.Point(514, 118);
+            this.swCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.swCategory.Name = "swCategory";
             this.swCategory.Nomcodi = "CodeCategory";
             this.swCategory.NomDesc = "DescCategory";
             this.swCategory.NomId = "idUserCategory";
             this.swCategory.NomTaula = "UserCategories";
-            this.swCategory.Size = new System.Drawing.Size(636, 33);
+            this.swCategory.Size = new System.Drawing.Size(477, 27);
             this.swCategory.TabIndex = 14;
             // 
             // swTextbox5
@@ -145,10 +141,9 @@ namespace FormsTratamientoDatos
             this.swTextbox5.Enabled = false;
             this.swTextbox5.ForeignKey = true;
             this.swTextbox5.IsEmpty = false;
-            this.swTextbox5.Location = new System.Drawing.Point(1309, 151);
-            this.swTextbox5.Margin = new System.Windows.Forms.Padding(4);
+            this.swTextbox5.Location = new System.Drawing.Point(982, 123);
             this.swTextbox5.Name = "swTextbox5";
-            this.swTextbox5.Size = new System.Drawing.Size(132, 22);
+            this.swTextbox5.Size = new System.Drawing.Size(100, 20);
             this.swTextbox5.SWCodi = "swCategory";
             this.swTextbox5.TabIndex = 15;
             // 
@@ -157,14 +152,14 @@ namespace FormsTratamientoDatos
             this.swPlanet.ClasseCS = null;
             this.swPlanet.ControlID = null;
             this.swPlanet.FormCS = null;
-            this.swPlanet.Location = new System.Drawing.Point(685, 206);
-            this.swPlanet.Margin = new System.Windows.Forms.Padding(5);
+            this.swPlanet.Location = new System.Drawing.Point(514, 167);
+            this.swPlanet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.swPlanet.Name = "swPlanet";
             this.swPlanet.Nomcodi = "CodePlanet";
             this.swPlanet.NomDesc = "DescPlanet";
             this.swPlanet.NomId = "idPlanet";
             this.swPlanet.NomTaula = "Planets";
-            this.swPlanet.Size = new System.Drawing.Size(636, 33);
+            this.swPlanet.Size = new System.Drawing.Size(477, 27);
             this.swPlanet.TabIndex = 16;
             // 
             // swTextbox6
@@ -174,10 +169,9 @@ namespace FormsTratamientoDatos
             this.swTextbox6.Enabled = false;
             this.swTextbox6.ForeignKey = true;
             this.swTextbox6.IsEmpty = false;
-            this.swTextbox6.Location = new System.Drawing.Point(1309, 209);
-            this.swTextbox6.Margin = new System.Windows.Forms.Padding(4);
+            this.swTextbox6.Location = new System.Drawing.Point(982, 170);
             this.swTextbox6.Name = "swTextbox6";
-            this.swTextbox6.Size = new System.Drawing.Size(132, 22);
+            this.swTextbox6.Size = new System.Drawing.Size(100, 20);
             this.swTextbox6.SWCodi = "swPlanet";
             this.swTextbox6.TabIndex = 17;
             // 
@@ -186,14 +180,14 @@ namespace FormsTratamientoDatos
             this.swSpecie.ClasseCS = null;
             this.swSpecie.ControlID = null;
             this.swSpecie.FormCS = null;
-            this.swSpecie.Location = new System.Drawing.Point(685, 266);
-            this.swSpecie.Margin = new System.Windows.Forms.Padding(5);
+            this.swSpecie.Location = new System.Drawing.Point(514, 216);
+            this.swSpecie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.swSpecie.Name = "swSpecie";
             this.swSpecie.Nomcodi = "CodeSpecie";
             this.swSpecie.NomDesc = "DescSpecie";
             this.swSpecie.NomId = "idSpecie";
             this.swSpecie.NomTaula = "Species";
-            this.swSpecie.Size = new System.Drawing.Size(636, 33);
+            this.swSpecie.Size = new System.Drawing.Size(477, 27);
             this.swSpecie.TabIndex = 18;
             // 
             // swTextbox7
@@ -203,10 +197,9 @@ namespace FormsTratamientoDatos
             this.swTextbox7.Enabled = false;
             this.swTextbox7.ForeignKey = true;
             this.swTextbox7.IsEmpty = false;
-            this.swTextbox7.Location = new System.Drawing.Point(1309, 272);
-            this.swTextbox7.Margin = new System.Windows.Forms.Padding(4);
+            this.swTextbox7.Location = new System.Drawing.Point(982, 221);
             this.swTextbox7.Name = "swTextbox7";
-            this.swTextbox7.Size = new System.Drawing.Size(132, 22);
+            this.swTextbox7.Size = new System.Drawing.Size(100, 20);
             this.swTextbox7.SWCodi = "swSpecie";
             this.swTextbox7.TabIndex = 19;
             // 
@@ -216,8 +209,7 @@ namespace FormsTratamientoDatos
             this.crystalReportViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer.DisplayStatusBar = false;
-            this.crystalReportViewer.Location = new System.Drawing.Point(685, 308);
-            this.crystalReportViewer.Margin = new System.Windows.Forms.Padding(4);
+            this.crystalReportViewer.Location = new System.Drawing.Point(514, 247);
             this.crystalReportViewer.Name = "crystalReportViewer";
             this.crystalReportViewer.ShowCopyButton = false;
             this.crystalReportViewer.ShowGotoPageButton = false;
@@ -227,7 +219,7 @@ namespace FormsTratamientoDatos
             this.crystalReportViewer.ShowParameterPanelButton = false;
             this.crystalReportViewer.ShowRefreshButton = false;
             this.crystalReportViewer.ShowTextSearchButton = false;
-            this.crystalReportViewer.Size = new System.Drawing.Size(746, 400);
+            this.crystalReportViewer.Size = new System.Drawing.Size(560, 325);
             this.crystalReportViewer.TabIndex = 20;
             this.crystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             this.crystalReportViewer.ToolPanelWidth = 267;
@@ -239,9 +231,10 @@ namespace FormsTratamientoDatos
             this.swTextbox_IdUser.Enabled = false;
             this.swTextbox_IdUser.ForeignKey = false;
             this.swTextbox_IdUser.IsEmpty = false;
-            this.swTextbox_IdUser.Location = new System.Drawing.Point(705, 682);
+            this.swTextbox_IdUser.Location = new System.Drawing.Point(529, 554);
+            this.swTextbox_IdUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.swTextbox_IdUser.Name = "swTextbox_IdUser";
-            this.swTextbox_IdUser.Size = new System.Drawing.Size(105, 22);
+            this.swTextbox_IdUser.Size = new System.Drawing.Size(80, 20);
             this.swTextbox_IdUser.SWCodi = null;
             this.swTextbox_IdUser.TabIndex = 21;
             this.swTextbox_IdUser.Tag = "NaN";
@@ -249,9 +242,10 @@ namespace FormsTratamientoDatos
             // bt_ActualizarTarjetaIdentificación
             // 
             this.bt_ActualizarTarjetaIdentificación.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_ActualizarTarjetaIdentificación.Location = new System.Drawing.Point(465, 362);
+            this.bt_ActualizarTarjetaIdentificación.Location = new System.Drawing.Point(349, 294);
+            this.bt_ActualizarTarjetaIdentificación.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bt_ActualizarTarjetaIdentificación.Name = "bt_ActualizarTarjetaIdentificación";
-            this.bt_ActualizarTarjetaIdentificación.Size = new System.Drawing.Size(199, 109);
+            this.bt_ActualizarTarjetaIdentificación.Size = new System.Drawing.Size(149, 89);
             this.bt_ActualizarTarjetaIdentificación.TabIndex = 22;
             this.bt_ActualizarTarjetaIdentificación.Text = "Cargar Tarjeta Identificación";
             this.bt_ActualizarTarjetaIdentificación.UseVisualStyleBackColor = true;
@@ -260,72 +254,80 @@ namespace FormsTratamientoDatos
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 393);
+            this.label1.Location = new System.Drawing.Point(33, 319);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 17);
+            this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 23;
             this.label1.Text = "Código del usuario";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 455);
+            this.label2.Location = new System.Drawing.Point(33, 370);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 17);
+            this.label2.Size = new System.Drawing.Size(96, 13);
             this.label2.TabIndex = 24;
             this.label2.Text = "Nombre de usuario";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 509);
+            this.label3.Location = new System.Drawing.Point(35, 414);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 17);
+            this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 25;
             this.label3.Text = "Imagen";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(692, 70);
+            this.label4.Location = new System.Drawing.Point(519, 57);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 17);
+            this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 26;
             this.label4.Text = "Rango";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(692, 130);
+            this.label5.Location = new System.Drawing.Point(519, 106);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 17);
+            this.label5.Size = new System.Drawing.Size(52, 13);
             this.label5.TabIndex = 27;
             this.label5.Text = "Categoria";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(692, 183);
+            this.label6.Location = new System.Drawing.Point(519, 149);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 17);
+            this.label6.Size = new System.Drawing.Size(48, 13);
             this.label6.TabIndex = 28;
             this.label6.Text = "Planetas";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(692, 244);
+            this.label7.Location = new System.Drawing.Point(519, 198);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 17);
+            this.label7.Size = new System.Drawing.Size(45, 13);
             this.label7.TabIndex = 29;
             this.label7.Text = "Especie";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(47, 574);
+            this.label8.Location = new System.Drawing.Point(35, 466);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 17);
+            this.label8.Size = new System.Drawing.Size(57, 13);
             this.label8.TabIndex = 30;
             this.label8.Text = "UserName";
             // 
@@ -335,18 +337,19 @@ namespace FormsTratamientoDatos
             this.swTB_UserName.DBName = "Login";
             this.swTB_UserName.ForeignKey = false;
             this.swTB_UserName.IsEmpty = false;
-            this.swTB_UserName.Location = new System.Drawing.Point(47, 594);
+            this.swTB_UserName.Location = new System.Drawing.Point(35, 483);
+            this.swTB_UserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.swTB_UserName.Name = "swTB_UserName";
-            this.swTB_UserName.Size = new System.Drawing.Size(100, 22);
+            this.swTB_UserName.Size = new System.Drawing.Size(76, 20);
             this.swTB_UserName.SWCodi = null;
             this.swTB_UserName.TabIndex = 31;
             // 
             // Users_form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1507, 756);
+            this.ClientSize = new System.Drawing.Size(1130, 614);
             this.Controls.Add(this.crystalReportViewer);
             this.Controls.Add(this.swTB_UserName);
             this.Controls.Add(this.label8);
@@ -371,7 +374,7 @@ namespace FormsTratamientoDatos
             this.Controls.Add(this.swTextbox1);
             this.Controls.Add(this.swTextbox_IdUser);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Users_form";
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.Users_form_Load);

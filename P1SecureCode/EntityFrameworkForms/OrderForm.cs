@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Shared;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -69,12 +71,42 @@ namespace EntityFrameworkForms
         private void Factories_Load(object sender, EventArgs e)
         {
             LoadData();
+            crystalReportViewer.Visible = false;
         }
 
         private void BTNUpdate_Click(object sender, EventArgs e)
         {
             data.SaveChanges();
             orderList = data.Orders.ToList();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string valor = TBCodi.Text;
+            crystalReportViewer.Visible = true;
+
+            ReportDocument cryRpt = new ReportDocument();
+            ConnectionInfo crConnectionInfo = new ConnectionInfo();
+
+            crConnectionInfo.ServerName = "sqlserver.S2AM.sdslab.cat";
+            crConnectionInfo.DatabaseName = "secureCoreG4";
+            crConnectionInfo.UserID = "G4";
+            crConnectionInfo.Password = "12345aAG4";
+
+            cryRpt.Load("Recursos/CrystalReport1.rpt");
+
+            TableLogOnInfo crtableLogoninfo = new TableLogOnInfo();
+            Tables CrTables = cryRpt.Database.Tables;
+            foreach (Table CrTable in CrTables)
+            {
+                crtableLogoninfo = CrTable.LogOnInfo;
+                crtableLogoninfo.ConnectionInfo = crConnectionInfo;
+                CrTable.ApplyLogOnInfo(crtableLogoninfo);
+            }
+
+            cryRpt.RecordSelectionFormula = "{Orders.codeOrder} = '" + valor + "'";
+            crystalReportViewer.ReportSource = cryRpt;
+            crystalReportViewer.Refresh();
         }
     }
 }

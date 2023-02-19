@@ -165,7 +165,7 @@ namespace ConsolaProyecto
                                         uploadRequest.Method = WebRequestMethods.Ftp.UploadFile;
 
                                         using (Stream requestStream = uploadRequest.GetRequestStream())
-                                        using (FileStream fileStream2 = new FileStream(fileName, FileMode.Open))
+                                        using (FileStream fileStream2 = new FileStream(textCarpeta + "/" + fileName, FileMode.Open))
                                         {
                                             fileStream2.CopyTo(requestStream);
                                         }
