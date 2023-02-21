@@ -39,7 +39,7 @@ namespace FormsTratamientoDatos
         {
             try
             {
-                img.Image = Image.FromFile(@"..\Img\icons\" + swTImage.Text);
+                img.Image = Image.FromFile(@"Img\icons\" + swTImage.Text);
             }
             catch (Exception)
             {

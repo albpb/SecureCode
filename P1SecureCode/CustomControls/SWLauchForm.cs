@@ -44,7 +44,7 @@ namespace CustomControls
                 if (DesignMode) return;
                 // si intentamos coger el directorio de la base de datos, las barras (/) se bugean y por tanto decidi hacerlo así
                 // pero tambien esto da problemas en el FormFTP
-                value = @"..\Img\icons\" + value;
+                value = @"Img\icons\" + value;
                 _img = value;
 
                 img.Image = Image.FromFile(value);
