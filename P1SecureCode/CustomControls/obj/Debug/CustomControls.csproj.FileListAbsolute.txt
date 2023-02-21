@@ -44,3 +44,4 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debu
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.dll
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.pdb
 E:\Salesians de Sarria\S2AM\Modulo 13\Sprint1Grupal\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CopyComplete
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\CustomControls\obj\Debug\CustomControls.csproj.CopyComplete

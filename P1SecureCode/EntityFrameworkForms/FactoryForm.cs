@@ -27,6 +27,11 @@ namespace EntityFrameworkForms
             factoriesList = data.Factories.ToList();
 
             DGVFactories.DataSource = factoriesList;
+
+
+            DGVFactories.Columns["codeFactory"].HeaderText = "Código";
+            DGVFactories.Columns["DescFactory"].HeaderText = "Descripción";
+
             DGVFactories.Columns[0].Visible = false;
             DGVFactories.Columns["Orders"].Visible = false;
 

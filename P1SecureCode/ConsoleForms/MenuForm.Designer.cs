@@ -65,7 +65,7 @@ namespace ConsoleForms
             this.lb_Informatiu.Location = new System.Drawing.Point(25, 28);
             this.lb_Informatiu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_Informatiu.Name = "lb_Informatiu";
-            this.lb_Informatiu.Size = new System.Drawing.Size(143, 24);
+            this.lb_Informatiu.Size = new System.Drawing.Size(179, 29);
             this.lb_Informatiu.TabIndex = 13;
             this.lb_Informatiu.Text = "Subir archivos";
             // 

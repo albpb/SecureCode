@@ -42,6 +42,7 @@ namespace EntityFrameworkForms
             this.lb_Informatiu = new System.Windows.Forms.Label();
             this.BTNReport = new System.Windows.Forms.Button();
             this.crystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.TB_id = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DGVFactories)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@ namespace EntityFrameworkForms
             this.DGVFactories.AllowUserToDeleteRows = false;
             this.DGVFactories.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
             this.DGVFactories.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGVFactories.Location = new System.Drawing.Point(28, 73);
+            this.DGVFactories.Location = new System.Drawing.Point(28, 64);
             this.DGVFactories.Name = "DGVFactories";
             this.DGVFactories.ReadOnly = true;
             this.DGVFactories.RowHeadersWidth = 51;
@@ -63,7 +64,7 @@ namespace EntityFrameworkForms
             this.LBLCodi.AutoSize = true;
             this.LBLCodi.Location = new System.Drawing.Point(25, 402);
             this.LBLCodi.Name = "LBLCodi";
-            this.LBLCodi.Size = new System.Drawing.Size(40, 13);
+            this.LBLCodi.Size = new System.Drawing.Size(46, 15);
             this.LBLCodi.TabIndex = 1;
             this.LBLCodi.Text = "Código";
             // 
@@ -88,7 +89,7 @@ namespace EntityFrameworkForms
             this.LBLDesc.AutoSize = true;
             this.LBLDesc.Location = new System.Drawing.Point(25, 428);
             this.LBLDesc.Name = "LBLDesc";
-            this.LBLDesc.Size = new System.Drawing.Size(63, 13);
+            this.LBLDesc.Size = new System.Drawing.Size(72, 15);
             this.LBLDesc.TabIndex = 4;
             this.LBLDesc.Text = "Descripción";
             // 
@@ -126,7 +127,7 @@ namespace EntityFrameworkForms
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(536, 402);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 13);
+            this.label1.Size = new System.Drawing.Size(48, 15);
             this.label1.TabIndex = 10;
             this.label1.Text = "Fábrica";
             // 
@@ -135,7 +136,7 @@ namespace EntityFrameworkForms
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(300, 402);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 13);
+            this.label2.Size = new System.Drawing.Size(57, 15);
             this.label2.TabIndex = 11;
             this.label2.Text = "Prioridad";
             // 
@@ -146,7 +147,7 @@ namespace EntityFrameworkForms
             this.lb_Informatiu.Location = new System.Drawing.Point(24, 367);
             this.lb_Informatiu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_Informatiu.Name = "lb_Informatiu";
-            this.lb_Informatiu.Size = new System.Drawing.Size(86, 24);
+            this.lb_Informatiu.Size = new System.Drawing.Size(109, 29);
             this.lb_Informatiu.TabIndex = 12;
             this.lb_Informatiu.Text = "Campos";
             // 
@@ -183,6 +184,15 @@ namespace EntityFrameworkForms
             this.crystalReportViewer.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             this.crystalReportViewer.ToolPanelWidth = 267;
             // 
+            // TB_id
+            // 
+            this.TB_id.Enabled = false;
+            this.TB_id.Location = new System.Drawing.Point(303, 181);
+            this.TB_id.Name = "TB_id";
+            this.TB_id.Size = new System.Drawing.Size(100, 20);
+            this.TB_id.TabIndex = 22;
+            this.TB_id.Tag = "idOrder";
+            // 
             // OrderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,6 +212,7 @@ namespace EntityFrameworkForms
             this.Controls.Add(this.TBCodi);
             this.Controls.Add(this.LBLCodi);
             this.Controls.Add(this.DGVFactories);
+            this.Controls.Add(this.TB_id);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "OrderForm";
             this.Text = "Ordenes";
@@ -226,5 +237,6 @@ namespace EntityFrameworkForms
         private System.Windows.Forms.Label lb_Informatiu;
         private System.Windows.Forms.Button BTNReport;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer;
+        private System.Windows.Forms.TextBox TB_id;
     }
 }

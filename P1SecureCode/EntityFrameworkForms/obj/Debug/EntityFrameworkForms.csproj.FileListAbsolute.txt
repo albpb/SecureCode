@@ -7,3 +7,4 @@ C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\ob
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\obj\Debug\EntityFrameworkForms.FactoryForm.resources
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\obj\Debug\EntityFrameworkForms.csproj.GenerateResource.cache
 C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\obj\Debug\EntityFrameworkForms.OrderForm.resources
+C:\Users\Albert\Documents\GitHub\SecureCode\P1SecureCode\EntityFrameworkForms\obj\Debug\EntityFrameworkForms.csproj.CopyComplete

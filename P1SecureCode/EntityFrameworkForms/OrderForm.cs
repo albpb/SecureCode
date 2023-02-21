@@ -35,6 +35,9 @@ namespace EntityFrameworkForms
             DGVFactories.DataSource = orderList;
             DGVFactories.Columns[0].Visible = false;
 
+            DGVFactories.Columns["codeOrder"].HeaderText = "Código";
+            DGVFactories.Columns["dateOrder"].HeaderText = "Fecha";
+
             DGVFactories.Columns["idPriority"].Visible = false;
             DGVFactories.Columns["idFactory"].Visible = false;
             DGVFactories.Columns["Factories"].Visible = false;
@@ -51,6 +54,9 @@ namespace EntityFrameworkForms
 
             TBDesc.Clear();
             TBDesc.DataBindings.Add("Text", orderList, TBDesc.Tag.ToString());
+
+            TB_id.Clear();
+            TB_id.DataBindings.Add("Text", orderList, TB_id.Tag.ToString());
 
             CBFactory.SelectionLength = 0;
 
@@ -83,7 +89,7 @@ namespace EntityFrameworkForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string valor = TBCodi.Text;
+            string valor = TB_id.Text;
             crystalReportViewer.Visible = true;
 
             ReportDocument cryRpt = new ReportDocument();
@@ -105,7 +111,7 @@ namespace EntityFrameworkForms
                 CrTable.ApplyLogOnInfo(crtableLogoninfo);
             }
 
-            cryRpt.RecordSelectionFormula = "{Orders.codeOrder} = '" + valor + "'";
+            cryRpt.RecordSelectionFormula = "{Orders.idOrder} = " + valor;
             crystalReportViewer.ReportSource = cryRpt;
             crystalReportViewer.Refresh();
         }
