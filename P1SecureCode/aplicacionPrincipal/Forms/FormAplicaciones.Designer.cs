@@ -43,7 +43,6 @@ namespace aplicacionPrincipal.Forms
             this.flpnlMain.Name = "flpnlMain";
             this.flpnlMain.Size = new System.Drawing.Size(1200, 659);
             this.flpnlMain.TabIndex = 9;
-            this.flpnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.flpnlMain_Paint_1);
             // 
             // lblApps
             // 

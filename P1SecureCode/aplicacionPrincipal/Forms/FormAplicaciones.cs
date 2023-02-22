@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CustomControls;
 using ComponenteAccesoDatos;
+using System.IO;
 
 namespace aplicacionPrincipal.Forms
 {
@@ -44,34 +45,17 @@ namespace aplicacionPrincipal.Forms
 
                 string imagen = row["Icono"].ToString();
 
+                if (!File.Exists(@"Img\icons\"+imagen))
+                {
+                    imagen = "question.png";
+                }
+
                 SWLauchForm launchform = new SWLauchForm(color, imagen, clase, text, form, taula);
 
                 flpnlMain.Controls.Add(launchform);
             }
         }
-        private void flpnlMain_Paint_1(object sender, PaintEventArgs e)
-        {
-            //valorNivelJedi = int.Parse(valorNivelUser.ToString());
 
-            //querry += valorPoder;
-
-            //dts = ddbb.PortarPerConsulta(querry);
-
-            //foreach (DataRow row in dts.Tables[0].Rows)
-            //{
-            //    string text = row["Texto"].ToString();
-            //    string clase = row["Clase"].ToString();
-            //    string form = row["Form"].ToString();
-            //    string color = row["Color"].ToString();
-            //    string taula = row["Taula"].ToString();
-
-            //    string imagen = row["Icono"].ToString();
-
-            //    SWLauchForm launchform = new SWLauchForm(color, imagen, clase, text, form, taula);
-
-            //    flpnlMain.Controls.Add(launchform);
-            //}
-        }
 
     }
 }
