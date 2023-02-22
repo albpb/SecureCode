@@ -186,7 +186,7 @@ namespace ConsolaProyecto
                                             responseStream.CopyTo(fileStream);
                                         }
 
-                                        FtpWebRequest uploadRequest = (FtpWebRequest)WebRequest.Create("ftp://" + ipFTP + "/Tractats/" + fileName);
+                                        FtpWebRequest uploadRequest = (FtpWebRequest)WebRequest.Create("ftp://" + ipFTP + "/tractats/" + fileName);
                                         uploadRequest.Credentials = new NetworkCredential(usernameFTP, passwordFTP);
                                         uploadRequest.Method = WebRequestMethods.Ftp.UploadFile;
 
